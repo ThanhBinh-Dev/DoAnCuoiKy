@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1211</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(218, 241, 249);
+border:None;
+font: 16pt &quot;Sitka Heading&quot;;
+font-weight:700px;
+color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>1081</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(250, 227, 140);
+border-radius:30px;
+border: None;</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1081</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(250, 227, 140);
+border-radius:30px;
+border: None;</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QGroupBox" name="groupBox_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>1061</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+background-color: rgb(255,255,255);
+border-radius:30px;
+border: None;</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_HovaTen">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>20</y>
+          <width>811</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border:1px solid rgb(188, 188, 188);
+padding-left:10px;
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>Họ và Tên Khách Hàng</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string>Họ &amp; Tên</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_SDT">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>70</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+padding-left:10px;
+border:1px solid rgb(188, 188, 188);
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>Số Điện Thoại</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_28">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string>Số Điện Thoại</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>70</y>
+          <width>121</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+background-color:None;
+</string>
+        </property>
+        <property name="text">
+         <string>Địa Chỉ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_DiaChi">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>70</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+padding-left:10px;
+border:1px solid rgb(188, 188, 188);
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>Địa Chỉ</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_32">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>120</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>Ngày Khám</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>520</x>
+          <y>120</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+background-color:None;
+</string>
+        </property>
+        <property name="text">
+         <string>Giờ Khám</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>220</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+background-color:None;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string>Nơi Khám</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_PhongKham">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>220</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: None;
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;</string>
+        </property>
+        <property name="text">
+         <string>Phòng Khám</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_KhamTaiGia">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>220</y>
+          <width>221</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;</string>
+        </property>
+        <property name="text">
+         <string>Khám Tại Gia</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>270</y>
+          <width>241</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>Thông Tin Thêm:</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_ThongTinThem">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>270</y>
+          <width>791</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+border:1px solid rgb(188, 188, 188);
+padding-left:10px;
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>Tình Trạng Thú Cưng</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>10</y>
+          <width>311</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../Images/Images_DatHen/Dog.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>170</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+
+background-color:none;</string>
+        </property>
+        <property name="text">
+         <string>Dịch Vụ Khám</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_DichVuKham">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>170</y>
+          <width>811</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+padding-left:10px;
+border:1px solid rgb(188, 188, 188);
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_NgayKham">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>120</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+padding-left:10px;
+border:1px solid rgb(188, 188, 188);
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_GioKham">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>120</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:20px;
+background-color: rgb(255, 255, 255);
+padding-left:10px;
+border:1px solid rgb(188, 188, 188);
+font: 75 20pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>910</x>
+          <y>310</y>
+          <width>311</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+background-color: rgba(255, 255, 255,100);
+border-radius:0px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>label_8</zorder>
+       <zorder>lineEdit_HovaTen</zorder>
+       <zorder>label_10</zorder>
+       <zorder>lineEdit_SDT</zorder>
+       <zorder>label_28</zorder>
+       <zorder>label_30</zorder>
+       <zorder>lineEdit_DiaChi</zorder>
+       <zorder>label_32</zorder>
+       <zorder>label_33</zorder>
+       <zorder>label_34</zorder>
+       <zorder>radioButton_PhongKham</zorder>
+       <zorder>radioButton_KhamTaiGia</zorder>
+       <zorder>label_35</zorder>
+       <zorder>lineEdit_ThongTinThem</zorder>
+       <zorder>label_31</zorder>
+       <zorder>comboBox_DichVuKham</zorder>
+       <zorder>comboBox_NgayKham</zorder>
+       <zorder>comboBox_GioKham</zorder>
+       <zorder>label_2</zorder>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="pushButton_DatHen">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>600</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {background-color: rgb(250, 227, 140);
+font:  20pt &quot;Sitka Display Semibold&quot;;
+border-radius:20px;
+border: None;
+color: rgb(214, 47, 55);
+font-weight:bold;
+padding:5px;
+}
+QPushButton:pressed {
+	background-color: rgb(255, 193, 92);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Đặt Hẹn</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images/Images_DatHen/HEALTH.png</normaloff>../../Images/Images_DatHen/HEALTH.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>180</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+background-color: rgb(3, 175, 88);
+font:  20pt &quot;Sitka Display Semibold&quot;;
+border-radius:20px;
+border: None;
+color: #ffffff;
+font-weight:bold;
+padding2px;
+}
+QPushButton:pressed {
+	background-color: rgb(19, 186, 30);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>0968686868</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../Images/Images_DatHen/calling.png</normaloff>../../Images/Images_DatHen/calling.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>10</y>
+       <width>171</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:100%;
+background-color:None;
+setMask:(mask);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../Images/Images_DatHen/logo.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>20</y>
+       <width>831</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string>DR.PET’S HOUSE - ĐẶT HẸN TRỰC TUYẾN</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>-40</y>
+       <width>411</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: None;
+border-bottom:3px solid  rgb(94, 99, 101) ;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>110</y>
+       <width>731</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 16pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+background-color:None;</string>
+     </property>
+     <property name="text">
+      <string>Chào mừng đến với Phòng khám thú y Dr . Pet’s House! Đặt hẹn trực tuyến để nhận dịch vụ chăm sóc thú cưng toàn diện, từ kiểm tra sức khỏe đến phẫu thuật. Hãy đặt hẹn ngay hôm nay! 🐾</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>650</y>
+       <width>1091</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 16pt &quot;Sitka Display&quot;;
+qproperty-wordWrap: true;
+color: rgb(85, 85, 85);
+background-color: None;
+</string>
+     </property>
+     <property name="text">
+      <string>Cảm ơn quý khách đã tin tưởng và sử dụng dịch vụ đặt lịch hẹn của Dr. Pet’s House</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>110</y>
+       <width>121</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../Images/Images_DatHen/Dogs.png</pixmap>
+     </property>
+    </widget>
+    <zorder>label_7</zorder>
+    <zorder>groupBox_2</zorder>
+    <zorder>pushButton_DatHen</zorder>
+    <zorder>pushButton_2</zorder>
+    <zorder>label</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
