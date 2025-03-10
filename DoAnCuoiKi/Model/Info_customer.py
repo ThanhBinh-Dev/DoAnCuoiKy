@@ -6,7 +6,7 @@ from DoAnCuoiKi.Model.Time import Time
 
 class Info_customer(Customer,Date,Time,DichVuKham):
     def __init__(self,hovaten,sdt,noikham,diachi,ngaykham,giokham,dichvu,thongtin):
-        Customer.__init__(self, hovaten, sdt,diachi, noikham, thongtin)
+        Customer.__init__(self, hovaten, sdt,noikham,diachi,  thongtin)
         Date.__init__(self, ngaykham)
         Time.__init__(self, giokham)
         DichVuKham.__init__(self, dichvu)

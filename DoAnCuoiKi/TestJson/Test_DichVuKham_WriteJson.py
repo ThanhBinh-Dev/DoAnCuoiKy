@@ -13,6 +13,7 @@ dvks.append(DichVuKham("Chụp Xquang"))
 dvks.append(DichVuKham("Xét Nghiệm"))
 dvks.append(DichVuKham("Tư Vấn"))
 dvks.append(DichVuKham("Cấy ghép vi mạch nhận dạng"))
+dvks.append(DichVuKham("Đăng ký 2 dịch vụ - ghi ở Thông Tin Thêm"))
 jff=JsonFileFactory()
 filename="../Dataset/DichVuKham.json"
 jff.write_data(dvks,filename)
