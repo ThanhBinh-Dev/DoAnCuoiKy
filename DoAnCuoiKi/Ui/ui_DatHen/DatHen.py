@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
         self.lineEdit_SDT.setPlaceholderText(_translate("MainWindow", "Số Điện Thoại"))
         self.label_28.setText(_translate("MainWindow", "Số Điện Thoại"))
         self.label_30.setText(_translate("MainWindow", "Địa Chỉ"))
-        self.lineEdit_DiaChi.setPlaceholderText(_translate("MainWindow", "Địa Chỉ"))
+        self.lineEdit_DiaChi.setPlaceholderText(_translate("MainWindow", "Địa Chỉ (Khám Tại Gia)"))
         self.label_32.setText(_translate("MainWindow", "Ngày Khám"))
         self.label_33.setText(_translate("MainWindow", "Giờ Khám"))
         self.label_34.setText(_translate("MainWindow", "Nơi Khám"))

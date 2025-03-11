@@ -300,7 +300,7 @@ qproperty-wordWrap: true;
          <bool>false</bool>
         </property>
         <property name="placeholderText">
-         <string>Địa Chỉ</string>
+         <string>Địa Chỉ (Khám Tại Gia)</string>
         </property>
         <property name="clearButtonEnabled">
          <bool>false</bool>

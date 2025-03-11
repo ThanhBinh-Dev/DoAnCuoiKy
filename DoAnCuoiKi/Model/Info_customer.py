@@ -12,3 +12,14 @@ class Info_customer(Customer,Date,Time,DichVuKham):
         DichVuKham.__init__(self, dichvu)
     def __str__(self):
         return f"{self.hovaten}\t{self.sdt}\t{self.noikham}\t{self.diachi}\t{self.ngaykham}\t{self.giokham}\t{self.dichvu}\t{self.thongtin}"
+    def to_dict(self):
+        return {
+            "hovaten": self.hovaten,
+            "sdt": self.sdt,
+            "noikham": self.noikham,
+            "diachi": self.diachi,
+            "ngaykham": self.ngaykham,
+            "giokham": self.giokham,
+            "dichvu": self.dichvu,
+            "thongtin": self.thongtin
+        }
