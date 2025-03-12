@@ -86,3 +86,8 @@ class DatHenExt(Ui_MainWindow):
         self.list_dates = self.list_times
         self.show_times_dates()
         QMessageBox.information(self.MainWindow, "Thành công", "Đặt hẹn thành công!")
+        
+        from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhanExt import PhieuXacNhanExt  # Import muộn để tránh vòng lặp
+        self.phieu_xac_nhan_window = PhieuXacNhanExt()
+        self.phieu_xac_nhan_window.show()
+        self.MainWindow.close()  # Đóng giao diện đặt hẹn trước khi mở giao diện mới

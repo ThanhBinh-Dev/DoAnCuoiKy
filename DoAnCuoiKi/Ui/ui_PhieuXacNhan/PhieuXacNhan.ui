@@ -40,9 +40,9 @@
    <widget class="QLabel" name="label_26">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>430</x>
       <y>640</y>
-      <width>401</width>
+      <width>471</width>
       <height>51</height>
      </rect>
     </property>
@@ -69,19 +69,23 @@ p, li { white-space: pre-wrap; }
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: #fae38c; 
-border-radius: 30px;       
-color: black;               
-padding: 5px 10px;        
-font: 14pt &quot;Sitka Display&quot;;
-
-hover {
-    background-color: #eeba4a
+     <string notr="true">QPushButton {
+    background-color: #fae38c;
+    border-radius: 15px;
+    color: black;
+    padding: 5px 10px;
+    font: 14pt &quot;Sitka Display&quot;;
+	border: none;
 }
 
-pressed {
-    background-color: #eeba4a; 
-}</string>
+QPushButton:hover {
+    background-color: #eeba4a;
+}
+
+QPushButton:pressed {
+    background-color:  #eeba4a;
+}
+</string>
     </property>
     <property name="text">
      <string>Thanh Toán</string>
@@ -151,29 +155,6 @@ border: 0px solid black;</string>
       <string>Tên đăng nhập: </string>
      </property>
     </widget>
-    <widget class="QLabel" name="labelTendangnhap">
-     <property name="geometry">
-      <rect>
-       <x>160</x>
-       <y>50</y>
-       <width>231</width>
-       <height>31</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(255, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
-     </property>
-     <property name="text">
-      <string>SĐT</string>
-     </property>
-     <property name="textFormat">
-      <enum>Qt::RichText</enum>
-     </property>
-    </widget>
     <widget class="QLabel" name="label_13">
      <property name="geometry">
       <rect>
@@ -193,24 +174,68 @@ border: 0px solid black;</string>
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Tài khoản đăng nhập&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
-    <widget class="QLabel" name="labelMatkhau">
+    <widget class="QLineEdit" name="lineEditTenDangNhap">
      <property name="geometry">
       <rect>
-       <x>159</x>
-       <y>90</y>
+       <x>160</x>
+       <y>60</y>
        <width>231</width>
-       <height>31</height>
+       <height>20</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Sitka Display</family>
+       <pointsize>14</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(255, 0, 0);
-background-color: rgb(255, 255, 127);border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">color: rgb(0, 0, 0);
+font: 75 14pt &quot;Sitka Display&quot;;
+border-radius: 10px;
+border: 1px solid black;
+background-color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>@teo123</string>
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEditMatKhau">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>90</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Display</family>
+       <pointsize>14</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+font: 75 14pt &quot;Sitka Display&quot;;
+border-radius: 10px;
+border: 1px solid black;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
@@ -218,7 +243,7 @@ background-color: rgb(255, 255, 127);border: none; /* Xóa viền */
     <property name="geometry">
      <rect>
       <x>450</x>
-      <y>0</y>
+      <y>30</y>
       <width>651</width>
       <height>491</height>
      </rect>
@@ -232,23 +257,6 @@ border: 0px solid black;</string>
     <property name="title">
      <string/>
     </property>
-    <widget class="QLabel" name="label_8">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>390</y>
-       <width>181</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0);
-font: 75 16pt &quot;Sitka Display&quot;;</string>
-     </property>
-     <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Loại Thú Cưng:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-    </widget>
     <widget class="QLineEdit" name="lineEditSoDienThoai">
      <property name="geometry">
       <rect>
@@ -264,6 +272,9 @@ font: 75 16pt &quot;Sitka Display&quot;;
 border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEditDichVuKham">
@@ -282,12 +293,15 @@ border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLabel" name="label_9">
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>450</y>
+       <y>390</y>
        <width>181</width>
        <height>41</height>
       </rect>
@@ -355,10 +369,19 @@ font: 75 16pt &quot;Sitka Display&quot;;</string>
      <property name="geometry">
       <rect>
        <x>210</x>
-       <y>450</y>
+       <y>390</y>
        <width>181</width>
        <height>41</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Sitka Display</family>
+       <pointsize>16</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
      </property>
      <property name="whatsThis">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Khám Tại Gia&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -370,28 +393,17 @@ font: 75 16pt &quot;Sitka Display&quot;;</string>
      <property name="text">
       <string>Khám Tại Gia</string>
      </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditLoaiThuCung">
-     <property name="geometry">
-      <rect>
-       <x>210</x>
-       <y>390</y>
-       <width>421</width>
-       <height>41</height>
-      </rect>
+     <property name="checkable">
+      <bool>true</bool>
      </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0);
-font: 75 16pt &quot;Sitka Display&quot;;
-border-radius: 10px;
-border: 1px solid black;
-background-color: rgb(255, 255, 255);</string>
+     <property name="checked">
+      <bool>false</bool>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>430</x>
        <y>270</y>
        <width>61</width>
        <height>41</height>
@@ -421,6 +433,9 @@ border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="lineEditHovaTen">
      <property name="geometry">
@@ -437,6 +452,9 @@ font: 75 16pt &quot;Sitka Display&quot;;
 border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
@@ -476,8 +494,8 @@ font: 75 16pt &quot;Sitka Display&quot;;</string>
     <widget class="QRadioButton" name="radioButtonPhongKham">
      <property name="geometry">
       <rect>
-       <x>420</x>
-       <y>450</y>
+       <x>430</x>
+       <y>390</y>
        <width>181</width>
        <height>41</height>
       </rect>
@@ -489,14 +507,20 @@ font: 75 16pt &quot;Sitka Display&quot;;</string>
      <property name="text">
       <string>Phòng Khám</string>
      </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
     </widget>
     <widget class="QLabel" name="label_10">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>10</y>
+       <y>-30</y>
        <width>651</width>
-       <height>71</height>
+       <height>101</height>
       </rect>
      </property>
      <property name="text">
@@ -519,6 +543,9 @@ border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
      </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QLineEdit" name="lineEditGio">
      <property name="geometry">
@@ -535,6 +562,9 @@ font: 75 16pt &quot;Sitka Display&quot;;
 border-radius: 10px;
 border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
@@ -724,6 +754,40 @@ border: 0px solid black;
      </property>
     </widget>
    </widget>
+   <widget class="QPushButton" name="pushButton_caution">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {background:transparent;
+border:None}
+QPushButton:pressed{background-color: rgb(193, 193, 193);}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Images/Images_DangNhap/ic_back .png</normaloff>../../Images/Images_DangNhap/ic_back .png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
   </widget>
  </widget>
  <tabstops>
@@ -733,7 +797,6 @@ border: 0px solid black;
   <tabstop>lineEditNgayKham</tabstop>
   <tabstop>lineEditGio</tabstop>
   <tabstop>lineEditDichVuKham</tabstop>
-  <tabstop>lineEditLoaiThuCung</tabstop>
   <tabstop>radioButtonKhamTaiGia</tabstop>
   <tabstop>radioButtonPhongKham</tabstop>
   <tabstop>pushButtonThanhToan</tabstop>

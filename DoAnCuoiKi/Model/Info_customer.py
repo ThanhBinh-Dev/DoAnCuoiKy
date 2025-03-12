@@ -5,11 +5,13 @@ from DoAnCuoiKi.Model.Time import Time
 
 
 class Info_customer(Customer,Date,Time,DichVuKham):
-    def __init__(self,hovaten,sdt,noikham,diachi,ngaykham,giokham,dichvu,thongtin):
+    def __init__(self,hovaten,sdt,noikham,diachi,ngaykham,giokham,dichvu,thongtin,tendangnhap=None,matkhau=None):
         Customer.__init__(self, hovaten, sdt,noikham,diachi,  thongtin)
         Date.__init__(self, ngaykham)
         Time.__init__(self, giokham)
         DichVuKham.__init__(self, dichvu)
+        self.tendangnhap = tendangnhap if tendangnhap else sdt
+        self.matkhau = matkhau if matkhau else f"@{hovaten.split()[-1]}{sdt[-3:]}"
     def __str__(self):
         return f"{self.hovaten}\t{self.sdt}\t{self.noikham}\t{self.diachi}\t{self.ngaykham}\t{self.giokham}\t{self.dichvu}\t{self.thongtin}"
     def to_dict(self):
@@ -21,5 +23,7 @@ class Info_customer(Customer,Date,Time,DichVuKham):
             "ngaykham": self.ngaykham,
             "giokham": self.giokham,
             "dichvu": self.dichvu,
-            "thongtin": self.thongtin
+            "thongtin": self.thongtin,
+            "tendangnhap": self.tendangnhap,
+            "matkhau": self.matkhau
         }
