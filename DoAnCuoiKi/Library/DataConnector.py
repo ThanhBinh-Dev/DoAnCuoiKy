@@ -1,9 +1,7 @@
-from DoAnCuoiKi.Model.Date import Date
+from DoAnCuoiKi.Library.JsonFileFactory import JsonFileFactory
 from DoAnCuoiKi.Model.Date_Time import Date_Time
 from DoAnCuoiKi.Model.DichVuKham import DichVuKham
 from DoAnCuoiKi.Model.Info_customer import Info_customer
-from DoAnCuoiKi.Model.Time import Time
-from Review.Project85.Library.JsonFileFactory import JsonFileFactory
 
 
 class DataConnector:

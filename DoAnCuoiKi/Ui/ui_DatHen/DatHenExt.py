@@ -24,7 +24,7 @@ class DatHenExt(Ui_MainWindow):
     def showWindow(self):
         self.MainWindow.show()
     def setupSignalAndSlot(self):
-        self.pushButton_DatHen.clicked.connect(self.XuLyDatHen)
+        self.pushButton_DatHen.clicked.connect(self.Process_Booking)
     def show_times_dates(self):
         self.comboBox_NgayKham.clear()
         available_dates = [dt.ngaykham for dt in self.list_dates if dt.slot_moi < dt.slot_gioihan]
@@ -43,7 +43,7 @@ class DatHenExt(Ui_MainWindow):
         self.comboBox_DichVuKham.clear()
         for dichvu in self.list_serviecs:
             self.comboBox_DichVuKham.addItem(dichvu.dichvu)
-    def XuLyDatHen(self):
+    def Process_Booking(self):
         # Ghi File
         hovaten=self.lineEdit_HovaTen.text().strip()
         sdt=self.lineEdit_SDT.text().strip()

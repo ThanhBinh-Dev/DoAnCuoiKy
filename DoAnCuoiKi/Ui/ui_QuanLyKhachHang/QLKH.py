@@ -49,12 +49,12 @@ class Ui_MainWindow(object):
         self.pushButton_caution.setIcon(icon)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")
-        self.label_2 = QtWidgets.QLabel(parent=self.groupBox_2)
-        self.label_2.setGeometry(QtCore.QRect(0, 90, 371, 51))
-        self.label_2.setStyleSheet("background-color:None;\n"
+        self.label_name = QtWidgets.QLabel(parent=self.groupBox_2)
+        self.label_name.setGeometry(QtCore.QRect(0, 90, 371, 51))
+        self.label_name.setStyleSheet("background-color:None;\n"
 "font:18pt;")
-        self.label_2.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label_2.setObjectName("label_2")
+        self.label_name.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label_name.setObjectName("label_name")
         self.label_3 = QtWidgets.QLabel(parent=self.groupBox_2)
         self.label_3.setGeometry(QtCore.QRect(10, 140, 141, 31))
         self.label_3.setStyleSheet("font: 16pt \"Sitka Display\";\n"
@@ -64,6 +64,7 @@ class Ui_MainWindow(object):
         self.lineEdit_SDT.setGeometry(QtCore.QRect(150, 140, 221, 41))
         self.lineEdit_SDT.setStyleSheet("background-color: rgb(199, 224, 235);")
         self.lineEdit_SDT.setText("")
+        self.lineEdit_SDT.setReadOnly(True)
         self.lineEdit_SDT.setObjectName("lineEdit_SDT")
         self.lineEdit_DiaChi = QtWidgets.QLineEdit(parent=self.groupBox_2)
         self.lineEdit_DiaChi.setGeometry(QtCore.QRect(150, 190, 221, 41))
@@ -230,9 +231,9 @@ class Ui_MainWindow(object):
         self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents_2)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
-        self.verticalLayout = QtWidgets.QVBoxLayout()
-        self.verticalLayout.setObjectName("verticalLayout")
-        self.verticalLayout_2.addLayout(self.verticalLayout)
+        self.listWidget = QtWidgets.QListWidget(parent=self.scrollAreaWidgetContents_2)
+        self.listWidget.setObjectName("listWidget")
+        self.verticalLayout_2.addWidget(self.listWidget)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
         self.label_10.raise_()
         self.groupBox_2.raise_()
@@ -311,7 +312,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label_2.setText(_translate("MainWindow", "(Tên Khách Hàng)"))
+        self.label_name.setText(_translate("MainWindow", "(Tên Khách Hàng)"))
         self.label_3.setText(_translate("MainWindow", "Số Điện Thoại"))
         self.label_4.setText(_translate("MainWindow", "Địa Chỉ"))
         self.label_5.setText(_translate("MainWindow", "Ngày Khám"))

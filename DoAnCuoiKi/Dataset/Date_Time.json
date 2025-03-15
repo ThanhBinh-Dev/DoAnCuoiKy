@@ -1,4 +1,10 @@
 [
+        {
+        "ngaykham": "",
+        "giokham": "",
+        "slot_moi": 0,
+        "slot_gioihan": 0
+    },
     {
         "ngaykham": "01/04/2025",
         "giokham": "8:00 - 9:00",
@@ -182,7 +188,7 @@
     {
         "ngaykham": "05/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 0,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {

@@ -75,7 +75,7 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
             self.radioButtonKhamTaiGia.setCheckable(False)
 
         if customer.get('checked_A', False):
-            self.checkBox_A.setChecked(True)
+            self.checkBox.setChecked(True)
             self.checkBox_B.setCheckable(False)
         elif customer.get('checked_B', False):
             self.checkBox_B.setChecked(True)
