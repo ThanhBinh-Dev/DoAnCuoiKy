@@ -30,7 +30,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../images/nen_qlkh.jpg</pixmap>
+     <pixmap>../../Images/Images_QLKH/nen_qlkh.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -69,7 +69,7 @@
    <widget class="QPushButton" name="pushButtonSearch">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>30</x>
       <y>110</y>
       <width>31</width>
       <height>31</height>
@@ -91,7 +91,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../images/ic_search.png</normaloff>../images/ic_search.png</iconset>
+      <normaloff>../../Images/Images_QLKH/ic_search.png</normaloff>../../Images/Images_QLKH/ic_search.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -121,7 +121,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../images/ic_add.png</normaloff>../images/ic_add.png</iconset>
+      <normaloff>../../Images/Images_QLKH/ic_add.png</normaloff>../../Images/Images_QLKH/ic_add.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -151,7 +151,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../images/ic_print.png</normaloff>../images/ic_print.png</iconset>
+      <normaloff>../../Images/Images_QLKH/ic_print.png</normaloff>../../Images/Images_QLKH/ic_print.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -234,7 +234,7 @@ color: rgb(138, 138, 138);</string>
 }</string>
     </property>
     <property name="readOnly">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="placeholderText">
      <string/>
@@ -297,7 +297,7 @@ font: 8pt &quot;Candara&quot;;</string>
 }</string>
     </property>
     <property name="readOnly">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="placeholderText">
      <string/>
@@ -608,7 +608,7 @@ font: 8pt &quot;Candara&quot;;</string>
      <string notr="true">color: rgb(115, 115, 115);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Tình trạng khám:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Tình trạng:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEditTinhTrang">
@@ -654,7 +654,7 @@ font: 8pt &quot;Candara&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../images/ic_user-square.png</pixmap>
+     <pixmap>../../Images/Images_QLKH/ic_user-square.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -664,9 +664,9 @@ font: 8pt &quot;Candara&quot;;</string>
     <property name="geometry">
      <rect>
       <x>940</x>
-      <y>70</y>
-      <width>111</width>
-      <height>31</height>
+      <y>80</y>
+      <width>121</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -697,8 +697,8 @@ QPushButton:pressed {
      <rect>
       <x>940</x>
       <y>30</y>
-      <width>111</width>
-      <height>31</height>
+      <width>121</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -724,6 +724,38 @@ QPushButton:pressed {
      <string>Hướng dẫn</string>
     </property>
    </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>391</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: None;</string>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>389</width>
+       <height>499</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout"/>
+      </item>
+     </layout>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -731,7 +763,7 @@ QPushButton:pressed {
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

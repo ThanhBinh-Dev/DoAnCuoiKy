@@ -37,6 +37,7 @@ class biaExt(Ui_MainWindow):
         self.myui.showWindow()
 
     def hienthi_giaodien_dathen(self):
+        from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
         self.MainWindow.close()  # Đóng cửa sổ chính
         mainwindow = QMainWindow()
         self.myui = DatHenExt()
