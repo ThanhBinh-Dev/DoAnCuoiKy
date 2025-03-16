@@ -1,6 +1,6 @@
 import functools
 
-from PyQt6.QtWidgets import QListWidgetItem, QPushButton
+from PyQt6.QtWidgets import QPushButton
 
 from DoAnCuoiKi.Library.DataConnector_KH import DataConnector_QLKH
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
