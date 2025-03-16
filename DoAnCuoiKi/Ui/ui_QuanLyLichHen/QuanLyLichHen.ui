@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Quản lý lịch hẹn - Admin</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -40,7 +40,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>0</y>
+      <y>10</y>
       <width>191</width>
       <height>51</height>
      </rect>
@@ -70,67 +70,6 @@ border-radius: 20px; </string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt; font-weight:600;&quot;&gt;Quản Lý Lịch Hẹn&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEditTimKiem">
-    <property name="geometry">
-     <rect>
-      <x>750</x>
-      <y>40</y>
-      <width>261</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 0);
-font: 75 14pt &quot;Sitka Display&quot;;
-border-radius: 10px;
-border: 1px solid black;
-background-color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="placeholderText">
-     <string>  Search here...</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButtonTimKiem">
-    <property name="geometry">
-     <rect>
-      <x>1020</x>
-      <y>40</y>
-      <width>51</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    border-radius: 20px;
-    color: black;
-    padding: 5px 10px;
-    font: 14pt &quot;Sitka Display&quot;;
-	border: 1px solid black;
-	background-color: rgb(255, 255, 255);
-}
-
-QPushButton:hover {
-	background-color: rgb(177, 177, 177);
-}
-
-QPushButton:pressed {
-	background-color: rgb(177, 177, 177);
-}</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../Images/Images_QLLH/search.ico</normaloff>../../Images/Images_QLLH/search.ico</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>30</width>
-      <height>30</height>
-     </size>
     </property>
    </widget>
    <widget class="QTabWidget" name="tabWidget">
@@ -170,7 +109,7 @@ color: rgb(0, 0, 0);
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="documentMode">
      <bool>false</bool>
@@ -235,47 +174,103 @@ color: rgb(0, 0, 0);</string>
        <property name="text">
         <string>Họ &amp; Tên</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Số Điện Thoại</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Ngày Khám</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Ngày khám</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Bác Sĩ Phụ Trách</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Dịch Vụ</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Nơi Khám</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Tình Trạng</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
      </widget>
      <widget class="QPushButton" name="pushButtonDaXacNhan">
       <property name="geometry">
        <rect>
-        <x>310</x>
+        <x>360</x>
         <y>10</y>
         <width>121</width>
         <height>31</height>
@@ -283,8 +278,8 @@ color: rgb(0, 0, 0);</string>
       </property>
       <property name="font">
        <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -295,19 +290,19 @@ color: rgb(0, 0, 0);</string>
     border-radius: 15px;
     color: black;
     padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
 	border: none;
 	border-bottom: 2px solid black; 
 	
-	background-color: rgb(170, 255, 127);
+	background-color: rgb(153, 225, 255);
 }
 
 QPushButton:hover {
-	background-color: rgb(93, 255, 117);
+	background-color:rgb(39, 154, 255);
 }
 
 QPushButton:pressed {
-	background-color: rgb(93, 255, 117);
+	background-color:rgb(153, 225, 255);
 }</string>
       </property>
       <property name="text">
@@ -325,8 +320,8 @@ QPushButton:pressed {
       </property>
       <property name="font">
        <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -337,7 +332,7 @@ QPushButton:pressed {
     border-radius: 10px;
     color: black;
     padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
 	background-color: #fae38c; 
 	border: none; /* Xóa viền */
     border-bottom: 2px solid black; /* Gạch dưới */
@@ -348,23 +343,19 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-	background-color: #eeba4a;
+	background-color: #fae38c;
 }
 
 </string>
       </property>
       <property name="text">
-       <string>Hiển thị tất cả</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../Images/Images_QLLH/show.ico</normaloff>../../Images/Images_QLLH/show.ico</iconset>
+       <string>Hiển Thị Tất Cả</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButtonChuaXacNhan">
       <property name="geometry">
        <rect>
-        <x>440</x>
+        <x>500</x>
         <y>10</y>
         <width>131</width>
         <height>31</height>
@@ -372,8 +363,8 @@ QPushButton:pressed {
       </property>
       <property name="font">
        <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -384,11 +375,10 @@ QPushButton:pressed {
     border-radius: 15px;
     color: black;
     padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
 	border: none;
-	border-bottom: 2px solid black; 
-	
-	background-color: rgb(255, 66, 94);
+	border-bottom: 1.5px solid black; 
+	background-color: rgb(255, 108, 98);
 }
 
 QPushButton:hover {
@@ -397,7 +387,7 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-	background-color: rgb(255, 25, 48);
+	background-color: rgb(255, 108, 98);
 }</string>
       </property>
       <property name="text">
@@ -415,8 +405,8 @@ QPushButton:pressed {
       </property>
       <property name="font">
        <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -427,7 +417,7 @@ QPushButton:pressed {
     border-radius: 10px;
     color: black;
     padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
 	background-color: #fae38c; 
 	border: none; /* Xóa viền */
     border-bottom: 2px solid black; /* Gạch dưới */
@@ -438,21 +428,76 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-	background-color: #eeba4a;
+	background-color: #fae38c;
 }
 
 </string>
       </property>
       <property name="text">
-       <string>Thêm</string>
-      </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../Images/Images_QLLH/add.ico</normaloff>../../Images/Images_QLLH/add.ico</iconset>
+       <string>Thêm Lịch</string>
       </property>
       <property name="iconSize">
        <size>
         <width>30</width>
+        <height>20</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditTimKiem">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>10</y>
+        <width>251</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 10px; 
+    padding-right: 20px;        
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Tìm kiếm</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonTimKiem">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>10</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    border-radius: 15px;                     
+    padding: 5px 10px;        
+	text-decoration: underline;
+	background-color:None;
+}
+QPushButton:hover {
+    background-color:rgb(208, 209, 208);
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../../Images/Images_QLLH/search.ico</normaloff>../../Images/Images_QLLH/search.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>20</width>
         <height>20</height>
        </size>
       </property>
@@ -482,7 +527,7 @@ QPushButton:pressed {
        </size>
       </property>
       <property name="styleSheet">
-       <string notr="true">font: 75 10pt &quot;Sitka Display&quot;;
+       <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);</string>
       </property>
@@ -515,40 +560,96 @@ color: rgb(0, 0, 0);</string>
        <property name="text">
         <string>Họ &amp; Tên</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Số Điện Thoại</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Ngày Khám</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Ngày khám</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Bác Sĩ Phụ Trách</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Dịch Vụ</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
       <column>
        <property name="text">
         <string>Nơi Khám</string>
        </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
       </column>
       <column>
        <property name="text">
         <string>Tình Trạng</string>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
        </property>
       </column>
      </widget>
@@ -563,8 +664,8 @@ color: rgb(0, 0, 0);</string>
       </property>
       <property name="font">
        <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
         <weight>50</weight>
         <italic>false</italic>
         <bold>false</bold>
@@ -575,7 +676,7 @@ color: rgb(0, 0, 0);</string>
     border-radius: 10px;
     color: black;
     padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
+	font: 11pt &quot;MS Shell Dlg 2&quot;;
 	background-color: #fae38c; 
 	border: none; /* Xóa viền */
     border-bottom: 2px solid black; /* Gạch dưới */
@@ -586,7 +687,7 @@ QPushButton:hover {
 }
 
 QPushButton:pressed {
-	background-color: #eeba4a;
+	background-color: #fae38c;
 }
 
 </string>
@@ -594,60 +695,62 @@ QPushButton:pressed {
       <property name="text">
        <string>Hiển thị tất cả</string>
       </property>
-      <property name="icon">
-       <iconset>
-        <normaloff>../../Images/Images_QLLH/show.ico</normaloff>../../Images/Images_QLLH/show.ico</iconset>
-      </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonThemDK">
+     <widget class="QLineEdit" name="lineEditTimKiem_2">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>700</x>
         <y>10</y>
-        <width>111</width>
+        <width>251</width>
         <height>31</height>
        </rect>
       </property>
-      <property name="font">
-       <font>
-        <family>Sitka Display</family>
-        <pointsize>10</pointsize>
-        <weight>50</weight>
-        <italic>false</italic>
-        <bold>false</bold>
-       </font>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 10px; 
+    padding-right: 20px;        
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>Tìm kiếm</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonTimKiem_2">
+      <property name="geometry">
+       <rect>
+        <x>910</x>
+        <y>10</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
       </property>
       <property name="styleSheet">
        <string notr="true">QPushButton {
-    border-radius: 10px;
-    color: black;
-    padding: 5px 10px;
-    font: 10pt &quot;Sitka Display&quot;;
-	background-color: #fae38c; 
-	border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
+    border-radius: 15px;                     
+    padding: 5px 10px;        
+	text-decoration: underline;
+	background-color:None;
 }
-
 QPushButton:hover {
-	background-color: #eeba4a;
+    background-color:rgb(208, 209, 208);
 }
-
-QPushButton:pressed {
-	background-color: #eeba4a;
-}
-
 </string>
       </property>
       <property name="text">
-       <string>Thêm</string>
+       <string/>
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>../../Images/Images_QLLH/add.ico</normaloff>../../Images/Images_QLLH/add.ico</iconset>
+        <normaloff>../../Images/Images_QLLH/search.ico</normaloff>../../Images/Images_QLLH/search.ico</iconset>
       </property>
       <property name="iconSize">
        <size>
-        <width>30</width>
+        <width>20</width>
         <height>20</height>
        </size>
       </property>
@@ -723,27 +826,32 @@ border: 0px white;</string>
     <widget class="QLineEdit" name="lineEditKhachHang">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>140</x>
        <y>10</y>
-       <width>231</width>
+       <width>251</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
@@ -833,79 +941,95 @@ border: 0px;</string>
     <widget class="QLineEdit" name="lineEditSoDienThoaiKH">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>140</x>
        <y>50</y>
-       <width>231</width>
+       <width>251</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}
+</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEditNgayHen">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>140</x>
        <y>90</y>
-       <width>231</width>
+       <width>251</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEditGio">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>140</x>
        <y>130</y>
-       <width>231</width>
+       <width>251</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButtonLuu">
@@ -1030,7 +1154,7 @@ border: 0.5px solid black;</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
+       <y>20</y>
        <width>121</width>
        <height>31</height>
       </rect>
@@ -1057,34 +1181,39 @@ border: 0px white;</string>
     <widget class="QLineEdit" name="lineEditBacSi">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>130</x>
        <y>10</y>
-       <width>221</width>
+       <width>241</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>90</y>
+       <y>100</y>
        <width>131</width>
        <height>31</height>
       </rect>
@@ -1112,7 +1241,7 @@ border: 0px;</string>
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>50</y>
+       <y>60</y>
        <width>131</width>
        <height>31</height>
       </rect>
@@ -1139,53 +1268,63 @@ border: 0px;</string>
     <widget class="QLineEdit" name="lineEditNoiLamViec">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>130</x>
        <y>50</y>
-       <width>221</width>
+       <width>241</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="lineEditSoDienThoaiBS">
      <property name="geometry">
       <rect>
-       <x>150</x>
+       <x>130</x>
        <y>90</y>
-       <width>221</width>
+       <width>241</width>
        <height>31</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>Sitka Display</family>
+       <family>MS Shell Dlg 2</family>
        <pointsize>12</pointsize>
-       <weight>9</weight>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 75 12pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    border-bottom: 2px solid black; /* Gạch dưới */
-    background: transparent; /* Nền trong suốt */</string>
+      <string notr="true">
+    QLineEdit {
+        border: none;
+        border-bottom: 1px solid black;
+	
+		font: 12pt &quot;MS Shell Dlg 2&quot;;
+        background: transparent;
+        border-radius: 0px;
+
+}</string>
      </property>
     </widget>
    </widget>
@@ -1256,6 +1395,7 @@ border: none; /* Xóa viền */
      </property>
      <property name="styleSheet">
       <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+color: rgb(255, 64, 64);
 color: rgb(0, 0, 0);
 border: none; /* Xóa viền */
     background: transparent; /* Nền trong suốt */</string>
@@ -1291,7 +1431,7 @@ border: none; /* Xóa viền */
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>26</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSystem">
@@ -1436,7 +1576,6 @@ border: none; /* Xóa viền */
   <tabstop>pushButtonThemLH</tabstop>
   <tabstop>tableWidgetThongTinLH</tabstop>
   <tabstop>pushButtonHienThiTatCaDK</tabstop>
-  <tabstop>pushButtonThemDK</tabstop>
   <tabstop>tableWidgetThongTinDK</tabstop>
  </tabstops>
  <resources/>

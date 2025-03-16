@@ -1,9 +1,6 @@
-import json
-from PyQt6 import QtWidgets
-from PyQt6.QtWidgets import QMessageBox, QApplication, QMainWindow
+from PyQt6.QtWidgets import QApplication, QMainWindow
 
 from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_LoginMainWindow
-from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhanExt import PhieuXacNhanExt
 from DoAnCuoiKi.Ui.ui_Qr.qr import Ui_MainWindow
 
 

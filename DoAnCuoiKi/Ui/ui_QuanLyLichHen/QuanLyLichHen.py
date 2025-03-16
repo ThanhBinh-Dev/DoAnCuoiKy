@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\ADMIN\PycharmProjects\PythonProject\DoAnCuoiKy\Ui\ui_QuanLyLichHen\QuanLyLichHen.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_QuanLyLichHen\QuanLyLichHen.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -19,10 +19,10 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 1100, 700))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/qllh.png"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/qllh.png"))
         self.label.setObjectName("label")
         self.labelTenKhachHang = QtWidgets.QLabel(parent=self.centralwidget)
-        self.labelTenKhachHang.setGeometry(QtCore.QRect(70, 0, 191, 51))
+        self.labelTenKhachHang.setGeometry(QtCore.QRect(70, 10, 191, 51))
         self.labelTenKhachHang.setStyleSheet("color: rgb(0, 0, 0);\n"
 "font: 75 16pt \"Sitka Display\";\n"
 "background: transparent; /* Nền trong suốt */    ")
@@ -33,38 +33,6 @@ class Ui_MainWindow(object):
 "color: rgb(255, 255, 255);\n"
 "border-radius: 20px; ")
         self.label_10.setObjectName("label_10")
-        self.lineEditTimKiem = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditTimKiem.setGeometry(QtCore.QRect(750, 40, 261, 41))
-        self.lineEditTimKiem.setStyleSheet("color: rgb(0, 0, 0);\n"
-"font: 75 14pt \"Sitka Display\";\n"
-"border-radius: 10px;\n"
-"border: 1px solid black;\n"
-"background-color: rgb(255, 255, 255);")
-        self.lineEditTimKiem.setObjectName("lineEditTimKiem")
-        self.pushButtonTimKiem = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonTimKiem.setGeometry(QtCore.QRect(1020, 40, 51, 41))
-        self.pushButtonTimKiem.setStyleSheet("QPushButton {\n"
-"    border-radius: 20px;\n"
-"    color: black;\n"
-"    padding: 5px 10px;\n"
-"    font: 14pt \"Sitka Display\";\n"
-"    border: 1px solid black;\n"
-"    background-color: rgb(255, 255, 255);\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color: rgb(177, 177, 177);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: rgb(177, 177, 177);\n"
-"}")
-        self.pushButtonTimKiem.setText("")
-        icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/search.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButtonTimKiem.setIcon(icon)
-        self.pushButtonTimKiem.setIconSize(QtCore.QSize(30, 30))
-        self.pushButtonTimKiem.setObjectName("pushButtonTimKiem")
         self.tabWidget = QtWidgets.QTabWidget(parent=self.centralwidget)
         self.tabWidget.setGeometry(QtCore.QRect(10, 80, 1081, 331))
         self.tabWidget.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.ArrowCursor))
@@ -104,26 +72,66 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         self.tableWidgetThongTinLH.setVerticalHeaderItem(4, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(1, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(2, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(3, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(4, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(5, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(6, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinLH.setHorizontalHeaderItem(7, item)
         self.pushButtonDaXacNhan = QtWidgets.QPushButton(parent=self.tabLichHen)
-        self.pushButtonDaXacNhan.setGeometry(QtCore.QRect(310, 10, 121, 31))
+        self.pushButtonDaXacNhan.setGeometry(QtCore.QRect(360, 10, 121, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
+        font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
@@ -132,26 +140,26 @@ class Ui_MainWindow(object):
 "    border-radius: 15px;\n"
 "    color: black;\n"
 "    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
+"    font: 11pt \"MS Shell Dlg 2\";\n"
 "    border: none;\n"
 "    border-bottom: 2px solid black; \n"
 "    \n"
-"    background-color: rgb(170, 255, 127);\n"
+"    background-color: rgb(153, 225, 255);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
-"    background-color: rgb(93, 255, 117);\n"
+"    background-color:rgb(39, 154, 255);\n"
 "}\n"
 "\n"
 "QPushButton:pressed {\n"
-"    background-color: rgb(93, 255, 117);\n"
+"    background-color:rgb(153, 225, 255);\n"
 "}")
         self.pushButtonDaXacNhan.setObjectName("pushButtonDaXacNhan")
         self.pushButtonHienThiTatCaLH = QtWidgets.QPushButton(parent=self.tabLichHen)
         self.pushButtonHienThiTatCaLH.setGeometry(QtCore.QRect(10, 10, 141, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
+        font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
@@ -160,7 +168,7 @@ class Ui_MainWindow(object):
 "    border-radius: 10px;\n"
 "    color: black;\n"
 "    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
+"    font: 11pt \"MS Shell Dlg 2\";\n"
 "    background-color: #fae38c; \n"
 "    border: none; /* Xóa viền */\n"
 "    border-bottom: 2px solid black; /* Gạch dưới */\n"
@@ -171,19 +179,16 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QPushButton:pressed {\n"
-"    background-color: #eeba4a;\n"
+"    background-color: #fae38c;\n"
 "}\n"
 "\n"
 "")
-        icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/show.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButtonHienThiTatCaLH.setIcon(icon1)
         self.pushButtonHienThiTatCaLH.setObjectName("pushButtonHienThiTatCaLH")
         self.pushButtonChuaXacNhan = QtWidgets.QPushButton(parent=self.tabLichHen)
-        self.pushButtonChuaXacNhan.setGeometry(QtCore.QRect(440, 10, 131, 31))
+        self.pushButtonChuaXacNhan.setGeometry(QtCore.QRect(500, 10, 131, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
+        font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
@@ -192,11 +197,10 @@ class Ui_MainWindow(object):
 "    border-radius: 15px;\n"
 "    color: black;\n"
 "    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
+"    font: 11pt \"MS Shell Dlg 2\";\n"
 "    border: none;\n"
-"    border-bottom: 2px solid black; \n"
-"    \n"
-"    background-color: rgb(255, 66, 94);\n"
+"    border-bottom: 1.5px solid black; \n"
+"    background-color: rgb(255, 108, 98);\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
@@ -205,14 +209,14 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QPushButton:pressed {\n"
-"    background-color: rgb(255, 25, 48);\n"
+"    background-color: rgb(255, 108, 98);\n"
 "}")
         self.pushButtonChuaXacNhan.setObjectName("pushButtonChuaXacNhan")
         self.pushButtonThemLH = QtWidgets.QPushButton(parent=self.tabLichHen)
         self.pushButtonThemLH.setGeometry(QtCore.QRect(160, 10, 111, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
+        font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
@@ -221,7 +225,7 @@ class Ui_MainWindow(object):
 "    border-radius: 10px;\n"
 "    color: black;\n"
 "    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
+"    font: 11pt \"MS Shell Dlg 2\";\n"
 "    background-color: #fae38c; \n"
 "    border: none; /* Xóa viền */\n"
 "    border-bottom: 2px solid black; /* Gạch dưới */\n"
@@ -232,24 +236,51 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QPushButton:pressed {\n"
-"    background-color: #eeba4a;\n"
+"    background-color: #fae38c;\n"
 "}\n"
 "\n"
 "")
-        icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/add.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButtonThemLH.setIcon(icon2)
         self.pushButtonThemLH.setIconSize(QtCore.QSize(30, 20))
         self.pushButtonThemLH.setObjectName("pushButtonThemLH")
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/hen.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.tabWidget.addTab(self.tabLichHen, icon3, "")
+        self.lineEditTimKiem = QtWidgets.QLineEdit(parent=self.tabLichHen)
+        self.lineEditTimKiem.setGeometry(QtCore.QRect(730, 10, 251, 31))
+        self.lineEditTimKiem.setStyleSheet("QLineEdit {\n"
+"    border:1px solid#00007f ;\n"
+"    color: rgb(0, 0, 127);\n"
+"    border-radius: 15px;        \n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
+"    background-color: #fbf9f8;     \n"
+"    padding-left: 10px; \n"
+"    padding-right: 20px;        \n"
+"}")
+        self.lineEditTimKiem.setObjectName("lineEditTimKiem")
+        self.pushButtonTimKiem = QtWidgets.QPushButton(parent=self.tabLichHen)
+        self.pushButtonTimKiem.setGeometry(QtCore.QRect(940, 10, 31, 31))
+        self.pushButtonTimKiem.setStyleSheet("QPushButton {\n"
+"    border-radius: 15px;                     \n"
+"    padding: 5px 10px;        \n"
+"    text-decoration: underline;\n"
+"    background-color:None;\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color:rgb(208, 209, 208);\n"
+"}\n"
+"")
+        self.pushButtonTimKiem.setText("")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/search.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonTimKiem.setIcon(icon)
+        self.pushButtonTimKiem.setIconSize(QtCore.QSize(20, 20))
+        self.pushButtonTimKiem.setObjectName("pushButtonTimKiem")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/hen.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.tabWidget.addTab(self.tabLichHen, icon1, "")
         self.tabDaKham = QtWidgets.QWidget()
         self.tabDaKham.setObjectName("tabDaKham")
         self.tableWidgetThongTinDK = QtWidgets.QTableWidget(parent=self.tabDaKham)
         self.tableWidgetThongTinDK.setGeometry(QtCore.QRect(0, 50, 1071, 251))
         self.tableWidgetThongTinDK.setMaximumSize(QtCore.QSize(1071, 16777215))
-        self.tableWidgetThongTinDK.setStyleSheet("font: 75 10pt \"Sitka Display\";\n"
+        self.tableWidgetThongTinDK.setStyleSheet("font: 9pt \"MS Shell Dlg 2\";\n"
 "background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.tableWidgetThongTinDK.setObjectName("tableWidgetThongTinDK")
@@ -266,26 +297,66 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         self.tableWidgetThongTinDK.setVerticalHeaderItem(4, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(1, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(2, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(3, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(4, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(5, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(6, item)
         item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
         self.tableWidgetThongTinDK.setHorizontalHeaderItem(7, item)
         self.pushButtonHienThiTatCaDK = QtWidgets.QPushButton(parent=self.tabDaKham)
         self.pushButtonHienThiTatCaDK.setGeometry(QtCore.QRect(10, 10, 141, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
+        font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(11)
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
@@ -294,7 +365,7 @@ class Ui_MainWindow(object):
 "    border-radius: 10px;\n"
 "    color: black;\n"
 "    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
+"    font: 11pt \"MS Shell Dlg 2\";\n"
 "    background-color: #fae38c; \n"
 "    border: none; /* Xóa viền */\n"
 "    border-bottom: 2px solid black; /* Gạch dưới */\n"
@@ -305,46 +376,42 @@ class Ui_MainWindow(object):
 "}\n"
 "\n"
 "QPushButton:pressed {\n"
-"    background-color: #eeba4a;\n"
+"    background-color: #fae38c;\n"
 "}\n"
 "\n"
 "")
-        self.pushButtonHienThiTatCaDK.setIcon(icon1)
         self.pushButtonHienThiTatCaDK.setObjectName("pushButtonHienThiTatCaDK")
-        self.pushButtonThemDK = QtWidgets.QPushButton(parent=self.tabDaKham)
-        self.pushButtonThemDK.setGeometry(QtCore.QRect(160, 10, 111, 31))
-        font = QtGui.QFont()
-        font.setFamily("Sitka Display")
-        font.setPointSize(10)
-        font.setBold(False)
-        font.setItalic(False)
-        font.setWeight(50)
-        self.pushButtonThemDK.setFont(font)
-        self.pushButtonThemDK.setStyleSheet("QPushButton {\n"
-"    border-radius: 10px;\n"
-"    color: black;\n"
-"    padding: 5px 10px;\n"
-"    font: 10pt \"Sitka Display\";\n"
-"    background-color: #fae38c; \n"
-"    border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
+        self.lineEditTimKiem_2 = QtWidgets.QLineEdit(parent=self.tabDaKham)
+        self.lineEditTimKiem_2.setGeometry(QtCore.QRect(700, 10, 251, 31))
+        self.lineEditTimKiem_2.setStyleSheet("QLineEdit {\n"
+"    border:1px solid#00007f ;\n"
+"    color: rgb(0, 0, 127);\n"
+"    border-radius: 15px;        \n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
+"    background-color: #fbf9f8;     \n"
+"    padding-left: 10px; \n"
+"    padding-right: 20px;        \n"
+"}")
+        self.lineEditTimKiem_2.setObjectName("lineEditTimKiem_2")
+        self.pushButtonTimKiem_2 = QtWidgets.QPushButton(parent=self.tabDaKham)
+        self.pushButtonTimKiem_2.setGeometry(QtCore.QRect(910, 10, 31, 31))
+        self.pushButtonTimKiem_2.setStyleSheet("QPushButton {\n"
+"    border-radius: 15px;                     \n"
+"    padding: 5px 10px;        \n"
+"    text-decoration: underline;\n"
+"    background-color:None;\n"
 "}\n"
-"\n"
 "QPushButton:hover {\n"
-"    background-color: #eeba4a;\n"
+"    background-color:rgb(208, 209, 208);\n"
 "}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color: #eeba4a;\n"
-"}\n"
-"\n"
 "")
-        self.pushButtonThemDK.setIcon(icon2)
-        self.pushButtonThemDK.setIconSize(QtCore.QSize(30, 20))
-        self.pushButtonThemDK.setObjectName("pushButtonThemDK")
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/dakham (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.tabWidget.addTab(self.tabDaKham, icon4, "")
+        self.pushButtonTimKiem_2.setText("")
+        self.pushButtonTimKiem_2.setIcon(icon)
+        self.pushButtonTimKiem_2.setIconSize(QtCore.QSize(20, 20))
+        self.pushButtonTimKiem_2.setObjectName("pushButtonTimKiem_2")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/dakham (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.tabWidget.addTab(self.tabDaKham, icon2, "")
         self.groupBox_2 = QtWidgets.QGroupBox(parent=self.centralwidget)
         self.groupBox_2.setGeometry(QtCore.QRect(270, 420, 410, 232))
         self.groupBox_2.setMaximumSize(QtCore.QSize(410, 232))
@@ -379,19 +446,24 @@ class Ui_MainWindow(object):
 "border: 0px white;")
         self.label_3.setObjectName("label_3")
         self.lineEditKhachHang = QtWidgets.QLineEdit(parent=self.groupBox_2)
-        self.lineEditKhachHang.setGeometry(QtCore.QRect(160, 10, 231, 31))
+        self.lineEditKhachHang.setGeometry(QtCore.QRect(140, 10, 251, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditKhachHang.setFont(font)
-        self.lineEditKhachHang.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditKhachHang.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditKhachHang.setObjectName("lineEditKhachHang")
         self.label_4 = QtWidgets.QLabel(parent=self.groupBox_2)
         self.label_4.setGeometry(QtCore.QRect(20, 100, 101, 31))
@@ -436,49 +508,65 @@ class Ui_MainWindow(object):
 "border: 0px;")
         self.label_11.setObjectName("label_11")
         self.lineEditSoDienThoaiKH = QtWidgets.QLineEdit(parent=self.groupBox_2)
-        self.lineEditSoDienThoaiKH.setGeometry(QtCore.QRect(160, 50, 231, 31))
+        self.lineEditSoDienThoaiKH.setGeometry(QtCore.QRect(140, 50, 251, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditSoDienThoaiKH.setFont(font)
-        self.lineEditSoDienThoaiKH.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditSoDienThoaiKH.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}\n"
+"")
         self.lineEditSoDienThoaiKH.setObjectName("lineEditSoDienThoaiKH")
         self.lineEditNgayHen = QtWidgets.QLineEdit(parent=self.groupBox_2)
-        self.lineEditNgayHen.setGeometry(QtCore.QRect(160, 90, 231, 31))
+        self.lineEditNgayHen.setGeometry(QtCore.QRect(140, 90, 251, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditNgayHen.setFont(font)
-        self.lineEditNgayHen.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditNgayHen.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditNgayHen.setObjectName("lineEditNgayHen")
         self.lineEditGio = QtWidgets.QLineEdit(parent=self.groupBox_2)
-        self.lineEditGio.setGeometry(QtCore.QRect(160, 130, 231, 31))
+        self.lineEditGio.setGeometry(QtCore.QRect(140, 130, 251, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditGio.setFont(font)
-        self.lineEditGio.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditGio.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditGio.setObjectName("lineEditGio")
         self.pushButtonLuu = QtWidgets.QPushButton(parent=self.groupBox_2)
         self.pushButtonLuu.setGeometry(QtCore.QRect(40, 180, 151, 41))
@@ -551,7 +639,7 @@ class Ui_MainWindow(object):
         self.groupBox_3.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.groupBox_3.setObjectName("groupBox_3")
         self.label_5 = QtWidgets.QLabel(parent=self.groupBox_3)
-        self.label_5.setGeometry(QtCore.QRect(10, 10, 121, 31))
+        self.label_5.setGeometry(QtCore.QRect(10, 20, 121, 31))
         font = QtGui.QFont()
         font.setFamily("Sitka Display")
         font.setPointSize(14)
@@ -565,22 +653,27 @@ class Ui_MainWindow(object):
 "border: 0px white;")
         self.label_5.setObjectName("label_5")
         self.lineEditBacSi = QtWidgets.QLineEdit(parent=self.groupBox_3)
-        self.lineEditBacSi.setGeometry(QtCore.QRect(150, 10, 221, 31))
+        self.lineEditBacSi.setGeometry(QtCore.QRect(130, 10, 241, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditBacSi.setFont(font)
-        self.lineEditBacSi.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditBacSi.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditBacSi.setObjectName("lineEditBacSi")
         self.label_6 = QtWidgets.QLabel(parent=self.groupBox_3)
-        self.label_6.setGeometry(QtCore.QRect(10, 90, 131, 31))
+        self.label_6.setGeometry(QtCore.QRect(10, 100, 131, 31))
         font = QtGui.QFont()
         font.setFamily("Sitka Display")
         font.setPointSize(14)
@@ -594,7 +687,7 @@ class Ui_MainWindow(object):
 "border: 0px;")
         self.label_6.setObjectName("label_6")
         self.label_13 = QtWidgets.QLabel(parent=self.groupBox_3)
-        self.label_13.setGeometry(QtCore.QRect(10, 50, 131, 31))
+        self.label_13.setGeometry(QtCore.QRect(10, 60, 131, 31))
         font = QtGui.QFont()
         font.setFamily("Sitka Display")
         font.setPointSize(14)
@@ -608,34 +701,44 @@ class Ui_MainWindow(object):
 "border: 0px;")
         self.label_13.setObjectName("label_13")
         self.lineEditNoiLamViec = QtWidgets.QLineEdit(parent=self.groupBox_3)
-        self.lineEditNoiLamViec.setGeometry(QtCore.QRect(150, 50, 221, 31))
+        self.lineEditNoiLamViec.setGeometry(QtCore.QRect(130, 50, 241, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditNoiLamViec.setFont(font)
-        self.lineEditNoiLamViec.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditNoiLamViec.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditNoiLamViec.setObjectName("lineEditNoiLamViec")
         self.lineEditSoDienThoaiBS = QtWidgets.QLineEdit(parent=self.groupBox_3)
-        self.lineEditSoDienThoaiBS.setGeometry(QtCore.QRect(150, 90, 221, 31))
+        self.lineEditSoDienThoaiBS.setGeometry(QtCore.QRect(130, 90, 241, 31))
         font = QtGui.QFont()
-        font.setFamily("Sitka Display")
+        font.setFamily("MS Shell Dlg 2")
         font.setPointSize(12)
         font.setBold(False)
         font.setItalic(False)
-        font.setWeight(9)
+        font.setWeight(50)
         self.lineEditSoDienThoaiBS.setFont(font)
-        self.lineEditSoDienThoaiBS.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
-"color: rgb(0, 0, 0);\n"
-"border: none; /* Xóa viền */\n"
-"    border-bottom: 2px solid black; /* Gạch dưới */\n"
-"    background: transparent; /* Nền trong suốt */")
+        self.lineEditSoDienThoaiBS.setStyleSheet("\n"
+"    QLineEdit {\n"
+"        border: none;\n"
+"        border-bottom: 1px solid black;\n"
+"    \n"
+"        font: 12pt \"MS Shell Dlg 2\";\n"
+"        background: transparent;\n"
+"        border-radius: 0px;\n"
+"\n"
+"}")
         self.lineEditSoDienThoaiBS.setObjectName("lineEditSoDienThoaiBS")
         self.groupBox_4 = QtWidgets.QGroupBox(parent=self.centralwidget)
         self.groupBox_4.setGeometry(QtCore.QRect(10, 440, 241, 150))
@@ -665,6 +768,7 @@ class Ui_MainWindow(object):
         self.radioButtonChuaXacNhan = QtWidgets.QRadioButton(parent=self.groupBox_4)
         self.radioButtonChuaXacNhan.setGeometry(QtCore.QRect(20, 60, 171, 31))
         self.radioButtonChuaXacNhan.setStyleSheet("font: 75 14pt \"Sitka Display\";\n"
+"color: rgb(255, 64, 64);\n"
 "color: rgb(0, 0, 0);\n"
 "border: none; /* Xóa viền */\n"
 "    background: transparent; /* Nền trong suốt */")
@@ -678,7 +782,7 @@ class Ui_MainWindow(object):
         self.radioButtonDaKham.setObjectName("radioButtonDaKham")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menuBar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menuBar.setGeometry(QtCore.QRect(0, 0, 1100, 26))
+        self.menuBar.setGeometry(QtCore.QRect(0, 0, 1100, 22))
         self.menuBar.setObjectName("menuBar")
         self.menuSystem = QtWidgets.QMenu(parent=self.menuBar)
         self.menuSystem.setObjectName("menuSystem")
@@ -688,9 +792,9 @@ class Ui_MainWindow(object):
         self.menuExport_Data.setObjectName("menuExport_Data")
         MainWindow.setMenuBar(self.menuBar)
         self.actionExit = QtGui.QAction(parent=MainWindow)
-        icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../images/619539_close_delete_dismiss_exit_cancel_icon (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.actionExit.setIcon(icon5)
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../images/619539_close_delete_dismiss_exit_cancel_icon (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.actionExit.setIcon(icon3)
         self.actionExit.setObjectName("actionExit")
         self.actionText_File = QtGui.QAction(parent=MainWindow)
         self.actionText_File.setObjectName("actionText_File")
@@ -701,9 +805,9 @@ class Ui_MainWindow(object):
         self.actionJSon_File = QtGui.QAction(parent=MainWindow)
         self.actionJSon_File.setObjectName("actionJSon_File")
         self.actionExcel_File_Import = QtGui.QAction(parent=MainWindow)
-        icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKy\\Ui\\ui_QuanLyLichHen\\../images/2993694_brand_brands_excel_logo_logos_icon.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.actionExcel_File_Import.setIcon(icon6)
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../images/2993694_brand_brands_excel_logo_logos_icon.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.actionExcel_File_Import.setIcon(icon4)
         self.actionExcel_File_Import.setObjectName("actionExcel_File_Import")
         self.actionPickle_File = QtGui.QAction(parent=MainWindow)
         self.actionPickle_File.setObjectName("actionPickle_File")
@@ -716,7 +820,7 @@ class Ui_MainWindow(object):
         self.actionJSON_File = QtGui.QAction(parent=MainWindow)
         self.actionJSON_File.setObjectName("actionJSON_File")
         self.actionExcel_FIle_Export = QtGui.QAction(parent=MainWindow)
-        self.actionExcel_FIle_Export.setIcon(icon6)
+        self.actionExcel_FIle_Export.setIcon(icon4)
         self.actionExcel_FIle_Export.setObjectName("actionExcel_FIle_Export")
         self.actionPickle_File_2 = QtGui.QAction(parent=MainWindow)
         self.actionPickle_File_2.setObjectName("actionPickle_File_2")
@@ -748,7 +852,7 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menuSystem.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.lineEditTimKiem, self.pushButtonTimKiem)
         MainWindow.setTabOrder(self.pushButtonTimKiem, self.lineEditKhachHang)
@@ -770,15 +874,13 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.pushButtonHienThiTatCaLH, self.pushButtonThemLH)
         MainWindow.setTabOrder(self.pushButtonThemLH, self.tableWidgetThongTinLH)
         MainWindow.setTabOrder(self.tableWidgetThongTinLH, self.pushButtonHienThiTatCaDK)
-        MainWindow.setTabOrder(self.pushButtonHienThiTatCaDK, self.pushButtonThemDK)
-        MainWindow.setTabOrder(self.pushButtonThemDK, self.tableWidgetThongTinDK)
+        MainWindow.setTabOrder(self.pushButtonHienThiTatCaDK, self.tableWidgetThongTinDK)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Quản lý lịch hẹn - Admin"))
         self.labelTenKhachHang.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600; color:#577bc1;\">Tên Khách Hàng</span></p></body></html>"))
         self.label_10.setText(_translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:24pt; font-weight:600;\">Quản Lý Lịch Hẹn</span></p></body></html>"))
-        self.lineEditTimKiem.setPlaceholderText(_translate("MainWindow", "  Search here..."))
         item = self.tableWidgetThongTinLH.verticalHeaderItem(0)
         item.setText(_translate("MainWindow", "1"))
         item = self.tableWidgetThongTinLH.verticalHeaderItem(1)
@@ -806,9 +908,10 @@ class Ui_MainWindow(object):
         item = self.tableWidgetThongTinLH.horizontalHeaderItem(7)
         item.setText(_translate("MainWindow", "Tình Trạng"))
         self.pushButtonDaXacNhan.setText(_translate("MainWindow", "Đã Xác Nhận"))
-        self.pushButtonHienThiTatCaLH.setText(_translate("MainWindow", "Hiển thị tất cả"))
+        self.pushButtonHienThiTatCaLH.setText(_translate("MainWindow", "Hiển Thị Tất Cả"))
         self.pushButtonChuaXacNhan.setText(_translate("MainWindow", "Chưa Xác Nhận"))
-        self.pushButtonThemLH.setText(_translate("MainWindow", "Thêm"))
+        self.pushButtonThemLH.setText(_translate("MainWindow", "Thêm Lịch"))
+        self.lineEditTimKiem.setPlaceholderText(_translate("MainWindow", "Tìm kiếm"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabLichHen), _translate("MainWindow", "Lịch Hẹn"))
         item = self.tableWidgetThongTinDK.verticalHeaderItem(0)
         item.setText(_translate("MainWindow", "1"))
@@ -837,7 +940,7 @@ class Ui_MainWindow(object):
         item = self.tableWidgetThongTinDK.horizontalHeaderItem(7)
         item.setText(_translate("MainWindow", "Tình Trạng"))
         self.pushButtonHienThiTatCaDK.setText(_translate("MainWindow", "Hiển thị tất cả"))
-        self.pushButtonThemDK.setText(_translate("MainWindow", "Thêm"))
+        self.lineEditTimKiem_2.setPlaceholderText(_translate("MainWindow", "Tìm kiếm"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabDaKham), _translate("MainWindow", "Đã Khám"))
         self.label_3.setText(_translate("MainWindow", "Khách Hàng:"))
         self.label_4.setText(_translate("MainWindow", "Ngày Hẹn:"))

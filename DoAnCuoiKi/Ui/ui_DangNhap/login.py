@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\ADMIN\PycharmProjects\PythonProject\DoAnCuoiKi\Ui\ui_DangNhap\login.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_DangNhap\login.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -9,7 +9,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_LoginMainWindow(object):
+class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1100, 700)
@@ -18,7 +18,7 @@ class Ui_LoginMainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 1100, 700))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/nen_dang_nhap.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/nen_dang_nhap.jpg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.lineEditTenDangNhap = QtWidgets.QLineEdit(parent=self.centralwidget)
@@ -27,7 +27,7 @@ class Ui_LoginMainWindow(object):
 "    color: rgb(0, 0, 0);\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;    \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"Arial\";\n"
 "    background-color: rgb(232, 231, 231);\n"
 "    padding: 5px;\n"
 "     padding-left: 60px;\n"
@@ -40,7 +40,7 @@ class Ui_LoginMainWindow(object):
 "    color: rgb(0, 0, 0);\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;    \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"Arial\";\n"
 "    background-color: rgb(232, 231, 231);\n"
 "    padding: 5px;\n"
 "     padding-left: 60px;\n"
@@ -99,31 +99,31 @@ class Ui_LoginMainWindow(object):
         self.label_4 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_4.setGeometry(QtCore.QRect(170, 350, 191, 121))
         self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/logo.png"))
+        self.label_4.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/logo.png"))
         self.label_4.setScaledContents(True)
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_5.setGeometry(QtCore.QRect(20, 50, 31, 31))
         self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_point.png"))
+        self.label_5.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_point.png"))
         self.label_5.setScaledContents(True)
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_6.setGeometry(QtCore.QRect(20, 270, 31, 31))
         self.label_6.setText("")
-        self.label_6.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_point.png"))
+        self.label_6.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_point.png"))
         self.label_6.setScaledContents(True)
         self.label_6.setObjectName("label_6")
         self.label_7 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_7.setGeometry(QtCore.QRect(650, 210, 51, 51))
         self.label_7.setText("")
-        self.label_7.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_user.png"))
+        self.label_7.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_user.png"))
         self.label_7.setScaledContents(True)
         self.label_7.setObjectName("label_7")
         self.label_8 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_8.setGeometry(QtCore.QRect(650, 280, 51, 51))
         self.label_8.setText("")
-        self.label_8.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_lock.png"))
+        self.label_8.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_lock.png"))
         self.label_8.setScaledContents(True)
         self.label_8.setObjectName("label_8")
         self.pushButton_caution = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -138,7 +138,7 @@ class Ui_LoginMainWindow(object):
 "QPushButton:pressed{background-color: rgb(193, 193, 193);}")
         self.pushButton_caution.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_caution.setIcon(icon)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")
@@ -160,14 +160,14 @@ class Ui_LoginMainWindow(object):
 "")
         self.pushButtonMatKhau.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_hidden.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_eye_open.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_hidden.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_eye_open.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
         self.pushButtonMatKhau.setIcon(icon1)
         self.pushButtonMatKhau.setCheckable(True)
         self.pushButtonMatKhau.setObjectName("pushButtonMatKhau")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 22))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
@@ -176,7 +176,7 @@ class Ui_LoginMainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Đăng Nhập"))
         self.lineEditTenDangNhap.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))
         self.lineEditTenDangNhap.setPlaceholderText(_translate("MainWindow", "Nhập tên đăng nhập"))
         self.lineEditMatKhau.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))

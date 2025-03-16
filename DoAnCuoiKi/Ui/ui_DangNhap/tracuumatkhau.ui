@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Tra Cứu Mật Khẩu</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -42,7 +42,7 @@
       <x>50</x>
       <y>180</y>
       <width>451</width>
-      <height>181</height>
+      <height>171</height>
      </rect>
     </property>
     <property name="toolTip">
@@ -51,7 +51,7 @@
     <property name="styleSheet">
      <string notr="true">font: 75 16pt &quot;Sitka Display&quot;;
 color: rgb(0, 9, 87);
-border: None
+
 </string>
     </property>
     <property name="title">
@@ -73,7 +73,7 @@ border: None
       <string notr="true">QLineEdit {
     border: 2px;  
     border-radius: 25px;        
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
 	background-color: rgb(232, 231, 231);
  	padding-left: 30px; 
     padding-right: 30px;                
@@ -161,7 +161,7 @@ QPushButton:pressed {
     <property name="styleSheet">
      <string notr="true">font: 75 16pt &quot;Sitka Display&quot;;
 color: rgb(0, 9, 87);
-border: None
+
 </string>
     </property>
     <property name="title">
@@ -183,7 +183,7 @@ border: None
       <string notr="true">QLineEdit {
     border: 2px;  
     border-radius: 25px;        
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
 	background-color: #fbf9f8; 	
 	padding-left: 30px; 
     padding-right: 30px;        
@@ -212,7 +212,7 @@ border: None
       <string notr="true">QLineEdit {
     border: 2px;  
     border-radius: 25px;        
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
 	background-color:#fbf9f8;
  	padding-left: 30px; 
     padding-right: 30px;                  

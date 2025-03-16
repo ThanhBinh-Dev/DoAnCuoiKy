@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'C:\Users\ADMIN\PycharmProjects\PythonProject\DoAnCuoiKi\Ui\ui_DangNhap\tracuumatkhau.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_DangNhap\tracuumatkhau.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -19,14 +19,14 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(0, -10, 550, 711))
         self.label.setStyleSheet("background-color: rgb(229, 243, 254);")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\PythonProject\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/nen_lay_mk.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/nen_lay_mk.jpg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.groupBox = QtWidgets.QGroupBox(parent=self.centralwidget)
-        self.groupBox.setGeometry(QtCore.QRect(50, 180, 451, 181))
+        self.groupBox.setGeometry(QtCore.QRect(50, 180, 451, 171))
         self.groupBox.setStyleSheet("font: 75 16pt \"Sitka Display\";\n"
 "color: rgb(0, 9, 87);\n"
-"border: None\n"
+"\n"
 "")
         self.groupBox.setObjectName("groupBox")
         self.lineEditSearch = QtWidgets.QLineEdit(parent=self.groupBox)
@@ -34,7 +34,7 @@ class Ui_MainWindow(object):
         self.lineEditSearch.setStyleSheet("QLineEdit {\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;        \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
 "    background-color: rgb(232, 231, 231);\n"
 "     padding-left: 30px; \n"
 "    padding-right: 30px;                \n"
@@ -82,7 +82,7 @@ class Ui_MainWindow(object):
         self.groupBox_2.setGeometry(QtCore.QRect(50, 360, 451, 181))
         self.groupBox_2.setStyleSheet("font: 75 16pt \"Sitka Display\";\n"
 "color: rgb(0, 9, 87);\n"
-"border: None\n"
+"\n"
 "")
         self.groupBox_2.setObjectName("groupBox_2")
         self.lineEditTenDangNhap = QtWidgets.QLineEdit(parent=self.groupBox_2)
@@ -90,7 +90,7 @@ class Ui_MainWindow(object):
         self.lineEditTenDangNhap.setStyleSheet("QLineEdit {\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;        \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
 "    background-color: #fbf9f8;     \n"
 "    padding-left: 30px; \n"
 "    padding-right: 30px;        \n"
@@ -102,7 +102,7 @@ class Ui_MainWindow(object):
         self.lineEditMatKhau.setStyleSheet("QLineEdit {\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;        \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
 "    background-color:#fbf9f8;\n"
 "     padding-left: 30px; \n"
 "    padding-right: 30px;                  \n"
@@ -136,7 +136,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Tra Cứu Mật Khẩu"))
         self.groupBox.setToolTip(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600;\">vvffgfhfh</span></p></body></html>"))
         self.groupBox.setTitle(_translate("MainWindow", "Vui lòng nhập số điện thoại bạn đã đăng kí:"))
         self.lineEditSearch.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))

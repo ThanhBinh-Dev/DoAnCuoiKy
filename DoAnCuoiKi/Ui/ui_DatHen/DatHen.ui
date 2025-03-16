@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Đặt Lịch Hẹn</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="groupBox">
@@ -112,9 +112,9 @@ border: None;</string>
        <widget class="QLineEdit" name="lineEdit_HovaTen">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>20</y>
-          <width>811</width>
+          <x>60</x>
+          <y>30</y>
+          <width>431</width>
           <height>41</height>
          </rect>
         </property>
@@ -131,162 +131,16 @@ border: None;</string>
          <bool>false</bool>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-border:1px solid rgb(188, 188, 188);
-padding-left:10px;
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="cursorPosition">
-         <number>0</number>
-        </property>
-        <property name="dragEnabled">
-         <bool>false</bool>
-        </property>
-        <property name="placeholderText">
-         <string>Họ và Tên Khách Hàng</string>
-        </property>
-        <property name="clearButtonEnabled">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_10">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>20</y>
-          <width>131</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-</string>
-        </property>
-        <property name="text">
-         <string>Họ &amp; Tên</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_SDT">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>70</y>
-          <width>301</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="tabletTracking">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-padding-left:10px;
-border:1px solid rgb(188, 188, 188);
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="cursorPosition">
-         <number>0</number>
-        </property>
-        <property name="dragEnabled">
-         <bool>false</bool>
-        </property>
-        <property name="placeholderText">
-         <string>Số Điện Thoại</string>
-        </property>
-        <property name="clearButtonEnabled">
-         <bool>false</bool>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_28">
-        <property name="geometry">
-         <rect>
-          <x>20</x>
-          <y>70</y>
-          <width>181</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-</string>
-        </property>
-        <property name="text">
-         <string>Số Điện Thoại</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_30">
-        <property name="geometry">
-         <rect>
-          <x>520</x>
-          <y>70</y>
-          <width>121</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-background-color:None;
-</string>
-        </property>
-        <property name="text">
-         <string>Địa Chỉ</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_DiaChi">
-        <property name="geometry">
-         <rect>
-          <x>720</x>
-          <y>70</y>
-          <width>301</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="tabletTracking">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-padding-left:10px;
-border:1px solid rgb(188, 188, 188);
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
+         <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 20px; 
+    padding-right: 20px;
+	qproperty-wordWrap: true;        
+}
 
 </string>
         </property>
@@ -300,140 +154,18 @@ qproperty-wordWrap: true;
          <bool>false</bool>
         </property>
         <property name="placeholderText">
-         <string>Địa Chỉ (Khám Tại Gia)</string>
+         <string/>
         </property>
         <property name="clearButtonEnabled">
          <bool>false</bool>
         </property>
        </widget>
-       <widget class="QLabel" name="label_32">
+       <widget class="QLineEdit" name="lineEdit_SDT">
         <property name="geometry">
          <rect>
-          <x>30</x>
-          <y>120</y>
-          <width>141</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-background-color:None;</string>
-        </property>
-        <property name="text">
-         <string>Ngày Khám</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_33">
-        <property name="geometry">
-         <rect>
-          <x>520</x>
-          <y>120</y>
-          <width>151</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-background-color:None;
-</string>
-        </property>
-        <property name="text">
-         <string>Giờ Khám</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_34">
-        <property name="geometry">
-         <rect>
-          <x>40</x>
-          <y>220</y>
-          <width>111</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-background-color:None;
-qproperty-wordWrap: true;
-</string>
-        </property>
-        <property name="text">
-         <string>Nơi Khám</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QRadioButton" name="radioButton_PhongKham">
-        <property name="geometry">
-         <rect>
-          <x>210</x>
-          <y>220</y>
-          <width>221</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">background-color: None;
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;</string>
-        </property>
-        <property name="text">
-         <string>Phòng Khám</string>
-        </property>
-       </widget>
-       <widget class="QRadioButton" name="radioButton_KhamTaiGia">
-        <property name="geometry">
-         <rect>
-          <x>740</x>
-          <y>220</y>
-          <width>221</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;</string>
-        </property>
-        <property name="text">
-         <string>Khám Tại Gia</string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_35">
-        <property name="geometry">
-         <rect>
-          <x>10</x>
-          <y>270</y>
-          <width>241</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-background-color:None;</string>
-        </property>
-        <property name="text">
-         <string>Thông Tin Thêm:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
-       <widget class="QLineEdit" name="lineEdit_ThongTinThem">
-        <property name="geometry">
-         <rect>
-          <x>230</x>
-          <y>270</y>
-          <width>791</width>
+          <x>580</x>
+          <y>30</y>
+          <width>431</width>
           <height>41</height>
          </rect>
         </property>
@@ -447,12 +179,17 @@ background-color:None;</string>
          <bool>false</bool>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-border:1px solid rgb(188, 188, 188);
-padding-left:10px;
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
+         <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 20px; 
+    padding-right: 20px;
+	qproperty-wordWrap: true;        
+}
+
 </string>
         </property>
         <property name="text">
@@ -465,7 +202,141 @@ qproperty-wordWrap: true;
          <bool>false</bool>
         </property>
         <property name="placeholderText">
-         <string>Tình Trạng Thú Cưng</string>
+         <string/>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_DiaChi">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>270</y>
+          <width>431</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 20px; 
+    padding-right: 20px;
+	qproperty-wordWrap: true;        
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_PhongKham">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>190</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: None;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+qproperty-wordWrap: true;
+color: rgb(0, 0, 127);</string>
+        </property>
+        <property name="text">
+         <string>Phòng Khám</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton_KhamTaiGia">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>190</y>
+          <width>141</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: None;
+font: 14pt &quot;MS Shell Dlg 2&quot;;
+qproperty-wordWrap: true;
+color: #00007f;</string>
+        </property>
+        <property name="text">
+         <string>Khám Tại Gia</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_ThongTinThem">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>270</y>
+          <width>431</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 20px; 
+    padding-right: 20px;
+	qproperty-wordWrap: true;        
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string>Tình Trạng Thú Cưng,...</string>
         </property>
         <property name="clearButtonEnabled">
          <bool>false</bool>
@@ -491,79 +362,62 @@ font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
          <pixmap>../../Images/Images_DatHen/Dog.png</pixmap>
         </property>
        </widget>
-       <widget class="QLabel" name="label_31">
-        <property name="geometry">
-         <rect>
-          <x>30</x>
-          <y>170</y>
-          <width>171</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;
-
-background-color:none;</string>
-        </property>
-        <property name="text">
-         <string>Dịch Vụ Khám</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
-        </property>
-       </widget>
        <widget class="QComboBox" name="comboBox_DichVuKham">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>170</y>
-          <width>811</width>
+          <x>580</x>
+          <y>190</y>
+          <width>431</width>
           <height>41</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-padding-left:10px;
-border:1px solid rgb(188, 188, 188);
-font: 75 20pt &quot;Sitka Display&quot;;
+         <string notr="true">border-radius:15px;
+background-color: #fbf9f8;
+border:1px solid#00007f ;
+font: 13pt &quot;MS Shell Dlg 2&quot;;
+padding-left: 20px; 
+padding-right: 20px;
 qproperty-wordWrap: true;</string>
         </property>
        </widget>
        <widget class="QComboBox" name="comboBox_NgayKham">
         <property name="geometry">
          <rect>
-          <x>210</x>
-          <y>120</y>
-          <width>301</width>
+          <x>60</x>
+          <y>110</y>
+          <width>431</width>
           <height>41</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-padding-left:10px;
-border:1px solid rgb(188, 188, 188);
-font: 75 20pt &quot;Sitka Display&quot;;
-qproperty-wordWrap: true;</string>
+         <string notr="true">border-radius:15px;
+background-color: #fbf9f8;
+border:1px solid#00007f ;
+font: 13pt &quot;MS Shell Dlg 2&quot;;
+padding-left: 20px; 
+padding-right: 20px;
+qproperty-wordWrap: true;
+
+</string>
         </property>
        </widget>
        <widget class="QComboBox" name="comboBox_GioKham">
         <property name="geometry">
          <rect>
-          <x>720</x>
-          <y>120</y>
-          <width>301</width>
+          <x>580</x>
+          <y>110</y>
+          <width>431</width>
           <height>41</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-radius:20px;
-background-color: rgb(255, 255, 255);
-padding-left:10px;
-border:1px solid rgb(188, 188, 188);
-font: 75 20pt &quot;Sitka Display&quot;;
+         <string notr="true">border-radius:15px;
+background-color: #fbf9f8;
+border:1px solid#00007f ;
+font: 13pt &quot;MS Shell Dlg 2&quot;;
+padding-left: 20px; 
+padding-right: 20px;
 qproperty-wordWrap: true;</string>
         </property>
        </widget>
@@ -585,25 +439,342 @@ border-radius:0px;</string>
          <string/>
         </property>
        </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>-10</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Họ và tên: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>-10</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Số điện thoại: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>70</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Ngày khám: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>70</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Giờ khám: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>150</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Nơi khám: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>230</y>
+          <width>271</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Địa chỉ (nếu khám tại gia): &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>150</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Dịch vụ khám: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_DiaChi_2">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>190</y>
+          <width>431</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="tabletTracking">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border:1px solid#00007f ;
+	color: rgb(0, 0, 127);
+    border-radius: 15px;        
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
+	background-color: #fbf9f8; 	
+	padding-left: 20px; 
+    padding-right: 20px;
+	qproperty-wordWrap: true;        
+}
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="dragEnabled">
+         <bool>false</bool>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>230</y>
+          <width>181</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Thông tin thêm: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>10</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>170</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>90</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>10</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_21">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>170</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_23">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>90</y>
+          <width>16</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">qproperty-wordWrap: true;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+background-color:None;
+color: rgb(255, 0, 4);</string>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;*&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
        <zorder>label_8</zorder>
+       <zorder>lineEdit_DiaChi_2</zorder>
        <zorder>lineEdit_HovaTen</zorder>
-       <zorder>label_10</zorder>
        <zorder>lineEdit_SDT</zorder>
-       <zorder>label_28</zorder>
-       <zorder>label_30</zorder>
        <zorder>lineEdit_DiaChi</zorder>
-       <zorder>label_32</zorder>
-       <zorder>label_33</zorder>
-       <zorder>label_34</zorder>
        <zorder>radioButton_PhongKham</zorder>
        <zorder>radioButton_KhamTaiGia</zorder>
-       <zorder>label_35</zorder>
        <zorder>lineEdit_ThongTinThem</zorder>
-       <zorder>label_31</zorder>
        <zorder>comboBox_DichVuKham</zorder>
        <zorder>comboBox_NgayKham</zorder>
        <zorder>comboBox_GioKham</zorder>
        <zorder>label_2</zorder>
+       <zorder>label_9</zorder>
+       <zorder>label_10</zorder>
+       <zorder>label_11</zorder>
+       <zorder>label_12</zorder>
+       <zorder>label_13</zorder>
+       <zorder>label_14</zorder>
+       <zorder>label_15</zorder>
+       <zorder>label_16</zorder>
+       <zorder>label_17</zorder>
+       <zorder>label_18</zorder>
+       <zorder>label_19</zorder>
+       <zorder>label_20</zorder>
+       <zorder>label_21</zorder>
+       <zorder>label_23</zorder>
       </widget>
      </widget>
     </widget>
@@ -662,7 +833,7 @@ QPushButton:pressed {
      <property name="styleSheet">
       <string notr="true">QPushButton {
 background-color: rgb(3, 175, 88);
-font:  20pt &quot;Sitka Display Semibold&quot;;
+	font: 14pt &quot;MS Shell Dlg 2&quot;;
 border-radius:20px;
 border: None;
 color: #ffffff;
@@ -692,7 +863,7 @@ QPushButton:pressed {
      <property name="geometry">
       <rect>
        <x>60</x>
-       <y>10</y>
+       <y>20</y>
        <width>171</width>
        <height>161</height>
       </rect>
@@ -712,18 +883,18 @@ setMask:(mask);</string>
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>270</x>
-       <y>20</y>
-       <width>831</width>
-       <height>91</height>
+       <x>250</x>
+       <y>10</y>
+       <width>851</width>
+       <height>101</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">
-font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
+      <string notr="true">color: rgb(0, 0, 127);
+font: 36pt &quot;MS Reference Sans Serif&quot;;</string>
      </property>
      <property name="text">
-      <string>DR.PET’S HOUSE - ĐẶT HẸN TRỰC TUYẾN</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt; font-weight:600;&quot;&gt;DR.PET’S HOUSE - ĐẶT HẸN TRỰC TUYẾN&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_4">
