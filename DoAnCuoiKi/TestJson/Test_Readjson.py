@@ -5,7 +5,7 @@ from DoAnCuoiKi.Model.Time import Time
 
 list_times=[]
 jff=JsonFileFactory()
-filename="../Dataset/Date_Time.json"
+filename= "../Dataset/Date_Time.json"
 list_times=jff.read_data(filename,Date_Time)
 for time in list_times:
     print(time)

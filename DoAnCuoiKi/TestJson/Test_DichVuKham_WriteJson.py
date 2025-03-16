@@ -16,5 +16,5 @@ dvks.append(DichVuKham("Tư Vấn"))
 dvks.append(DichVuKham("Cấy ghép vi mạch nhận dạng"))
 
 jff=JsonFileFactory()
-filename="../Dataset/DichVuKham.json"
+filename= "../Dataset/DichVuKham.json"
 jff.write_data(dvks,filename)

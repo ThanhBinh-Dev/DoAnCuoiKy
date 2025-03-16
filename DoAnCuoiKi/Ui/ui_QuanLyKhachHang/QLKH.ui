@@ -99,7 +99,7 @@ color: rgb(0, 0, 0);</string>
        </size>
       </property>
      </widget>
-     <widget class="QLabel" name="label_name">
+     <widget class="QLabel" name="label_2">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -150,9 +150,6 @@ background-color:None;</string>
       </property>
       <property name="text">
        <string/>
-      </property>
-      <property name="readOnly">
-       <bool>true</bool>
       </property>
      </widget>
      <widget class="QLineEdit" name="lineEdit_DiaChi">
@@ -589,7 +586,7 @@ color: rgb(0, 0, 0);</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QListWidget" name="listWidget"/>
+        <layout class="QVBoxLayout" name="verticalLayout"/>
        </item>
       </layout>
      </widget>
