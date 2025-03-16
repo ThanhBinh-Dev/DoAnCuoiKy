@@ -24,7 +24,7 @@ class DatHenExt(Ui_MainWindow):
     def showWindow(self):
         self.MainWindow.show()
     def setupSignalAndSlot(self):
-        self.pushButton_DatHen.clicked.connect(self.Process_Booking)
+        self.pushButton_DatHen.clicked.connect(self.XuLyDatHen)
     def show_times_dates(self):
         self.comboBox_NgayKham.clear()
         available_dates = [dt.ngaykham for dt in self.list_dates if dt.slot_moi < dt.slot_gioihan]
@@ -43,7 +43,7 @@ class DatHenExt(Ui_MainWindow):
         self.comboBox_DichVuKham.clear()
         for dichvu in self.list_serviecs:
             self.comboBox_DichVuKham.addItem(dichvu.dichvu)
-    def Process_Booking(self):
+    def XuLyDatHen(self):
         # Ghi File
         hovaten=self.lineEdit_HovaTen.text().strip()
         sdt=self.lineEdit_SDT.text().strip()
@@ -86,8 +86,8 @@ class DatHenExt(Ui_MainWindow):
         self.list_dates = self.list_times
         self.show_times_dates()
         QMessageBox.information(self.MainWindow, "Thành công", "Đặt hẹn thành công!")
-        
-        from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhanExt import PhieuXacNhanExt  # Import muộn để tránh vòng lặp
+
+        from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhanExt import PhieuXacNhanExt # Import muộn để tránh vòng lặp
         self.phieu_xac_nhan_window = PhieuXacNhanExt()
         self.phieu_xac_nhan_window.show()
-        self.MainWindow.close()  # Đóng giao diện đặt hẹn trước khi mở giao diện mới
+        self.MainWindow.close()# Đóng giao diện đặt hẹn trước khi mở giao diện mới

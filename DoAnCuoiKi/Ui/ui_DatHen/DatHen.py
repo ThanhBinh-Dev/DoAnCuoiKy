@@ -77,7 +77,6 @@ class Ui_MainWindow(object):
         self.lineEdit_HovaTen.setText("")
         self.lineEdit_HovaTen.setCursorPosition(0)
         self.lineEdit_HovaTen.setDragEnabled(False)
-        self.lineEdit_HovaTen.setPlaceholderText("")
         self.lineEdit_HovaTen.setClearButtonEnabled(False)
         self.lineEdit_HovaTen.setObjectName("lineEdit_HovaTen")
         self.label_10 = QtWidgets.QLabel(parent=self.groupBox_6)
@@ -105,7 +104,6 @@ class Ui_MainWindow(object):
         self.lineEdit_SDT.setText("")
         self.lineEdit_SDT.setCursorPosition(0)
         self.lineEdit_SDT.setDragEnabled(False)
-        self.lineEdit_SDT.setPlaceholderText("")
         self.lineEdit_SDT.setClearButtonEnabled(False)
         self.lineEdit_SDT.setObjectName("lineEdit_SDT")
         self.label_28 = QtWidgets.QLabel(parent=self.groupBox_6)
@@ -142,7 +140,6 @@ class Ui_MainWindow(object):
         self.lineEdit_DiaChi.setText("")
         self.lineEdit_DiaChi.setCursorPosition(0)
         self.lineEdit_DiaChi.setDragEnabled(False)
-        self.lineEdit_DiaChi.setPlaceholderText("")
         self.lineEdit_DiaChi.setClearButtonEnabled(False)
         self.lineEdit_DiaChi.setObjectName("lineEdit_DiaChi")
         self.label_32 = QtWidgets.QLabel(parent=self.groupBox_6)
@@ -296,12 +293,11 @@ class Ui_MainWindow(object):
         self.pushButton_DatHen.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_DatHen.setObjectName("pushButton_DatHen")
         self.pushButton_2 = QtWidgets.QPushButton(parent=self.groupBox)
-        self.pushButton_2.setGeometry(QtCore.QRect(50, 170, 181, 41))
+        self.pushButton_2.setGeometry(QtCore.QRect(50, 180, 201, 41))
         self.pushButton_2.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.pushButton_2.setStyleSheet("QPushButton {\n"
-"font: 75 italic 16pt \"Rockwell\";\n"
 "background-color: rgb(3, 175, 88);\n"
-"\n"
+"font:  20pt \"Sitka Display Semibold\";\n"
 "border-radius:20px;\n"
 "border: None;\n"
 "color: #ffffff;\n"
@@ -393,9 +389,12 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.lineEdit_HovaTen.setPlaceholderText(_translate("MainWindow", "Họ và Tên Khách Hàng"))
         self.label_10.setText(_translate("MainWindow", "Họ & Tên"))
+        self.lineEdit_SDT.setPlaceholderText(_translate("MainWindow", "Số Điện Thoại"))
         self.label_28.setText(_translate("MainWindow", "Số Điện Thoại"))
         self.label_30.setText(_translate("MainWindow", "Địa Chỉ"))
+        self.lineEdit_DiaChi.setPlaceholderText(_translate("MainWindow", "Địa Chỉ (Khám Tại Gia)"))
         self.label_32.setText(_translate("MainWindow", "Ngày Khám"))
         self.label_33.setText(_translate("MainWindow", "Giờ Khám"))
         self.label_34.setText(_translate("MainWindow", "Nơi Khám"))

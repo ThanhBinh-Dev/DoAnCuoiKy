@@ -9,7 +9,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow1(object):
+class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1100, 700)
@@ -24,6 +24,7 @@ class Ui_MainWindow1(object):
         self.lineEditTenDangNhap = QtWidgets.QLineEdit(parent=self.centralwidget)
         self.lineEditTenDangNhap.setGeometry(QtCore.QRect(650, 210, 351, 51))
         self.lineEditTenDangNhap.setStyleSheet("QLineEdit {\n"
+"    color: rgb(0, 0, 0);\n"
 "    border: 2px;  \n"
 "    border-radius: 25px;    \n"
 "    font: 14pt \"Sitka Display\";\n"
@@ -36,15 +37,15 @@ class Ui_MainWindow1(object):
         self.lineEditMatKhau = QtWidgets.QLineEdit(parent=self.centralwidget)
         self.lineEditMatKhau.setGeometry(QtCore.QRect(650, 280, 351, 51))
         self.lineEditMatKhau.setStyleSheet("QLineEdit {\n"
+"    color: rgb(0, 0, 0);\n"
 "    border: 2px;  \n"
-"    border-radius: 25px;        \n"
+"    border-radius: 25px;    \n"
 "    font: 14pt \"Sitka Display\";\n"
 "    background-color: rgb(232, 231, 231);\n"
 "    padding: 5px;\n"
-"     padding-left: 60px; \n"
-"    padding-right: 60px;             \n"
-"}\n"
-"")
+"     padding-left: 60px;\n"
+"    padding-right: 60px;            \n"
+"}")
         self.lineEditMatKhau.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEditMatKhau.setObjectName("lineEditMatKhau")
         self.pushButtonLogin = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -125,12 +126,6 @@ class Ui_MainWindow1(object):
         self.label_8.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_lock.png"))
         self.label_8.setScaledContents(True)
         self.label_8.setObjectName("label_8")
-        self.labelEyeHidden = QtWidgets.QLabel(parent=self.centralwidget)
-        self.labelEyeHidden.setGeometry(QtCore.QRect(960, 296, 21, 20))
-        self.labelEyeHidden.setText("")
-        self.labelEyeHidden.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_hidden.png"))
-        self.labelEyeHidden.setScaledContents(True)
-        self.labelEyeHidden.setObjectName("labelEyeHidden")
         self.pushButton_caution = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButton_caution.setGeometry(QtCore.QRect(10, 10, 31, 31))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed)
@@ -147,9 +142,32 @@ class Ui_MainWindow1(object):
         self.pushButton_caution.setIcon(icon)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")
+        self.pushButtonMatKhau = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonMatKhau.setGeometry(QtCore.QRect(950, 280, 51, 51))
+        self.pushButtonMatKhau.setStyleSheet("QPushButton {\n"
+"border: 2px;  \n"
+"border-radius: 25px;    \n"
+"font: 14pt \"Sitka Display\";\n"
+"background-color: rgb(232, 231, 231);\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(176, 176, 176);\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(176, 176, 176); \n"
+"}\n"
+"")
+        self.pushButtonMatKhau.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_hidden.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/ic_eye_open.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.On)
+        self.pushButtonMatKhau.setIcon(icon1)
+        self.pushButtonMatKhau.setCheckable(True)
+        self.pushButtonMatKhau.setObjectName("pushButtonMatKhau")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 26))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 

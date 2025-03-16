@@ -1,7 +1,5 @@
 import functools
-
 from PyQt6.QtWidgets import QPushButton
-
 from DoAnCuoiKi.Library.DataConnector_KH import DataConnector_QLKH
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
 
@@ -19,11 +17,11 @@ class QLKHExt(Ui_MainWindow):
     def setupSignalsandSlots(self):
         pass
     def MacDinhTenVaSDT(self):
-        self.lineEdit_SDT.setText("0972936543")
+        self.lineEdit_SDT.setText("0978265752")
         sdt=self.lineEdit_SDT.text()
         self.list_info=self.dc.search_info(sdt)
         for info in self.list_info:
-            self.label_name.setText(info.hovaten)
+            self.label_Name.setText(info.hovaten)
     def clearLayout(self, layout):
         if layout is not None:
             while layout.count():

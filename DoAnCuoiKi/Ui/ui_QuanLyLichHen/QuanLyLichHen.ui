@@ -89,7 +89,7 @@ border: 1px solid black;
 background-color: rgb(255, 255, 255);</string>
     </property>
     <property name="placeholderText">
-     <string>Search here...</string>
+     <string>  Search here...</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonTimKiem">
@@ -1291,7 +1291,7 @@ border: none; /* Xóa viền */
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSystem">
