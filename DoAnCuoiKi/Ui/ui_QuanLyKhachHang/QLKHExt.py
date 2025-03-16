@@ -1,4 +1,6 @@
-from PyQt6.QtWidgets import QListWidgetItem
+import functools
+
+from PyQt6.QtWidgets import QListWidgetItem, QPushButton
 
 from DoAnCuoiKi.Library.DataConnector_KH import DataConnector_QLKH
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
@@ -6,7 +8,6 @@ from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
 class QLKHExt(Ui_MainWindow):
     def __init__(self):
         self.dc=DataConnector_QLKH()
-
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow=MainWindow
@@ -23,17 +24,29 @@ class QLKHExt(Ui_MainWindow):
         self.list_info=self.dc.search_info(sdt)
         for info in self.list_info:
             self.label_name.setText(info.hovaten)
+    def clearLayout(self, layout):
+        if layout is not None:
+            while layout.count():
+                item = layout.takeAt(0)
+                widget = item.widget()
+                if widget is not None:
+                    widget.deleteLater()
+                else:
+                    self.clearLayout(item.layout())
     def HienThiThongTinLenGiaoDien(self):
-        self.listWidget.clear()
-        sdt = str(self.lineEdit_SDT.text())
-        self.list_info = self.dc.search_info(sdt)
+        self.clearLayout(self.verticalLayout)
         for info in self.list_info:
-            info_item = QListWidgetItem(f"Dịch Vụ: {info.dichvu} "
-                                        f"Ngày Khám: {info.ngaykham} "
-                                        f"Giờ Khám: {info.giokham}")
-            self.listWidget.addItem(info_item)
-
-
+            text_button = f"""
+                Ngày khám: {info.ngaykham} 
+                Giờ khám: {info.giokham} 
+                Dịch vụ: {info.dichvu}
+            """
+            info_button = QPushButton()
+            info_button.setText(text_button)
+            info_button.setStyleSheet("background-color: rgb(240,237,237); text-align: left; border-radius:20px;border:1px solid black;font-sizre:18pt")
+            info_button.setMinimumHeight(70)
+            self.verticalLayout.addWidget(info_button)
+            # info_button.clicked.connect(functools.partial(self.xem_chitiet, info))
 
 # Trả tên và SĐT khách hàng mặc định và không cho chỉnh sửa sđt, ngày khám, giờ khám
 # Giao diện đăng nhập viết thêm một hàm để lấy số đuôi hoặc số điện thoại khách hàng rồi trả về

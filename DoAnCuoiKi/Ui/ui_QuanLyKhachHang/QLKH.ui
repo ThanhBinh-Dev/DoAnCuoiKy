@@ -589,7 +589,7 @@ color: rgb(0, 0, 0);</string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QListWidget" name="listWidget"/>
+        <layout class="QVBoxLayout" name="verticalLayout"/>
        </item>
       </layout>
      </widget>
@@ -617,31 +617,12 @@ color: rgb(0, 0, 0);</string>
      <property name="title">
       <string>Import</string>
      </property>
-     <addaction name="actionXML_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionJSON_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionSheet_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionTXT_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionCSV_File"/>
-     <addaction name="separator"/>
      <addaction name="actionPICKLE_File"/>
     </widget>
     <widget class="QMenu" name="menuExport">
      <property name="title">
       <string>Export</string>
      </property>
-     <addaction name="actionXML_File_2"/>
-     <addaction name="separator"/>
-     <addaction name="actionJSON_File_2"/>
-     <addaction name="separator"/>
-     <addaction name="actionSHEET_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionTXT_File_2"/>
-     <addaction name="separator"/>
-     <addaction name="actionCSV_File_2"/>
      <addaction name="separator"/>
      <addaction name="actionPICKLE_File_2"/>
     </widget>
@@ -686,7 +667,7 @@ color: rgb(0, 0, 0);</string>
   </action>
   <action name="actionPICKLE_File">
    <property name="text">
-    <string>PICKLE File</string>
+    <string>Excel  File</string>
    </property>
   </action>
   <action name="actionXML_File_2">
