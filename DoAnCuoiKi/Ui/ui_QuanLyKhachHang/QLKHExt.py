@@ -1,3 +1,4 @@
+
 import functools
 
 from PyQt6.QtWidgets import QPushButton, QMainWindow, QMessageBox
@@ -9,7 +10,6 @@ from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt
 from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.qrExt import QrExt
-
 
 class QLKHExt(Ui_MainWindow):
     def __init__(self,sdt="None"):

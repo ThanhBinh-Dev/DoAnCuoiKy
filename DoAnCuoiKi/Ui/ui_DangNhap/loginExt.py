@@ -7,7 +7,6 @@ from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_MainWindow
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKHExt import QLKHExt
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QLLHExt import QLLHExt
 
-
 class loginExt(Ui_MainWindow):
     def setupUi(self, MainWindow: QMainWindow):
         super().setupUi(MainWindow)
@@ -51,7 +50,6 @@ class loginExt(Ui_MainWindow):
             dc = DataConnector()
             username = self.lineEditTenDangNhap.text().strip()
             password = self.lineEditMatKhau.text().strip()
-
             user_type,sdt = dc.login(username, password)
 
             if user_type == "customer":
@@ -62,7 +60,6 @@ class loginExt(Ui_MainWindow):
                 self.myui.showWindow()
                 if sdt:
                     self.myui.labelSDT.setText(sdt)
-
             elif user_type == "admin":
                 self.MainWindow.close()
                 self.mainwindow = QMainWindow()

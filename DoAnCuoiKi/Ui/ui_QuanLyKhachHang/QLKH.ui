@@ -199,9 +199,9 @@ color: rgb(138, 138, 138);</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
-    padding-right: 10px; 
+    padding-right: 10px;
 }</string>
     </property>
     <property name="readOnly">
@@ -262,9 +262,9 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
-    padding-right: 10px; 
+    padding-right: 10px;
 }</string>
     </property>
     <property name="readOnly">
@@ -340,9 +340,9 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
-    padding-right: 10px; 
+    padding-right: 10px;
 }</string>
     </property>
     <property name="readOnly">
@@ -386,7 +386,7 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
     padding-right: 10px; 
 }</string>
@@ -448,9 +448,9 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
-    padding-right: 10px; 
+    padding-right: 10px;
 }</string>
     </property>
     <property name="readOnly">
@@ -478,7 +478,7 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
     padding-right: 10px; 
 }</string>
@@ -540,7 +540,7 @@ font: 8pt &quot;Candara&quot;;</string>
 	color: rgb(0, 0, 127);
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
+	background-color: #fbf9f8;
 	padding-left: 10px; 
     padding-right: 10px; 
 }</string>

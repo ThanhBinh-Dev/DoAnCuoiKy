@@ -54,7 +54,6 @@ class DataConnector:
         for admin in admins:
             if admin.tendangnhap == username and admin.matkhau == password:  # Sử dụng thuộc tính thay vì .get()
                 return "admin",None
-
         return None
 
     def get_user_by_phone(self, phone_number):

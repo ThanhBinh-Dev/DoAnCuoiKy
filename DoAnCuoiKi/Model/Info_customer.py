@@ -18,7 +18,6 @@ class Info_customer(Customer, Date, Time, DichVuKham):
 
     def __str__(self):
         return f"{self.hovaten}\t{self.sdt}\t{self.noikham}\t{self.diachi}\t{self.ngaykham}\t{self.giokham}\t{self.dichvu}\t{self.thongtin}\t{self.tinhtrang}\t{self.tendangnhap}\t{self.matkhau}"
-
     def to_dict(self):
         return {
             "hovaten": self.hovaten,

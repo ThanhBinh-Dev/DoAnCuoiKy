@@ -91,9 +91,9 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
-"    padding-right: 10px; \n"
+"    padding-right: 10px;\n"
 "}")
         self.lineEditNgayKham.setReadOnly(True)
         self.lineEditNgayKham.setPlaceholderText("")
@@ -114,9 +114,9 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
-"    padding-right: 10px; \n"
+"    padding-right: 10px;\n"
 "}")
         self.lineEditGioKham.setReadOnly(True)
         self.lineEditGioKham.setPlaceholderText("")
@@ -140,9 +140,9 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
-"    padding-right: 10px; \n"
+"    padding-right: 10px;\n"
 "}")
         self.lineEditThongTinThem.setReadOnly(False)
         self.lineEditThongTinThem.setPlaceholderText("")
@@ -158,7 +158,7 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
 "    padding-right: 10px; \n"
 "}")
@@ -180,9 +180,9 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
-"    padding-right: 10px; \n"
+"    padding-right: 10px;\n"
 "}")
         self.lineEditDiaChi.setReadOnly(False)
         self.lineEditDiaChi.setPlaceholderText("")
@@ -194,7 +194,7 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
 "    padding-right: 10px; \n"
 "}")
@@ -216,7 +216,7 @@ class Ui_MainWindow(object):
 "    color: rgb(0, 0, 127);\n"
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
+"    background-color: #fbf9f8;\n"
 "    padding-left: 10px; \n"
 "    padding-right: 10px; \n"
 "}")
