@@ -61,8 +61,8 @@
     border-radius: 15px;        
 	font: 13pt &quot;MS Shell Dlg 2&quot;;
 	background-color: #fbf9f8; 	
-	padding-left: 20px; 
-    padding-right: 30px;        
+	padding-left: 30px; 
+    padding-right: 5px;        
 }</string>
     </property>
     <property name="dragEnabled">

@@ -88,6 +88,7 @@ class QLKHExt(Ui_MainWindow):
         self.pushButtonPrint.clicked.connect(self.Open_qr)
         self.pushButtonSave.clicked.connect(self.save_info)
         self.pushButtonDangXuat.clicked.connect(self.SignOut)
+        self.pushButtonSearch.clicked.connect(self.search_info)
     def Booking(self):
         self.mainwindow = QMainWindow()
         self.myui = DatHenExt()
@@ -141,6 +142,32 @@ class QLKHExt(Ui_MainWindow):
         self.myui = biaExt()
         self.myui.setupUi(self.mainwindow)
         self.myui.showWindow()
+
+    def search_info(self):
+        ngay_kham = self.lineEditTimKiem.text().strip()  # Lấy giá trị từ thanh tìm kiếm
+        if not ngay_kham:
+            QMessageBox.warning(self.MainWindow, "Cảnh báo", "Vui lòng nhập ngày khám để tìm kiếm!")
+            return
+        for i in range(self.verticalLayout.count()):
+            item = self.verticalLayout.itemAt(i)
+            widget = item.widget()
+            if isinstance(widget, QPushButton):
+                button_text = widget.text()
+                if ngay_kham in button_text:
+                    widget.setStyleSheet("""
+                        QPushButton {
+                            border-radius: 10px;                     
+                            background-color: rgb(200, 255, 200);  
+                            color: black;
+                            border: 1px solid black;
+                            text-align: left;
+                            padding-left: 5px;
+                        }
+                        QPushButton:pressed {
+                            background-color: rgb(150, 232, 150);
+                        }
+                    """)
+
 # Dữ liệu chưa tự cập nhật hay xuất hiện khi khách hàng thêm lịch mới
 # Chưa có hướng dẫn sử dụng
 # M nghĩ có cần xóa ngày sau khi các ca trong đó đầy hết rồi không, hay chỉ cần hiện thông báo ngày đó full r thôi
