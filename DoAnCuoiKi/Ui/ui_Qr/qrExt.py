@@ -9,7 +9,7 @@ class QrExt(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
         self.pushButton.clicked.connect(self.show_login_window)
-        self.pushButton_caution.clicked.connect(self.QuayLaiPhieuXacNhan)
+        self.pushButton_caution.clicked.connect(self.return_PhieuXacNhan_window)
 
     def show_login_window(self):
         """Mở giao diện đăng nhập"""
@@ -19,7 +19,7 @@ class QrExt(QMainWindow, Ui_MainWindow):
         self.login_window.show()
         self.close()
 
-    def QuayLaiPhieuXacNhan(self):
+    def return_PhieuXacNhan_window(self):
         """Quay lại giao diện Phiếu Xác Nhận"""
         from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhanExt import PhieuXacNhanExt  # Import muộn
 

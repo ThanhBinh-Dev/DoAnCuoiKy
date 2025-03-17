@@ -21,11 +21,11 @@ class loginExt(Ui_LoginMainWindow):
         # Kết nối sự kiện click
         self.pushButtonMatKhau.toggled.connect(self.togglePasswordVisibility)
         # Quay về giao diện ban đầu
-        self.pushButton_caution.clicked.connect(self.quaylai_biachinh)
+        self.pushButton_caution.clicked.connect(self.return_bia_window)
         # Kết nối giao diện laylaimatkhau
-        self.pushButtonQuenMatKhau.clicked.connect(self.hienthi_tracuu_matkhau)
+        self.pushButtonQuenMatKhau.clicked.connect(self.show_tracuumatkhau_window)
         # Xử lý đăng nhập, chuyển sang giao diện quản lý
-        self.pushButtonLogin.clicked.connect(self.xuly_dangnhap)
+        self.pushButtonLogin.clicked.connect(self.process_login)
 
     def togglePasswordVisibility(self, checked):
         """Hàm thay đổi kiểu hiển thị mật khẩu"""
@@ -37,7 +37,7 @@ class loginExt(Ui_LoginMainWindow):
     def showWindow(self):
         self.MainWindow.show()
 
-    def quaylai_biachinh(self):
+    def return_bia_window(self):
         from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt # Import tại đây
         self.MainWindow.close()  # Đóng cửa sổ chính
         mainwindow = QMainWindow()
@@ -46,7 +46,7 @@ class loginExt(Ui_LoginMainWindow):
         self.myui.showWindow()
 
     # Chuyển sang giao diện quản lý
-    def xuly_dangnhap(self):
+    def process_login(self):
         try:
             dc = DataConnector()
             username = self.lineEditTenDangNhap.text().strip()
@@ -77,7 +77,7 @@ class loginExt(Ui_LoginMainWindow):
             print(traceback.format_exc())  # In ra stack trace của lỗi
 
     # Chuyển sang giao diện tracuu_matkhau
-    def hienthi_tracuu_matkhau(self):
+    def show_tracuumatkhau_window(self):
         try:
             print("Bắt đầu mở giao diện lấy lại mật khẩu...")  # Debug log
             from DoAnCuoiKi.Ui.ui_DangNhap.tracuumatkhauExt import tracuumatkhauExt  # Import động
