@@ -185,35 +185,63 @@ class Ui_MainWindow(object):
         self.label_8.setObjectName("label_8")
         self.comboBox_DichVuKham = QtWidgets.QComboBox(parent=self.groupBox_6)
         self.comboBox_DichVuKham.setGeometry(QtCore.QRect(580, 190, 431, 41))
-        self.comboBox_DichVuKham.setStyleSheet("border-radius:15px;\n"
-"background-color: #fbf9f8;\n"
-"border:1px solid#00007f ;\n"
-"font: 13pt \"MS Shell Dlg 2\";\n"
-"padding-left: 20px; \n"
-"padding-right: 20px;\n"
-"qproperty-wordWrap: true;")
+        self.comboBox_DichVuKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
+"    background-color: #fbf9f8;\n"
+"    border:1px solid#00007f ;\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
+"    padding-left: 20px; \n"
+"    padding-right: 20px;\n"
+"    qproperty-wordWrap: true;\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    width: 20px; \n"
+"    border: none;\n"
+"}\n"
+"QComboBox::down-arrow {\n"
+"    width: 10px;\n"
+"    height: 10px;\n"
+"}")
+        self.comboBox_DichVuKham.setIconSize(QtCore.QSize(16, 16))
         self.comboBox_DichVuKham.setObjectName("comboBox_DichVuKham")
         self.comboBox_NgayKham = QtWidgets.QComboBox(parent=self.groupBox_6)
         self.comboBox_NgayKham.setGeometry(QtCore.QRect(60, 110, 431, 41))
-        self.comboBox_NgayKham.setStyleSheet("border-radius:15px;\n"
-"background-color: #fbf9f8;\n"
-"border:1px solid#00007f ;\n"
-"font: 13pt \"MS Shell Dlg 2\";\n"
-"padding-left: 20px; \n"
-"padding-right: 20px;\n"
-"qproperty-wordWrap: true;\n"
+        self.comboBox_NgayKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
+"    background-color: #fbf9f8;\n"
+"    border:1px solid#00007f ;\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
+"    padding-left: 20px; \n"
+"    padding-right: 20px;\n"
+"\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"\n"
 "\n"
 "")
+        self.comboBox_NgayKham.setEditable(False)
+        self.comboBox_NgayKham.setCurrentText("")
+        self.comboBox_NgayKham.setFrame(True)
         self.comboBox_NgayKham.setObjectName("comboBox_NgayKham")
         self.comboBox_GioKham = QtWidgets.QComboBox(parent=self.groupBox_6)
         self.comboBox_GioKham.setGeometry(QtCore.QRect(580, 110, 431, 41))
-        self.comboBox_GioKham.setStyleSheet("border-radius:15px;\n"
-"background-color: #fbf9f8;\n"
-"border:1px solid#00007f ;\n"
-"font: 13pt \"MS Shell Dlg 2\";\n"
-"padding-left: 20px; \n"
-"padding-right: 20px;\n"
-"qproperty-wordWrap: true;")
+        self.comboBox_GioKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
+"    background-color: #fbf9f8;\n"
+"    border:1px solid#00007f ;\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
+"    padding-left: 20px; \n"
+"    padding-right: 20px;\n"
+"\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"")
         self.comboBox_GioKham.setObjectName("comboBox_GioKham")
         self.label_2 = QtWidgets.QLabel(parent=self.groupBox_6)
         self.label_2.setGeometry(QtCore.QRect(910, 310, 311, 311))
@@ -340,6 +368,33 @@ class Ui_MainWindow(object):
 "background-color:None;\n"
 "color: rgb(255, 0, 4);")
         self.label_23.setObjectName("label_23")
+        self.label_22 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_22.setGeometry(QtCore.QRect(460, 120, 16, 21))
+        self.label_22.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_22.setText("")
+        self.label_22.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_22.setScaledContents(True)
+        self.label_22.setObjectName("label_22")
+        self.label_24 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_24.setGeometry(QtCore.QRect(980, 120, 16, 21))
+        self.label_24.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_24.setText("")
+        self.label_24.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_24.setScaledContents(True)
+        self.label_24.setObjectName("label_24")
+        self.label_25 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_25.setGeometry(QtCore.QRect(980, 200, 16, 21))
+        self.label_25.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_25.setText("")
+        self.label_25.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_25.setScaledContents(True)
+        self.label_25.setObjectName("label_25")
         self.label_8.raise_()
         self.lineEdit_DiaChi_2.raise_()
         self.lineEdit_HovaTen.raise_()
@@ -366,6 +421,9 @@ class Ui_MainWindow(object):
         self.label_20.raise_()
         self.label_21.raise_()
         self.label_23.raise_()
+        self.label_22.raise_()
+        self.label_24.raise_()
+        self.label_25.raise_()
         self.pushButton_DatHen = QtWidgets.QPushButton(parent=self.groupBox)
         self.pushButton_DatHen.setGeometry(QtCore.QRect(450, 600, 191, 51))
         self.pushButton_DatHen.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)

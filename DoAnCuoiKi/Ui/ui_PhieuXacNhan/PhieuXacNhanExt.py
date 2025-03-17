@@ -16,6 +16,7 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         self.load_customer_info()
         self.pushButtonThanhToan.clicked.connect(self.ThanhToan)
         self.pushButton_caution.clicked.connect(self.QuayLaiDatHen)
+        self.dat_hen_window = DatHenExt()  # Đảm bảo đối tượng được khởi tạo
 
         # Kiểm tra xem các thành phần giao diện có tồn tại không
         if hasattr(self, 'radioButtonKhamTaiGia') and hasattr(self, 'radioButtonPhongKham'):
@@ -192,9 +193,8 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         print("Thông tin khách hàng đã được lưu vào JSON.")
 
     def QuayLaiDatHen(self):
-        # Quay lại giao diện Đặt Hẹn
         self.dat_hen_window = DatHenExt()
-        self.dat_hen_window.show()
+        self.dat_hen_window.show()  # Không cần showWindow()
         self.close()
 
 
