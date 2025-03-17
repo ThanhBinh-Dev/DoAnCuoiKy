@@ -1,6 +1,9 @@
 [
     {
-        "dichvu": ""
+        "dichvu": " "
+    },
+    {
+        "dichvu": "Đăng ký nhiều dịch vụ "
     },
     {
         "dichvu": "Khám Tổng Quát"
@@ -34,8 +37,5 @@
     },
     {
         "dichvu": "Cấy ghép vi mạch nhận dạng"
-    },
-    {
-        "dichvu": "Đăng ký 2 dịch vụ - ghi ở Thông Tin Thêm"
     }
 ]

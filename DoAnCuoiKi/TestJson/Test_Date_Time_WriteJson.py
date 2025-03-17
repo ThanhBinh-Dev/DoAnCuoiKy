@@ -2,6 +2,8 @@ from DoAnCuoiKi.Library.JsonFileFactory import JsonFileFactory
 from DoAnCuoiKi.Model.Date_Time import Date_Time
 
 list_date_time=[]
+list_date_time.append(Date_Time(" "," ",0,0))
+
 list_date_time.append(Date_Time("01/04/2025","8:00 - 9:00",0,5))
 list_date_time.append(Date_Time("01/04/2025","9:00 - 10:00",2,5))
 list_date_time.append(Date_Time("01/04/2025","10:00 - 11:00",5,5))
@@ -84,5 +86,5 @@ list_date_time.append(Date_Time("10/04/2025","16:00 - 17:00",0,5))
 
 
 jff=JsonFileFactory()
-filename="../Dataset/Date_Time.json"
+filename= "../Dataset/Date_Time.json"
 jff.write_data(list_date_time,filename)

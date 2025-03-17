@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Đăng Nhập</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -47,9 +47,10 @@
     </property>
     <property name="styleSheet">
      <string notr="true">QLineEdit {
+	color: rgb(0, 0, 0);
     border: 2px;  
     border-radius: 25px;    
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 13pt &quot;Arial&quot;;
 	background-color: rgb(232, 231, 231);
     padding: 5px;
 	 padding-left: 60px;
@@ -74,15 +75,15 @@
     </property>
     <property name="styleSheet">
      <string notr="true">QLineEdit {
+	color: rgb(0, 0, 0);
     border: 2px;  
-    border-radius: 25px;        
-	font: 14pt &quot;Sitka Display&quot;;
+    border-radius: 25px;    
+	font: 13pt &quot;Arial&quot;;
 	background-color: rgb(232, 231, 231);
     padding: 5px;
- 	padding-left: 60px; 
-    padding-right: 60px;             
-}
-</string>
+	 padding-left: 60px;
+    padding-right: 60px;            
+}</string>
     </property>
     <property name="echoMode">
      <enum>QLineEdit::Password</enum>
@@ -282,25 +283,6 @@ color: rgb(0, 0, 0);
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="labelEyeHidden">
-    <property name="geometry">
-     <rect>
-      <x>960</x>
-      <y>296</y>
-      <width>21</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../Images/Images_DangNhap/ic_hidden.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton_caution">
     <property name="geometry">
      <rect>
@@ -335,6 +317,43 @@ QPushButton:pressed{background-color: rgb(193, 193, 193);}</string>
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButtonMatKhau">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>280</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px;  
+border-radius: 25px;    
+font: 14pt &quot;Sitka Display&quot;;
+background-color: rgb(232, 231, 231);
+}
+QPushButton:hover {
+	background-color: rgb(176, 176, 176);
+}
+
+QPushButton:pressed {
+    background-color: rgb(176, 176, 176); 
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Images/Images_DangNhap/ic_hidden.png</normaloff>
+      <normalon>../../Images/Images_DangNhap/ic_eye_open.png</normalon>../../Images/Images_DangNhap/ic_hidden.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -342,7 +361,7 @@ QPushButton:pressed{background-color: rgb(193, 193, 193);}</string>
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

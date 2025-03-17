@@ -1,7 +1,7 @@
 [
-        {
-        "ngaykham": "",
-        "giokham": "",
+    {
+        "ngaykham": " ",
+        "giokham": " ",
         "slot_moi": 0,
         "slot_gioihan": 0
     },
@@ -32,13 +32,13 @@
     {
         "ngaykham": "01/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 4,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 5,
+        "slot_moi": 4,
         "slot_gioihan": 5
     },
     {
@@ -80,7 +80,7 @@
     {
         "ngaykham": "02/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 5,
+        "slot_moi": 4,
         "slot_gioihan": 5
     },
     {
@@ -92,7 +92,7 @@
     {
         "ngaykham": "03/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -188,7 +188,7 @@
     {
         "ngaykham": "05/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -224,7 +224,7 @@
     {
         "ngaykham": "06/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {

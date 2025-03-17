@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Trang Chủ</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -136,7 +136,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 15pt &quot;Bahnschrift SemiLight SemiConde&quot;;
+     <string notr="true">
+font: 15pt &quot;Bahnschrift SemiLight SemiConde&quot;;
 color: rgb(115, 115, 115);
 </string>
     </property>
