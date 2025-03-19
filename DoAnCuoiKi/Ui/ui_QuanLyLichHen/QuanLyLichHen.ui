@@ -470,7 +470,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="pushButtonTimKiem">
       <property name="geometry">
        <rect>
-        <x>940</x>
+        <x>950</x>
         <y>10</y>
         <width>31</width>
         <height>31</height>
@@ -723,7 +723,7 @@ QPushButton:pressed {
      <widget class="QPushButton" name="pushButtonTimKiem_2">
       <property name="geometry">
        <rect>
-        <x>910</x>
+        <x>920</x>
         <y>10</y>
         <width>31</width>
         <height>31</height>

@@ -255,7 +255,7 @@ class Ui_MainWindow(object):
 "}")
         self.lineEditTimKiem.setObjectName("lineEditTimKiem")
         self.pushButtonTimKiem = QtWidgets.QPushButton(parent=self.tabLichHen)
-        self.pushButtonTimKiem.setGeometry(QtCore.QRect(940, 10, 31, 31))
+        self.pushButtonTimKiem.setGeometry(QtCore.QRect(950, 10, 31, 31))
         self.pushButtonTimKiem.setStyleSheet("QPushButton {\n"
 "    border-radius: 15px;                     \n"
 "    padding: 5px 10px;        \n"
@@ -394,7 +394,7 @@ class Ui_MainWindow(object):
 "}")
         self.lineEditTimKiem_2.setObjectName("lineEditTimKiem_2")
         self.pushButtonTimKiem_2 = QtWidgets.QPushButton(parent=self.tabDaKham)
-        self.pushButtonTimKiem_2.setGeometry(QtCore.QRect(910, 10, 31, 31))
+        self.pushButtonTimKiem_2.setGeometry(QtCore.QRect(920, 10, 31, 31))
         self.pushButtonTimKiem_2.setStyleSheet("QPushButton {\n"
 "    border-radius: 15px;                     \n"
 "    padding: 5px 10px;        \n"

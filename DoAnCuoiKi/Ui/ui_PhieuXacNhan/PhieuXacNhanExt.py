@@ -2,10 +2,9 @@ import json
 
 from PyQt6 import QtWidgets
 from PyQt6.QtWidgets import QMessageBox
-
-from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_PhieuXacNhan.PhieuXacNhan import Ui_MainWindow
 from DoAnCuoiKi.Ui.ui_Qr.qrExt import QrExt
+from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 
 
 class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -16,7 +15,6 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         self.load_customer_info()
         self.pushButtonThanhToan.clicked.connect(self.ThanhToan)
         self.pushButton_caution.clicked.connect(self.QuayLaiDatHen)
-        self.dat_hen_window = DatHenExt()  # Đảm bảo đối tượng được khởi tạo
 
         # Kiểm tra xem các thành phần giao diện có tồn tại không
         if hasattr(self, 'radioButtonKhamTaiGia') and hasattr(self, 'radioButtonPhongKham'):
@@ -28,6 +26,12 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         if hasattr(self, 'checkBox_A') and hasattr(self, 'checkBox_B'):
             self.checkBox_A.toggled.connect(lambda: self.toggle_checkbox(self.checkBox_A, self.checkBox_B))
             self.checkBox_B.toggled.connect(lambda: self.toggle_checkbox(self.checkBox_B, self.checkBox_A))
+
+            # Nếu A đã được chọn từ trước, vô hiệu hóa B
+            if self.checkBox_A.isChecked():
+                self.checkBox_B.setCheckable(False)
+            if self.checkBox_B.isChecked():
+                self.checkBox_A.setCheckable(False)
 
         if hasattr(self, 'lineEditHovaTen'):
             self.lineEditHovaTen.textChanged.connect(self.prevent_changes)
@@ -62,12 +66,12 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
 
         self.lineEditHovaTen.setText(customer.get("hovaten", ""))
         self.lineEditSoDienThoai.setText(customer.get("sdt", ""))
-        self.lineEditDiachi.setText(customer.get("noikham", ""))
+        self.lineEditDiachi.setText(customer.get("diachi", ""))
         self.lineEditNgayKham.setText(customer.get("ngaykham", ""))
         self.lineEditGio.setText(customer.get("giokham", ""))
         self.lineEditDichVuKham.setText(customer.get("dichvu", ""))
 
-        if customer.get("diachi") == "Khám Tại Gia":
+        if customer.get("noikham") == "Khám Tại Gia":
             self.radioButtonKhamTaiGia.setChecked(True)
             self.radioButtonPhongKham.setCheckable(False)
         else:
@@ -145,20 +149,13 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
             other_button.setCheckable(True)
 
     def toggle_checkbox(self, checked_box, other_box):
-        if self.current_customer:
-            if self.current_customer.get('checked_A', False):
-                self.checkBox_A.setChecked(True)
-                self.checkBox_B.setCheckable(False)
-            elif self.current_customer.get('checked_B', False):
-                self.checkBox_B.setChecked(True)
-                self.checkBox_A.setCheckable(False)
-            else:
-                if checked_box.isChecked():
-                    other_box.setCheckable(False)
-                else:
-                    other_box.setCheckable(True)
+        """Vô hiệu hóa checkbox còn lại khi một checkbox được chọn"""
+        if checked_box.isChecked():
+            other_box.setCheckable(False)
+        else:
+            other_box.setCheckable(True)
 
-    def payment(self):
+    def ThanhToan(self):
         self.qr_window = QrExt()  # Khởi tạo cửa sổ QR đúng cách
         self.qr_window.show()
         self.close()  # Đóng giao diện hiện tại
@@ -192,9 +189,10 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
 
         print("Thông tin khách hàng đã được lưu vào JSON.")
 
-    def return_DatHen_window(self):
+    def QuayLaiDatHen(self):
+        # Quay lại giao diện Đặt Hẹn
         self.dat_hen_window = DatHenExt()
-        self.dat_hen_window.show()  # Không cần showWindow()
+        self.dat_hen_window.show()
         self.close()
 
 

@@ -17,7 +17,7 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, -10, 550, 711))
-        self.label.setStyleSheet("background-color: rgb(229, 243, 254);")
+        self.label.setStyleSheet("background-color: rgb(0, 0, 127);")
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DangNhap\\../../Images/Images_DangNhap/nen_lay_mk.jpg"))
         self.label.setScaledContents(True)
@@ -26,6 +26,7 @@ class Ui_MainWindow(object):
         self.groupBox.setGeometry(QtCore.QRect(50, 180, 451, 171))
         self.groupBox.setStyleSheet("font: 75 16pt \"Sitka Display\";\n"
 "color: rgb(0, 9, 87);\n"
+"border: None;\n"
 "\n"
 "")
         self.groupBox.setObjectName("groupBox")
@@ -82,6 +83,7 @@ class Ui_MainWindow(object):
         self.groupBox_2.setGeometry(QtCore.QRect(50, 360, 451, 181))
         self.groupBox_2.setStyleSheet("font: 75 16pt \"Sitka Display\";\n"
 "color: rgb(0, 9, 87);\n"
+"border: None;\n"
 "\n"
 "")
         self.groupBox_2.setObjectName("groupBox_2")
@@ -110,12 +112,12 @@ class Ui_MainWindow(object):
         self.lineEditMatKhau.setReadOnly(True)
         self.lineEditMatKhau.setObjectName("lineEditMatKhau")
         self.pushButtonExit = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonExit.setGeometry(QtCore.QRect(250, 560, 101, 41))
+        self.pushButtonExit.setGeometry(QtCore.QRect(220, 550, 101, 41))
         self.pushButtonExit.setStyleSheet("QPushButton {\n"
 "    \n"
-"    background-color: rgb(255, 82, 48);\n"
+"    background-color: #00007f;\n"
 "    border-radius: 15px;       \n"
-"    color: black;               \n"
+"    color: white;               \n"
 "    padding: 5px 10px;        \n"
 "    font: 14pt \"Sitka Display\";\n"
 "}\n"
@@ -142,6 +144,7 @@ class Ui_MainWindow(object):
         self.lineEditSearch.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))
         self.lineEditSearch.setPlaceholderText(_translate("MainWindow", "Nhập số điện thoại "))
         self.pushButtonSearch.setText(_translate("MainWindow", "Tìm kiếm"))
+        self.pushButtonSearch.setShortcut(_translate("MainWindow", "Return"))
         self.pushButtonCancel.setText(_translate("MainWindow", "Hủy bỏ"))
         self.groupBox_2.setToolTip(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600;\">vvffgfhfh</span></p></body></html>"))
         self.groupBox_2.setTitle(_translate("MainWindow", "Kết Quả:"))

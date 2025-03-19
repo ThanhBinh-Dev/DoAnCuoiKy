@@ -260,7 +260,7 @@ border: None;</string>
        <widget class="QRadioButton" name="radioButton_PhongKham">
         <property name="geometry">
          <rect>
-          <x>90</x>
+          <x>110</x>
           <y>190</y>
           <width>141</width>
           <height>41</height>
@@ -565,58 +565,6 @@ background-color:None;</string>
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Dịch vụ khám: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
-       <widget class="QLineEdit" name="lineEdit_DiaChi_2">
-        <property name="geometry">
-         <rect>
-          <x>60</x>
-          <y>190</y>
-          <width>431</width>
-          <height>41</height>
-         </rect>
-        </property>
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="tabletTracking">
-         <bool>false</bool>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QLineEdit {
-    border:1px solid#00007f ;
-	color: rgb(0, 0, 127);
-    border-radius: 15px;        
-	font: 13pt &quot;MS Shell Dlg 2&quot;;
-	background-color: #fbf9f8; 	
-	padding-left: 20px; 
-    padding-right: 20px;
-	qproperty-wordWrap: true;        
-}
-
-
-</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="cursorPosition">
-         <number>0</number>
-        </property>
-        <property name="dragEnabled">
-         <bool>false</bool>
-        </property>
-        <property name="readOnly">
-         <bool>true</bool>
-        </property>
-        <property name="placeholderText">
-         <string/>
-        </property>
-        <property name="clearButtonEnabled">
-         <bool>false</bool>
-        </property>
-       </widget>
        <widget class="QLabel" name="label_16">
         <property name="geometry">
          <rect>
@@ -750,7 +698,6 @@ color: rgb(255, 0, 4);</string>
         </property>
        </widget>
        <zorder>label_8</zorder>
-       <zorder>lineEdit_DiaChi_2</zorder>
        <zorder>lineEdit_HovaTen</zorder>
        <zorder>lineEdit_SDT</zorder>
        <zorder>lineEdit_DiaChi</zorder>

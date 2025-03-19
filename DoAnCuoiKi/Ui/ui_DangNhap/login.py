@@ -8,6 +8,7 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -181,6 +182,7 @@ class Ui_MainWindow(object):
         self.lineEditMatKhau.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))
         self.lineEditMatKhau.setPlaceholderText(_translate("MainWindow", "Nhập mật khẩu"))
         self.pushButtonLogin.setText(_translate("MainWindow", "Đăng nhập"))
+        self.pushButtonLogin.setShortcut(_translate("MainWindow", "Return"))
         self.pushButtonQuenMatKhau.setText(_translate("MainWindow", "Quên mật khẩu?"))
         self.label_2.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:12pt; font-weight:600;\">NỀN TẢNG QUẢN LÝ LỊCH HẸN CỦA PHÒNG KHÁM </span></p><p><span style=\" font-size:12pt; font-weight:600;\">THÚ Y DR. PET\'S HOUSE :</span></p><p><span style=\" font-size:12pt;\"><br/>1. Đăng nhập để </span><span style=\" font-size:12pt; font-weight:600;\">đặt lịch hẹn</span><span style=\" font-size:12pt;\"> nhanh chóng cho thú cưng.</span></p><p><span style=\" font-size:12pt;\">2. </span><span style=\" font-size:12pt; font-weight:600;\">Xem lịch sử khám</span><span style=\" font-size:12pt;\"> để theo dõi tình trạng sức khỏe</span></p><p><span style=\" font-size:12pt;\">3. </span><span style=\" font-size:12pt; font-weight:600;\">Điều chỉnh thông tin lịch hẹn</span><span style=\" font-size:12pt;\"> dễ dàng.</span></p></body></html>"))
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-weight:600;\">Thông tin tài khoản đăng nhập quý khách vui </span></p><p><span style=\" font-weight:600;\">lòng xem trong phiếu xác nhận đặt lịch hẹn!</span></p></body></html>"))
