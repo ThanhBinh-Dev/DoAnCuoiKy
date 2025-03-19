@@ -139,7 +139,7 @@ class Ui_MainWindow(object):
         self.lineEdit_DiaChi.setClearButtonEnabled(False)
         self.lineEdit_DiaChi.setObjectName("lineEdit_DiaChi")
         self.radioButton_PhongKham = QtWidgets.QRadioButton(parent=self.groupBox_6)
-        self.radioButton_PhongKham.setGeometry(QtCore.QRect(90, 190, 141, 41))
+        self.radioButton_PhongKham.setGeometry(QtCore.QRect(110, 190, 141, 41))
         self.radioButton_PhongKham.setStyleSheet("background-color: None;\n"
 "font: 14pt \"MS Shell Dlg 2\";\n"
 "qproperty-wordWrap: true;\n"
@@ -185,35 +185,60 @@ class Ui_MainWindow(object):
         self.label_8.setObjectName("label_8")
         self.comboBox_DichVuKham = QtWidgets.QComboBox(parent=self.groupBox_6)
         self.comboBox_DichVuKham.setGeometry(QtCore.QRect(580, 190, 431, 41))
-        self.comboBox_DichVuKham.setStyleSheet("border-radius:15px;\n"
-"background-color: #fbf9f8;\n"
-"border:1px solid#00007f ;\n"
-"font: 13pt \"MS Shell Dlg 2\";\n"
-"padding-left: 20px; \n"
-"padding-right: 20px;\n"
-"qproperty-wordWrap: true;")
-        self.comboBox_DichVuKham.setObjectName("comboBox_DichVuKham")
-        self.comboBox_NgayKham = QtWidgets.QComboBox(parent=self.groupBox_6)
-        self.comboBox_NgayKham.setGeometry(QtCore.QRect(60, 110, 431, 41))
-        self.comboBox_NgayKham.setStyleSheet("border-radius:15px;\n"
+        self.comboBox_DichVuKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
 "background-color: #fbf9f8;\n"
 "border:1px solid#00007f ;\n"
 "font: 13pt \"MS Shell Dlg 2\";\n"
 "padding-left: 20px; \n"
 "padding-right: 20px;\n"
 "qproperty-wordWrap: true;\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    width: 20px; /* Giảm độ rộng của phần dropdown */\n"
+"    border: none;\n"
+"}\n"
+"\n"
 "\n"
 "")
-        self.comboBox_NgayKham.setObjectName("comboBox_NgayKham")
-        self.comboBox_GioKham = QtWidgets.QComboBox(parent=self.groupBox_6)
-        self.comboBox_GioKham.setGeometry(QtCore.QRect(580, 110, 431, 41))
-        self.comboBox_GioKham.setStyleSheet("border-radius:15px;\n"
+        self.comboBox_DichVuKham.setObjectName("comboBox_DichVuKham")
+        self.comboBox_NgayKham = QtWidgets.QComboBox(parent=self.groupBox_6)
+        self.comboBox_NgayKham.setGeometry(QtCore.QRect(60, 110, 431, 41))
+        self.comboBox_NgayKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
 "background-color: #fbf9f8;\n"
 "border:1px solid#00007f ;\n"
 "font: 13pt \"MS Shell Dlg 2\";\n"
 "padding-left: 20px; \n"
 "padding-right: 20px;\n"
-"qproperty-wordWrap: true;")
+"qproperty-wordWrap: true;\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    width: 20px; /* Giảm độ rộng của phần dropdown */\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"\n"
+"")
+        self.comboBox_NgayKham.setObjectName("comboBox_NgayKham")
+        self.comboBox_GioKham = QtWidgets.QComboBox(parent=self.groupBox_6)
+        self.comboBox_GioKham.setGeometry(QtCore.QRect(580, 110, 431, 41))
+        self.comboBox_GioKham.setStyleSheet("QComboBox {\n"
+"    border-radius:15px;\n"
+"background-color: #fbf9f8;\n"
+"border:1px solid#00007f ;\n"
+"font: 13pt \"MS Shell Dlg 2\";\n"
+"padding-left: 20px; \n"
+"padding-right: 20px;\n"
+"qproperty-wordWrap: true;\n"
+"}\n"
+"QComboBox::drop-down {\n"
+"    width: 20px; /* Giảm độ rộng của phần dropdown */\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"\n"
+"")
         self.comboBox_GioKham.setObjectName("comboBox_GioKham")
         self.label_2 = QtWidgets.QLabel(parent=self.groupBox_6)
         self.label_2.setGeometry(QtCore.QRect(910, 310, 311, 311))
@@ -264,34 +289,6 @@ class Ui_MainWindow(object):
 "font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color:None;")
         self.label_15.setObjectName("label_15")
-        self.lineEdit_DiaChi_2 = QtWidgets.QLineEdit(parent=self.groupBox_6)
-        self.lineEdit_DiaChi_2.setGeometry(QtCore.QRect(60, 190, 431, 41))
-        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.MinimumExpanding, QtWidgets.QSizePolicy.Policy.Fixed)
-        sizePolicy.setHorizontalStretch(0)
-        sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.lineEdit_DiaChi_2.sizePolicy().hasHeightForWidth())
-        self.lineEdit_DiaChi_2.setSizePolicy(sizePolicy)
-        self.lineEdit_DiaChi_2.setTabletTracking(False)
-        self.lineEdit_DiaChi_2.setStyleSheet("QLineEdit {\n"
-"    border:1px solid#00007f ;\n"
-"    color: rgb(0, 0, 127);\n"
-"    border-radius: 15px;        \n"
-"    font: 13pt \"MS Shell Dlg 2\";\n"
-"    background-color: #fbf9f8;     \n"
-"    padding-left: 20px; \n"
-"    padding-right: 20px;\n"
-"    qproperty-wordWrap: true;        \n"
-"}\n"
-"\n"
-"\n"
-"")
-        self.lineEdit_DiaChi_2.setText("")
-        self.lineEdit_DiaChi_2.setCursorPosition(0)
-        self.lineEdit_DiaChi_2.setDragEnabled(False)
-        self.lineEdit_DiaChi_2.setReadOnly(True)
-        self.lineEdit_DiaChi_2.setPlaceholderText("")
-        self.lineEdit_DiaChi_2.setClearButtonEnabled(False)
-        self.lineEdit_DiaChi_2.setObjectName("lineEdit_DiaChi_2")
         self.label_16 = QtWidgets.QLabel(parent=self.groupBox_6)
         self.label_16.setGeometry(QtCore.QRect(590, 230, 181, 51))
         self.label_16.setStyleSheet("qproperty-wordWrap: true;\n"
@@ -340,8 +337,34 @@ class Ui_MainWindow(object):
 "background-color:None;\n"
 "color: rgb(255, 0, 4);")
         self.label_23.setObjectName("label_23")
+        self.label_22 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_22.setGeometry(QtCore.QRect(460, 120, 20, 20))
+        self.label_22.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_22.setText("")
+        self.label_22.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_22.setScaledContents(True)
+        self.label_22.setObjectName("label_22")
+        self.label_24 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_24.setGeometry(QtCore.QRect(980, 200, 20, 20))
+        self.label_24.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_24.setText("")
+        self.label_24.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_24.setScaledContents(True)
+        self.label_24.setObjectName("label_24")
+        self.label_25 = QtWidgets.QLabel(parent=self.groupBox_6)
+        self.label_25.setGeometry(QtCore.QRect(980, 120, 20, 20))
+        self.label_25.setStyleSheet("qproperty-wordWrap: true;\n"
+"font: 16pt \"MS Shell Dlg 2\";\n"
+"background-color:None;")
+        self.label_25.setText("")
+        self.label_25.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_25.setScaledContents(True)
+        self.label_25.setObjectName("label_25")
         self.label_8.raise_()
-        self.lineEdit_DiaChi_2.raise_()
         self.lineEdit_HovaTen.raise_()
         self.lineEdit_SDT.raise_()
         self.lineEdit_DiaChi.raise_()
@@ -366,8 +389,11 @@ class Ui_MainWindow(object):
         self.label_20.raise_()
         self.label_21.raise_()
         self.label_23.raise_()
+        self.label_22.raise_()
+        self.label_24.raise_()
+        self.label_25.raise_()
         self.pushButton_DatHen = QtWidgets.QPushButton(parent=self.groupBox)
-        self.pushButton_DatHen.setGeometry(QtCore.QRect(450, 600, 191, 51))
+        self.pushButton_DatHen.setGeometry(QtCore.QRect(440, 600, 191, 51))
         self.pushButton_DatHen.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.pushButton_DatHen.setStyleSheet("QPushButton {background-color: rgb(250, 227, 140);\n"
 "font:  20pt \"Sitka Display Semibold\";\n"
@@ -387,16 +413,16 @@ class Ui_MainWindow(object):
         self.pushButton_DatHen.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_DatHen.setObjectName("pushButton_DatHen")
         self.pushButton_2 = QtWidgets.QPushButton(parent=self.groupBox)
-        self.pushButton_2.setGeometry(QtCore.QRect(50, 180, 201, 41))
+        self.pushButton_2.setGeometry(QtCore.QRect(40, 180, 201, 41))
         self.pushButton_2.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.pushButton_2.setStyleSheet("QPushButton {\n"
-"background-color: rgb(3, 175, 88);\n"
+"    background-color: rgb(3, 175, 88);\n"
 "    font: 14pt \"MS Shell Dlg 2\";\n"
-"border-radius:20px;\n"
-"border: None;\n"
-"color: #ffffff;\n"
-"font-weight:bold;\n"
-"padding2px;\n"
+"    border-radius:20px;\n"
+"    border: None;\n"
+"    color: #ffffff;\n"
+"    font-weight:bold;\n"
+"    padding2px;\n"
 "}\n"
 "QPushButton:pressed {\n"
 "    background-color: rgb(19, 186, 30);\n"

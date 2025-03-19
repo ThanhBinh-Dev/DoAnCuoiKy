@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e344a0f-13f8-4bd6-9b18-8d3ce4ea7a55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/login.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/login.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/tracuumatkhau.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/tracuumatkhau.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/tracuumatkhau.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DangNhap/tracuumatkhau.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DatHen/DatHen.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DatHen/DatHen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DatHen/DatHen.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_DatHen/DatHen.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_QuanLyKhachHang/QLKH.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_QuanLyKhachHang/QLKH.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_QuanLyLichHen/QuanLyLichHen.ui" beforeDir="false" afterPath="$PROJECT_DIR$/DoAnCuoiKi/Ui/ui_QuanLyLichHen/QuanLyLichHen.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +27,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Test_BiaChinh.executor": "Run",
-    "Python.loginExt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "ThanhBinh-Dev-Develop",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Test_BiaChinh.executor&quot;: &quot;Run&quot;,
+    &quot;Python.loginExt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ThanhBinh-Dev-Develop&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Test_BiaChinh">
     <configuration name="Test_BiaChinh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DoAnCuoiKy" />
