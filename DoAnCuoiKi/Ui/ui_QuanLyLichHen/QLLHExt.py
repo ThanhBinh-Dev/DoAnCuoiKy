@@ -9,5 +9,8 @@ class QLLHExt(Ui_MainWindow):
         self.MainWindow=MainWindow
         self.tableWidgetThongTinLH.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
         self.tableWidgetThongTinDK.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.actionQuayLai.triggered.connect(lambda: self.stackedWidget.setCurrentIndex(0))
+        self.actionThongKe.triggered.connect(lambda: self.stackedWidget.setCurrentIndex(1))
+
     def showWindow(self):
         self.MainWindow.show()
