@@ -12,8 +12,8 @@ class DatHenExt(QMainWindow,Ui_MainWindow):
         super().__init__()
         self.dc = DataConnector()
         self.list_times = self.dc.get_all_date_time()
-        self.list_dates = self.list_times
-        self.list_serviecs = self.dc.get_all_servieces()
+        self.list_dates = self.list_times  # Đảm bảo list_dates có giá trị trước setupUi()
+        self.list_services = self.dc.get_all_services()
         self.info_customer = self.dc.get_all_customer()
         self.ho_ten = ho_ten
         self.sdt = sdt
@@ -25,13 +25,13 @@ class DatHenExt(QMainWindow,Ui_MainWindow):
         self.lineEdit_SDT.setText(self.sdt)
         self.lineEdit_HovaTen.setText(self.ho_ten)
         self.show_times_dates()
-        self.show_serviecs()
+        self.show_services()
         self.setupSignalAndSlot()
     def showWindow(self):
         self.MainWindow.show()
     def setupSignalAndSlot(self):
-        self.pushButton_DatHen.clicked.connect(self.XuLyDatHen)
-        self.pushButton_caution.clicked.connect(self.Back)
+        self.pushButton_DatHen.clicked.connect(self.process_appointment)
+        self.pushButton_caution.clicked.connect(self.back)
     def show_times_dates(self):
         self.comboBox_NgayKham.clear()
         available_dates = [dt.ngaykham for dt in self.list_dates]
@@ -46,11 +46,11 @@ class DatHenExt(QMainWindow,Ui_MainWindow):
         self.comboBox_GioKham.clear()
         available_times = [dt.giokham for dt in self.list_times if (dt.slot_moi < dt.slot_gioihan) and (dt.ngaykham==selected_date)]
         self.comboBox_GioKham.addItems(available_times)
-    def show_serviecs(self):
+    def show_services(self):
         self.comboBox_DichVuKham.clear()
-        for dichvu in self.list_serviecs:
+        for dichvu in self.list_services:
             self.comboBox_DichVuKham.addItem(dichvu.dichvu)
-    def XuLyDatHen(self):
+    def process_appointment(self):
         # Ghi File
         hovaten=self.lineEdit_HovaTen.text().strip()
         sdt=self.lineEdit_SDT.text().strip()
@@ -104,7 +104,7 @@ class DatHenExt(QMainWindow,Ui_MainWindow):
         self.phieu_xac_nhan_window = PhieuXacNhanExt()
         self.phieu_xac_nhan_window.show()
         self.MainWindow.close()# Đóng giao diện đặt hẹn trước khi mở giao diện mới
-    def Back(self):
+    def back(self):
         self.MainWindow.close()
         self.mainwindow = QMainWindow()
         self.myui = biaExt()

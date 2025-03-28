@@ -20,11 +20,11 @@ class loginExt(Ui_MainWindow):
         # Kết nối sự kiện click
         self.pushButtonMatKhau.toggled.connect(self.togglePasswordVisibility)
         # Quay về giao diện ban đầu
-        self.pushButton_caution.clicked.connect(self.quaylai_biachinh)
+        self.pushButton_caution.clicked.connect(self.return_bia_window)
         # Kết nối giao diện laylaimatkhau
         self.pushButtonQuenMatKhau.clicked.connect(self.hienthi_tracuu_matkhau)
         # Xử lý đăng nhập, chuyển sang giao diện quản lý
-        self.pushButtonLogin.clicked.connect(self.xuly_dangnhap)
+        self.pushButtonLogin.clicked.connect(self.process_login)
 
     def togglePasswordVisibility(self, checked):
         """Hàm thay đổi kiểu hiển thị mật khẩu"""
@@ -36,7 +36,7 @@ class loginExt(Ui_MainWindow):
     def showWindow(self):
         self.MainWindow.show()
 
-    def quaylai_biachinh(self):
+    def return_bia_window(self):
         from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt # Import tại đây
         self.MainWindow.close()  # Đóng cửa sổ chính
         mainwindow = QMainWindow()
@@ -45,7 +45,7 @@ class loginExt(Ui_MainWindow):
         self.myui.showWindow()
 
     # Chuyển sang giao diện quản lý
-    def xuly_dangnhap(self):
+    def process_login(self):
         try:
             dc = DataConnector()
             username = self.lineEditTenDangNhap.text().strip()

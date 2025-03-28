@@ -18,7 +18,7 @@ class QLKHExt(Ui_MainWindow):
     def __init__(self,sdt="None"):
         self.dckh = DataConnector_QLKH()
         self.dc=DataConnector()
-        self.list_serviecs=self.dc.get_all_servieces()
+        self.list_services=self.dc.get_all_services()
         self.list_info=[]
         self.info_customer=self.dckh.get_info_customer()
         self.jff = JsonFileFactory()
@@ -141,7 +141,7 @@ class QLKHExt(Ui_MainWindow):
 
     def show_info_combobox(self):
         self.comboBox_DichVu.clear()
-        for dichvu in self.list_serviecs:
+        for dichvu in self.list_services:
             self.comboBox_DichVu.addItem(dichvu.dichvu)
 
     def show_details(self, info):
@@ -273,6 +273,4 @@ class QLKHExt(Ui_MainWindow):
     def reload(self):
         self.show_info_gui()
 
-# Chưa có hướng dẫn sử dụng
-# Nhấn vào đặt hẹn truyền thông tin tên đăng nhập và số điện thoại khi khách hàng
 
