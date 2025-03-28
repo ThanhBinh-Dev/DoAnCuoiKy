@@ -88,18 +88,18 @@ border: 0.5px solid black;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
-border: 0px white;</string>
+border: 0px;</string>
        </property>
        <property name="text">
         <string>Khách Hàng:</string>
@@ -147,15 +147,15 @@ border: 0px white;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
 border: 0px;</string>
@@ -175,15 +175,15 @@ border: 0px;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
 border: 0px;</string>
@@ -203,15 +203,15 @@ border: 0px;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
 border: 0px;</string>
@@ -419,10 +419,10 @@ border: 0.5px solid black;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    background: transparent; /* Nền trong suốt */</string>
+border-radius:0px;
+border: 0px;</string>
        </property>
        <property name="text">
         <string>Đã Xác Nhận</string>
@@ -433,16 +433,16 @@ border: none; /* Xóa viền */
         <rect>
          <x>20</x>
          <y>50</y>
-         <width>171</width>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
-color: rgb(255, 64, 64);
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    background: transparent; /* Nền trong suốt */</string>
+border-radius:0px;
+border: 0px;
+</string>
        </property>
        <property name="text">
         <string>Chưa Xác Nhận</string>
@@ -453,15 +453,15 @@ border: none; /* Xóa viền */
         <rect>
          <x>20</x>
          <y>90</y>
-         <width>181</width>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    background: transparent; /* Nền trong suốt */</string>
+border-radius:0px;
+border: 0px;</string>
        </property>
        <property name="text">
         <string>Đã Khám</string>
@@ -515,10 +515,11 @@ border: 0.5px solid black;</string>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    background: transparent; /* Nền trong suốt */</string>
+border-radius:0px;
+border: 0px;
+</string>
        </property>
        <property name="text">
         <string>Khám Tại Gia</string>
@@ -529,16 +530,15 @@ border: none; /* Xóa viền */
         <rect>
          <x>20</x>
          <y>50</y>
-         <width>171</width>
+         <width>161</width>
          <height>31</height>
         </rect>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
-color: rgb(255, 64, 64);
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
-border: none; /* Xóa viền */
-    background: transparent; /* Nền trong suốt */</string>
+border-radius:0px;
+border: 0px;</string>
        </property>
        <property name="text">
         <string>Phòng Khám</string>
@@ -593,18 +593,19 @@ border: 0.5px solid black;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
-border: 0px white;</string>
+border: 0px;
+</string>
        </property>
        <property name="text">
         <string>Dịch Vụ:</string>
@@ -614,25 +615,26 @@ border: 0px white;</string>
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>100</y>
+         <y>90</y>
          <width>111</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
-border: 0px;</string>
+border: 0px;
+</string>
        </property>
        <property name="text">
         <string>Thông Tin:</string>
@@ -642,7 +644,7 @@ border: 0px;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>90</y>
+         <y>80</y>
          <width>251</width>
          <height>31</height>
         </rect>
@@ -668,13 +670,16 @@ border: 0px;</string>
 
 }</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
       </widget>
       <widget class="QComboBox" name="comboBoxDichVu">
        <property name="geometry">
         <rect>
          <x>130</x>
          <y>10</y>
-         <width>261</width>
+         <width>251</width>
          <height>22</height>
         </rect>
        </property>
@@ -718,27 +723,30 @@ border: 0px;</string>
 
 }</string>
        </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
       </widget>
       <widget class="QLabel" name="label_17">
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>60</y>
+         <y>50</y>
          <width>101</width>
-         <height>21</height>
+         <height>31</height>
         </rect>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
 border: 0px;</string>
@@ -796,52 +804,21 @@ border: 0.5px solid black;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
-         <italic>false</italic>
-         <bold>false</bold>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
-color: rgb(0, 0, 0);
-border-radius:0px;
-border: 0px white;</string>
-       </property>
-       <property name="text">
-        <string>Bác sĩ:</string>
-       </property>
-      </widget>
-      <widget class="QLineEdit" name="lineEditBacSi">
-       <property name="geometry">
-        <rect>
-         <x>130</x>
-         <y>0</y>
-         <width>251</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
          <family>MS Shell Dlg 2</family>
-         <pointsize>12</pointsize>
+         <pointsize>13</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">
-    QLineEdit {
-        border: none;
-        border-bottom: 1px solid black;
-	
-		font: 12pt &quot;MS Shell Dlg 2&quot;;
-        background: transparent;
-        border-radius: 0px;
-
-}</string>
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+border-radius:0px;
+border: 0px;</string>
+       </property>
+       <property name="text">
+        <string>Bác sĩ:</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_20">
@@ -855,24 +832,25 @@ border: 0px white;</string>
        </property>
        <property name="font">
         <font>
-         <family>Sitka Display</family>
-         <pointsize>14</pointsize>
-         <weight>9</weight>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>13</pointsize>
+         <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
         </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">font: 75 14pt &quot;Sitka Display&quot;;
+        <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 border-radius:0px;
-border: 0px;</string>
+border: 0px;
+</string>
        </property>
        <property name="text">
         <string>Số Điện Thoại:</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEditSoDienThoaiBS">
+      <widget class="QLineEdit" name="lineEditsdtbacsi">
        <property name="geometry">
         <rect>
          <x>130</x>
@@ -900,6 +878,28 @@ border: 0px;</string>
         background: transparent;
         border-radius: 0px;
 
+}</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxBacSi">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>261</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QComboBox {
+    border: none;
+    border-bottom: 1px solid black; 
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+    background: transparent;
+	border-radius: 0px;
 }</string>
        </property>
       </widget>
@@ -930,7 +930,7 @@ border: 0px;</string>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(255, 255, 255);
-font: 75 14pt &quot;Sitka Display&quot;;
+font: 13pt &quot;MS Shell Dlg 2&quot;;
 color: rgb(0, 0, 0);
 </string>
       </property>
@@ -955,7 +955,7 @@ color: rgb(0, 0, 0);
       <property name="tabBarAutoHide">
        <bool>false</bool>
       </property>
-      <widget class="QWidget" name="tabWidgetThongTinLH">
+      <widget class="QWidget" name="tabLichHen">
        <attribute name="icon">
         <iconset>
          <normaloff>../../../../../ADMIN/Images/Images_QLLH/hen.ico</normaloff>../../../../../ADMIN/Images/Images_QLLH/hen.ico</iconset>
@@ -973,7 +973,7 @@ color: rgb(0, 0, 0);
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">font: 75 10pt &quot;Sitka Display&quot;;
+         <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);</string>
         </property>
@@ -1004,6 +1004,18 @@ color: rgb(0, 0, 0);</string>
         </row>
         <column>
          <property name="text">
+          <string>Mã đơn </string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
+        <column>
+         <property name="text">
           <string>Họ &amp; Tên</string>
          </property>
          <property name="font">
@@ -1016,7 +1028,7 @@ color: rgb(0, 0, 0);</string>
         </column>
         <column>
          <property name="text">
-          <string>Số Điện Thoại</string>
+          <string>Mã </string>
          </property>
          <property name="font">
           <font>
@@ -1335,7 +1347,7 @@ QPushButton:hover {
         </property>
        </widget>
       </widget>
-      <widget class="QWidget" name="tabWidgetThongTinDK">
+      <widget class="QWidget" name="tabDK">
        <attribute name="icon">
         <iconset>
          <normaloff>../../../../../ADMIN/Images/Images_QLLH/dakham (2).ico</normaloff>../../../../../ADMIN/Images/Images_QLLH/dakham (2).ico</iconset>
@@ -1388,6 +1400,18 @@ color: rgb(0, 0, 0);</string>
           <string>5</string>
          </property>
         </row>
+        <column>
+         <property name="text">
+          <string>Mã Đơn</string>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+        </column>
         <column>
          <property name="text">
           <string>Họ &amp; Tên</string>
@@ -1485,7 +1509,7 @@ color: rgb(0, 0, 0);</string>
          </property>
         </column>
        </widget>
-       <widget class="QLineEdit" name="lineEditTimKiem_2">
+       <widget class="QLineEdit" name="lineEditTimKiemDK">
         <property name="geometry">
          <rect>
           <x>730</x>
@@ -1509,7 +1533,7 @@ color: rgb(0, 0, 0);</string>
          <string>Tìm kiếm</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButtonTimKiem_2">
+       <widget class="QPushButton" name="pushButtonTimKiemDK">
         <property name="geometry">
          <rect>
           <x>950</x>
@@ -1573,32 +1597,14 @@ border-radius: 20px; </string>
         <height>701</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(218, 241, 249);</string>
+      </property>
       <property name="text">
        <string/>
       </property>
-      <property name="pixmap">
-       <pixmap>../../Images/Images_QLLH/qllh.png</pixmap>
-      </property>
       <property name="scaledContents">
        <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QLabel" name="labelTenKhachHang">
-      <property name="geometry">
-       <rect>
-        <x>70</x>
-        <y>10</y>
-        <width>191</width>
-        <height>51</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(0, 0, 0);
-font: 75 16pt &quot;Sitka Display&quot;;
-background: transparent; /* Nền trong suốt */	</string>
-      </property>
-      <property name="text">
-       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600; color:#577bc1;&quot;&gt;Tên nhân viên&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
      <zorder>label</zorder>
@@ -1609,7 +1615,6 @@ background: transparent; /* Nền trong suốt */	</string>
      <zorder>groupBox_3</zorder>
      <zorder>tabWidget</zorder>
      <zorder>label_21</zorder>
-     <zorder>labelTenKhachHang</zorder>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QFrame" name="frame_3">
@@ -1712,7 +1717,7 @@ background-color: rgb(251, 255, 255);
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">color: rgb(255, 0, 0);</string>
+         <string notr="true">color: rgb(26, 29, 255);</string>
         </property>
         <property name="text">
          <string>15%</string>
@@ -1725,16 +1730,16 @@ background-color: rgb(251, 255, 255);
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>20</y>
+          <y>0</y>
           <width>181</width>
-          <height>31</height>
+          <height>71</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
         </property>
         <property name="text">
-         <string>567</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;567&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </widget>
@@ -1745,7 +1750,7 @@ background-color: rgb(251, 255, 255);
         <x>40</x>
         <y>310</y>
         <width>671</width>
-        <height>321</height>
+        <height>341</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1798,14 +1803,17 @@ background-color: rgb(251, 255, 255);</string>
       <widget class="QLabel" name="labelBieuDo">
        <property name="geometry">
         <rect>
-         <x>50</x>
-         <y>60</y>
-         <width>571</width>
-         <height>231</height>
+         <x>20</x>
+         <y>50</y>
+         <width>631</width>
+         <height>281</height>
         </rect>
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
        </property>
       </widget>
      </widget>
@@ -1831,7 +1839,7 @@ background-color: rgb(251, 255, 255);</string>
         <x>730</x>
         <y>310</y>
         <width>331</width>
-        <height>321</height>
+        <height>341</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -1849,9 +1857,9 @@ background-color: rgb(251, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>50</x>
-         <y>10</y>
-         <width>401</width>
-         <height>31</height>
+         <y>0</y>
+         <width>251</width>
+         <height>51</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1859,7 +1867,7 @@ background-color: rgb(251, 255, 255);</string>
 </string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tỷ lệ các loại dịch vụ được đặt lịch&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tỷ lệ khách hàng mới và quay lại&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_38">
@@ -1884,14 +1892,75 @@ background-color: rgb(251, 255, 255);</string>
       <widget class="QLabel" name="labelBDTron">
        <property name="geometry">
         <rect>
-         <x>30</x>
-         <y>50</y>
-         <width>271</width>
-         <height>251</height>
+         <x>20</x>
+         <y>40</y>
+         <width>291</width>
+         <height>231</height>
         </rect>
        </property>
        <property name="text">
         <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>280</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(107, 200, 247);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>300</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(250, 227, 140);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>280</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Khách Cũ&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>300</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Khách Mới&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -1930,7 +1999,7 @@ background-color: rgb(251, 255, 255);
 </string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Khách hàng&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tổng đơn đặt hẹn&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_24">
@@ -1956,7 +2025,7 @@ background-color: rgb(251, 255, 255);
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>140</y>
+         <y>130</y>
          <width>261</width>
          <height>41</height>
         </rect>
@@ -1966,68 +2035,35 @@ background-color: rgb(251, 255, 255);
 </string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Tổng số khách hàng đã đăng ký khám &lt;br/&gt;tại phòng khám.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Tổng số đơn khách hàng đã đặt lịch&lt;br/&gt;tại phòng khám.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QWidget" name="widget" native="true">
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>64</y>
+         <y>60</y>
          <width>251</width>
          <height>71</height>
         </rect>
        </property>
-       <widget class="QLabel" name="labelTag1">
-        <property name="geometry">
-         <rect>
-          <x>196</x>
-          <y>32</y>
-          <width>51</width>
-          <height>20</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI Black</family>
-          <pointsize>10</pointsize>
-          <weight>75</weight>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 0, 0);
-background-color: rgb(208, 237, 255);
-border-radius: 10px</string>
-        </property>
-        <property name="text">
-         <string>15%</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
        <widget class="QLabel" name="labelSoLieu1">
         <property name="geometry">
          <rect>
           <x>0</x>
-          <y>20</y>
+          <y>0</y>
           <width>181</width>
-          <height>31</height>
+          <height>71</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
         </property>
         <property name="text">
-         <string>567</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;567&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </widget>
-      <zorder>widget</zorder>
-      <zorder>label_23</zorder>
-      <zorder>label_24</zorder>
-      <zorder>label_32</zorder>
      </widget>
      <widget class="QFrame" name="frame_2">
       <property name="geometry">
@@ -2129,8 +2165,7 @@ border-radius:20px;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(26, 29, 255);
-background-color: rgb(255, 255, 255);
-border-radius: 10px</string>
+</string>
         </property>
         <property name="text">
          <string>15%</string>
@@ -2143,16 +2178,16 @@ border-radius: 10px</string>
         <property name="geometry">
          <rect>
           <x>10</x>
-          <y>20</y>
+          <y>0</y>
           <width>171</width>
-          <height>31</height>
+          <height>71</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
         </property>
         <property name="text">
-         <string>567</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;567&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </widget>

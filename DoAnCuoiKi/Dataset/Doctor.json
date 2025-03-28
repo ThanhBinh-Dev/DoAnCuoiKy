@@ -1,34 +1,34 @@
 [
     {
-        "hovaten": "Nguyễn Văn An",
-        "sodienthoai": "0912345678"
+        "bacsi": "Nguyễn Văn An",
+        "sdtbacsi": "0912345678"
     },
     {
-        "hovaten": "Trần Thị Bích",
-        "sodienthoai": "0987654321"
+        "bacsi": "Trần Thị Bích",
+        "sdtbacsi": "0987654321"
     },
     {
-        "hovaten": "Phạm Quang Huy",
-        "sodienthoai": "0909888776"
+        "bacsi": "Phạm Quang Huy",
+        "sdtbacsi": "0909888776"
     },
     {
-        "hovaten": "Lê Minh Châu",
-        "sodienthoai": "0933445566"
+        "bacsi": "Lê Minh Châu",
+        "sdtbacsi": "0933445566"
     },
     {
-        "hovaten": "Đỗ Thị Lan",
-        "sodienthoai": "0977556677"
+        "bacsi": "Đỗ Thị Lan",
+        "sdtbacsi": "0977556677"
     },
     {
-        "hovaten": "Vũ Văn Nam",
-        "sodienthoai": "0911223344"
+        "bacsi": "Vũ Văn Nam",
+        "sdtbacsi": "0911223344"
     },
     {
-        "hovaten": "Trịnh Thị Hạnh",
-        "sodienthoai": "0988112233"
+        "bacsi": "Trịnh Thị Hạnh",
+        "sdtbacsi": "0988112233"
     },
     {
-        "hovaten": "Lý Thị Xuân",
-        "sodienthoai": "0935667788"
+        "bacsi": "Lý Thị Xuân",
+        "sdtbacsi": "0935667788"
     }
 ]
