@@ -23,7 +23,7 @@ class Ui_MainWindow(object):
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.lineEditTimKiem = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditTimKiem.setGeometry(QtCore.QRect(30, 110, 251, 31))
+        self.lineEditTimKiem.setGeometry(QtCore.QRect(10, 110, 241, 31))
         self.lineEditTimKiem.setTabletTracking(False)
         self.lineEditTimKiem.setAutoFillBackground(False)
         self.lineEditTimKiem.setStyleSheet("QLineEdit {\n"
@@ -32,15 +32,15 @@ class Ui_MainWindow(object):
 "    border-radius: 15px;        \n"
 "    font: 13pt \"MS Shell Dlg 2\";\n"
 "    background-color: #fbf9f8;     \n"
-"    padding-left: 20px; \n"
-"    padding-right: 30px;        \n"
+"    padding-left: 35px; \n"
+"    padding-right: 5px;        \n"
 "}")
         self.lineEditTimKiem.setDragEnabled(False)
         self.lineEditTimKiem.setReadOnly(False)
         self.lineEditTimKiem.setClearButtonEnabled(True)
         self.lineEditTimKiem.setObjectName("lineEditTimKiem")
         self.pushButtonSearch = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonSearch.setGeometry(QtCore.QRect(30, 110, 31, 31))
+        self.pushButtonSearch.setGeometry(QtCore.QRect(10, 110, 31, 31))
         self.pushButtonSearch.setStyleSheet("QPushButton {\n"
 "    border-radius: 15px;                     \n"
 "    padding: 5px 10px;        \n"
@@ -269,14 +269,14 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonHuongDan.setObjectName("pushButtonHuongDan")
         self.scrollArea = QtWidgets.QScrollArea(parent=self.centralwidget)
-        self.scrollArea.setGeometry(QtCore.QRect(20, 160, 391, 501))
-        self.scrollArea.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"font: 12pt \"Courier New\";\n"
-"")
+        self.scrollArea.setGeometry(QtCore.QRect(10, 160, 411, 511))
+        self.scrollArea.setStyleSheet("color: rgb(0, 0, 0);\n"
+"background-color: rgb(255, 255, 255);\n"
+"font: 14pt \"Sitka Display\"")
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 389, 499))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 409, 509))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.scrollAreaWidgetContents)
         self.verticalLayout_2.setObjectName("verticalLayout_2")
@@ -348,6 +348,24 @@ class Ui_MainWindow(object):
         self.comboBox_NoiKham.setItemText(0, "")
         self.comboBox_NoiKham.addItem("")
         self.comboBox_NoiKham.addItem("")
+        self.pushButtonreload = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonreload.setGeometry(QtCore.QRect(260, 110, 31, 31))
+        self.pushButtonreload.setStyleSheet("QPushButton {\n"
+"    border-radius: 15px;                     \n"
+"    padding: 5px 10px;        \n"
+"    text-decoration: underline;\n"
+"    background-color: rgb(255, 255, 255);\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color:rgb(195, 195, 195);\n"
+"}\n"
+"")
+        self.pushButtonreload.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_reload.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonreload.setIcon(icon4)
+        self.pushButtonreload.setIconSize(QtCore.QSize(24, 24))
+        self.pushButtonreload.setObjectName("pushButtonreload")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 21))

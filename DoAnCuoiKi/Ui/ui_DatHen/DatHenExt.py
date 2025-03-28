@@ -8,18 +8,22 @@ from DoAnCuoiKi.Ui.ui_DatHen.DatHen import Ui_MainWindow
 
 
 class DatHenExt(QMainWindow,Ui_MainWindow):
-    def __init__(self):
+    def __init__(self,ho_ten="",sdt=""):
         super().__init__()
         self.dc = DataConnector()
         self.list_times = self.dc.get_all_date_time()
-        self.list_dates = self.list_times  # Đảm bảo list_dates có giá trị trước setupUi()
+        self.list_dates = self.list_times
         self.list_serviecs = self.dc.get_all_servieces()
         self.info_customer = self.dc.get_all_customer()
-        self.setupUi(self)  # Gọi setupUi sau khi khởi tạo biến
+        self.ho_ten = ho_ten
+        self.sdt = sdt
+        self.setupUi(self)
 
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow=MainWindow
+        self.lineEdit_SDT.setText(self.sdt)
+        self.lineEdit_HovaTen.setText(self.ho_ten)
         self.show_times_dates()
         self.show_serviecs()
         self.setupSignalAndSlot()

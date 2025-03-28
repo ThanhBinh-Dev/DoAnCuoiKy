@@ -3,7 +3,7 @@ from DoAnCuoiKi.Model.DichVuKham import DichVuKham
 
 dvks=[]
 dvks.append(DichVuKham(" "))
-dvks.append(DichVuKham("Đăng ký nhiều dịch vụ "))
+dvks.append(DichVuKham("Đăng ký nhiều dịch vụ"))
 dvks.append(DichVuKham("Khám Tổng Quát"))
 dvks.append(DichVuKham("Tiêm Phòng"))
 dvks.append(DichVuKham("Tẩy Giun"))

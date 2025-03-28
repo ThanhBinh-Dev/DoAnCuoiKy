@@ -1,7 +1,5 @@
 from PyQt6.QtWidgets import QHeaderView
-
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QuanLyLichHen import Ui_MainWindow
-
 
 class QLLHExt(Ui_MainWindow):
     def setupUi(self, MainWindow):
