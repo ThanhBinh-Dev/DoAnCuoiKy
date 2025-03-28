@@ -74,8 +74,8 @@ class Ui_MainWindow(object):
 "border: 0px solid black;")
         self.label_14.setObjectName("label_14")
         self.label_13 = QtWidgets.QLabel(parent=self.groupBox)
-        self.label_13.setGeometry(QtCore.QRect(120, 20, 181, 31))
-        self.label_13.setStyleSheet("font: 75 12pt \"Sitka Display\";\n"
+        self.label_13.setGeometry(QtCore.QRect(100, 10, 241, 31))
+        self.label_13.setStyleSheet("font: 10pt \"MS Shell Dlg 2\";\n"
 "color: rgb(255, 0, 0);\n"
 "\n"
 "border: 0px solid black;")

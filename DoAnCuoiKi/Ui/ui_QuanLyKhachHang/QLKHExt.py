@@ -12,7 +12,7 @@ from DoAnCuoiKi.Library.JsonFileFactory import JsonFileFactory
 from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt
 from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
-from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.qrExt import qr_no_login
+from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.qr_no_loginExt import qr_no_login
 
 
 class QLKHExt(Ui_MainWindow):
@@ -227,11 +227,19 @@ class QLKHExt(Ui_MainWindow):
         self.show_info_gui()
 
     def SignOut(self):
-        self.MainWindow.close()
-        self.mainwindow = QMainWindow()
-        self.myui = biaExt()
-        self.myui.setupUi(self.mainwindow)
-        self.myui.showWindow()
+        dlg = QMessageBox(self.MainWindow)
+        dlg.setWindowTitle("Xác nhận đăng xuất")
+        dlg.setText(f"Bạn thật sự muốn đăng xuất?")
+        dlg.setIcon(QMessageBox.Icon.Question)
+        buttons = QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No
+        dlg.setStandardButtons(buttons)
+        button = dlg.exec()
+        if button == QMessageBox.StandardButton.Yes:
+            self.MainWindow.close()
+            self.mainwindow = QMainWindow()
+            self.myui = biaExt()
+            self.myui.setupUi(self.mainwindow)
+            self.myui.showWindow()
 
     def search_info(self):
         search = self.lineEditTimKiem.text().strip()

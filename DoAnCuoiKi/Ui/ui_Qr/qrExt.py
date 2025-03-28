@@ -1,23 +1,22 @@
-from PyQt6.QtWidgets import QApplication, QMainWindow
-
-from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_LoginMainWindow
+from PyQt6.QtWidgets import QMainWindow
 from DoAnCuoiKi.Ui.ui_Qr.qr import Ui_MainWindow
 
-
-class QrExt(QMainWindow, Ui_MainWindow):
+class QrExt(QMainWindow, Ui_MainWindow):  # Kế thừa từ QMainWindow và Ui_MainWindow
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        self.setupUi(self)  # Truyền chính `self`, vì class này là QMainWindow
         self.pushButton.clicked.connect(self.show_login_window)
         self.pushButton_caution.clicked.connect(self.QuayLaiPhieuXacNhan)
+    def showWindow(self):
+        self.show()
 
     def show_login_window(self):
-        """Mở giao diện đăng nhập"""
+        from DoAnCuoiKi.Ui.ui_DangNhap.loginExt import loginExt
+        self.close()  # Đóng cửa sổ chính
         self.login_window = QMainWindow()
-        self.login_ui = Ui_LoginMainWindow()
-        self.login_ui.setupUi(self.login_window)
-        self.login_window.show()
-        self.close()
+        self.myui = loginExt()
+        self.myui.setupUi(self.login_window)
+        self.myui.showWindow()
 
     def QuayLaiPhieuXacNhan(self):
         """Quay lại giao diện Phiếu Xác Nhận"""
@@ -25,11 +24,4 @@ class QrExt(QMainWindow, Ui_MainWindow):
 
         self.phieu_xac_nhan_window = PhieuXacNhanExt()
         self.phieu_xac_nhan_window.show()
-        self.close()
-
-if __name__ == "__main__":
-    import sys
-    app = QApplication(sys.argv)
-    window = QrExt()
-    window.show()
-    sys.exit(app.exec())
+        self.close()  # Đóng cửa sổ hiện tại

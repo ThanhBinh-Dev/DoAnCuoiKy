@@ -8,6 +8,7 @@ from PyQt6.QtWidgets import QHeaderView, QMainWindow, QMessageBox, QTableWidgetI
 from DoAnCuoiKi.Library.DataConnector_QLLH import DataConnector_QLLH
 from DoAnCuoiKi.Library.Im_ExportTool import ExportTool
 from DoAnCuoiKi.Library.export import ExportDialog
+from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt
 from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QuanLyLichHen import Ui_MainWindow
 import matplotlib.pyplot as plt
@@ -142,6 +143,7 @@ class QLLHExt(Ui_MainWindow):
         self.pushButtonXoa.clicked.connect(self.delete_appointment)
         self.pushButtonThemLH.clicked.connect(self.open_DatHen_window)
         self.actionExcel_FIle_Export.triggered.connect(self.export_to_excel)
+        self.actionExit.triggered.connect(self.sign_out)
 
 
     def sort_daxacnhan(self):
@@ -483,7 +485,21 @@ class QLLHExt(Ui_MainWindow):
 
             QMessageBox.information(self.MainWindow, "Thành công",
                                     f"Xuất Excel thành công: {', '.join(selected_fields)}")
+    def sign_out(self):
+        reply = QMessageBox.question(
+            self.MainWindow,
+            "Xác nhận đăng xuất",
+            "Bạn có chắc chắn muốn đăng xuất?",
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
+            QMessageBox.StandardButton.No
+        )
 
+        if reply == QMessageBox.StandardButton.Yes:
+            self.MainWindow.close()  # Đóng cửa sổ hiện tại
+            self.mainwindow = QMainWindow()
+            self.myui = biaExt()
+            self.myui.setupUi(self.mainwindow)
+            self.myui.showWindow()
 
     #dashboard
     def dashboard_khachhang(self):
@@ -655,5 +671,3 @@ class QLLHExt(Ui_MainWindow):
         # Hiển thị biểu đồ trong labelBDTron
         canvas = FigureCanvas(fig)
         self.labelBDTron.layout().addWidget(canvas)
-
-
