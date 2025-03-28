@@ -3,11 +3,12 @@ import traceback
 from PyQt6.QtWidgets import QMainWindow, QLineEdit, QMessageBox
 
 from DoAnCuoiKi.Library.DataConnector import DataConnector
-from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_MainWindow
+from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_LoginMainWindow
+
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKHExt import QLKHExt
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QLLHExt import QLLHExt
 
-class loginExt(Ui_MainWindow):
+class loginExt(Ui_LoginMainWindow):
     def setupUi(self, MainWindow: QMainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow

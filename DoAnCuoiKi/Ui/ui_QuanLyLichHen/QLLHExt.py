@@ -6,6 +6,8 @@ from PyQt6.QtGui import QColor, QBrush
 from PyQt6.QtWidgets import QHeaderView, QMainWindow, QMessageBox, QTableWidgetItem
 
 from DoAnCuoiKi.Library.DataConnector_QLLH import DataConnector_QLLH
+from DoAnCuoiKi.Library.Im_ExportTool import ExportTool
+from DoAnCuoiKi.Library.export import ExportDialog
 from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QuanLyLichHen import Ui_MainWindow
 import matplotlib.pyplot as plt
@@ -139,6 +141,7 @@ class QLLHExt(Ui_MainWindow):
         self.pushButtonLuu.clicked.connect(self.save_change)
         self.pushButtonXoa.clicked.connect(self.delete_appointment)
         self.pushButtonThemLH.clicked.connect(self.open_DatHen_window)
+        self.actionExcel_FIle_Export.triggered.connect(self.export_to_excel)
 
 
     def sort_daxacnhan(self):
@@ -449,6 +452,37 @@ class QLLHExt(Ui_MainWindow):
         self.myui = DatHenExt()
         self.myui.setupUi(self.mainwindow)
         self.myui.showWindow()
+
+    def export_to_excel(self):
+        # Mở hộp thoại chọn dữ liệu
+        dialog = ExportDialog()
+        if dialog.exec():  # Nếu người dùng nhấn "Xuất Excel"
+            selected_fields = dialog.get_selected_fields()
+
+            if not selected_fields:
+                QMessageBox.warning(self.MainWindow, "Thông báo", "Vui lòng chọn ít nhất một trường để xuất.")
+                return
+
+            # Đọc dữ liệu từ file JSON
+            try:
+                with open("../Dataset/Info_Customer.json", "r", encoding="utf-8") as file:
+                    customers = json.load(file)
+            except Exception as e:
+                QMessageBox.critical(self.MainWindow, "Lỗi", f"Lỗi khi đọc dữ liệu: {str(e)}")
+                return
+
+            # Kiểm tra dữ liệu đọc được
+            if not isinstance(customers, list):
+                QMessageBox.critical(self.MainWindow, "Lỗi", "Dữ liệu trong file không hợp lệ!")
+                return
+
+            # Xuất dữ liệu ra file Excel
+            filename = "../Dataset/xuat_infor_customers.xlsx"
+            export_tool = ExportTool()
+            export_tool.export_customer_data_to_excel(filename, customers, selected_fields)
+
+            QMessageBox.information(self.MainWindow, "Thành công",
+                                    f"Xuất Excel thành công: {', '.join(selected_fields)}")
 
 
     #dashboard

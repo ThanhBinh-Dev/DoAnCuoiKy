@@ -656,7 +656,7 @@
     {
         "ngaykham": "01/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 2,
+        "slot_moi": 4,
         "slot_gioihan": 5
     },
     {
@@ -728,7 +728,7 @@
     {
         "ngaykham": "02/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -1118,7 +1118,7 @@
     {
         "ngaykham": "07/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {

@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_QuanLyKhachHang\qr_no_login.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_QuanLyKhachHang\qr_no_login.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 533, 681))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QR/background.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QR/background.jpg"))
         self.label.setObjectName("label")
         self.groupBox = QtWidgets.QGroupBox(parent=self.centralwidget)
         self.groupBox.setGeometry(QtCore.QRect(0, 0, 541, 681))

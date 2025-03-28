@@ -1,5 +1,6 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow
-from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_MainWindow
+
+from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_LoginMainWindow
 from DoAnCuoiKi.Ui.ui_Qr.qr import Ui_MainWindow
 
 
@@ -13,7 +14,7 @@ class QrExt(QMainWindow, Ui_MainWindow):
     def show_login_window(self):
         """Mở giao diện đăng nhập"""
         self.login_window = QMainWindow()
-        self.login_ui = Ui_MainWindow()
+        self.login_ui = Ui_LoginMainWindow()
         self.login_ui.setupUi(self.login_window)
         self.login_window.show()
         self.close()

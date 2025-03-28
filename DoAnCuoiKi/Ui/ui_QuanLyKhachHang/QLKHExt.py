@@ -12,7 +12,8 @@ from DoAnCuoiKi.Library.JsonFileFactory import JsonFileFactory
 from DoAnCuoiKi.Ui.ui_BiaChinh.biaExt import biaExt
 from DoAnCuoiKi.Ui.ui_DatHen.DatHenExt import DatHenExt
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKH import Ui_MainWindow
-from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.qrExt import QrExt
+from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.qrExt import qr_no_login
+
 
 class QLKHExt(Ui_MainWindow):
     def __init__(self,sdt="None"):
@@ -172,7 +173,7 @@ class QLKHExt(Ui_MainWindow):
 
     def Open_qr(self):
         self.mainwindow = QMainWindow()
-        self.myui = QrExt()
+        self.myui = qr_no_login()
         self.myui.setupUi(self.mainwindow)
         self.myui.showWindow()
 

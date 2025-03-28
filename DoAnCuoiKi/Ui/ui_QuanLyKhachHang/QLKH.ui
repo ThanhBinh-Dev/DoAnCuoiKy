@@ -575,7 +575,7 @@ font: 8pt &quot;Candara&quot;;</string>
     <property name="geometry">
      <rect>
       <x>940</x>
-      <y>80</y>
+      <y>50</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -600,38 +600,6 @@ background-color:rgb(255, 61, 61)
     </property>
     <property name="text">
      <string>Đăng xuất</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButtonHuongDan">
-    <property name="geometry">
-     <rect>
-      <x>940</x>
-      <y>30</y>
-      <width>121</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    
-	background-color:rgb(199, 224, 235);
-    border-radius: 15px;       
-    color: black;               
-    padding: 5px 10px;        
-	font: 14pt &quot;Sitka Display&quot;;
-}
-
-QPushButton:hover {
-    background-color:rgb(119, 174, 232);
-}
-
-QPushButton:pressed {
-    background-color:  rgb(119, 174, 232);
-}
-</string>
-    </property>
-    <property name="text">
-     <string>Hướng dẫn</string>
     </property>
    </widget>
    <widget class="QScrollArea" name="scrollArea">
@@ -836,7 +804,7 @@ QPushButton:hover {
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

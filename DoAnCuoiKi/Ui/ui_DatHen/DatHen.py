@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_DatHen\DatHen.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_DatHen\DatHen.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -181,7 +181,7 @@ class Ui_MainWindow(object):
         self.label_8.setStyleSheet("\n"
 "font: 63 26pt \"Sitka Small Semibold\";")
         self.label_8.setText("")
-        self.label_8.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/Dog.png"))
+        self.label_8.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/Dog.png"))
         self.label_8.setObjectName("label_8")
         self.comboBox_DichVuKham = QtWidgets.QComboBox(parent=self.groupBox_6)
         self.comboBox_DichVuKham.setGeometry(QtCore.QRect(580, 190, 431, 41))
@@ -343,7 +343,7 @@ class Ui_MainWindow(object):
 "font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color:None;")
         self.label_22.setText("")
-        self.label_22.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_22.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
         self.label_22.setScaledContents(True)
         self.label_22.setObjectName("label_22")
         self.label_24 = QtWidgets.QLabel(parent=self.groupBox_6)
@@ -352,7 +352,7 @@ class Ui_MainWindow(object):
 "font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color:None;")
         self.label_24.setText("")
-        self.label_24.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_24.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
         self.label_24.setScaledContents(True)
         self.label_24.setObjectName("label_24")
         self.label_25 = QtWidgets.QLabel(parent=self.groupBox_6)
@@ -361,7 +361,7 @@ class Ui_MainWindow(object):
 "font: 16pt \"MS Shell Dlg 2\";\n"
 "background-color:None;")
         self.label_25.setText("")
-        self.label_25.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
+        self.label_25.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/down.png"))
         self.label_25.setScaledContents(True)
         self.label_25.setObjectName("label_25")
         self.label_8.raise_()
@@ -408,7 +408,7 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/HEALTH.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/HEALTH.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_DatHen.setIcon(icon)
         self.pushButton_DatHen.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_DatHen.setObjectName("pushButton_DatHen")
@@ -429,7 +429,7 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/calling.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/calling.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_2.setIcon(icon1)
         self.pushButton_2.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_2.setObjectName("pushButton_2")
@@ -439,7 +439,7 @@ class Ui_MainWindow(object):
 "background-color:None;\n"
 "setMask:(mask);")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/logo.png"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/logo.png"))
         self.label.setObjectName("label")
         self.label_3 = QtWidgets.QLabel(parent=self.groupBox)
         self.label_3.setGeometry(QtCore.QRect(250, 10, 851, 101))
@@ -473,7 +473,7 @@ class Ui_MainWindow(object):
         self.label_7.setStyleSheet("\n"
 "font: 63 26pt \"Sitka Small Semibold\";")
         self.label_7.setText("")
-        self.label_7.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/Dogs.png"))
+        self.label_7.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/Dogs.png"))
         self.label_7.setObjectName("label_7")
         self.pushButton_caution = QtWidgets.QPushButton(parent=self.groupBox)
         self.pushButton_caution.setGeometry(QtCore.QRect(10, 10, 31, 31))
@@ -487,7 +487,7 @@ class Ui_MainWindow(object):
 "QPushButton:pressed{background-color: rgb(193, 193, 193);}")
         self.pushButton_caution.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/back.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_DatHen\\../../Images/Images_DatHen/back.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_caution.setIcon(icon2)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")

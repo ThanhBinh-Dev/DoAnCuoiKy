@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_BiaChinh\bia.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_BiaChinh\bia.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -18,13 +18,13 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 1100, 700))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/bia.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/bia.jpg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(510, 120, 531, 581))
         self.label_2.setText("")
-        self.label_2.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/cho.png"))
+        self.label_2.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/cho.png"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
         self.labelHotline = QtWidgets.QLabel(parent=self.centralwidget)
@@ -35,19 +35,19 @@ class Ui_MainWindow(object):
         self.label_3 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(760, 10, 41, 41))
         self.label_3.setText("")
-        self.label_3.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_web.png"))
+        self.label_3.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_web.png"))
         self.label_3.setScaledContents(True)
         self.label_3.setObjectName("label_3")
         self.label_10 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_10.setGeometry(QtCore.QRect(40, 10, 41, 41))
         self.label_10.setText("")
-        self.label_10.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_web.png"))
+        self.label_10.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_web.png"))
         self.label_10.setScaledContents(True)
         self.label_10.setObjectName("label_10")
         self.label_11 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_11.setGeometry(QtCore.QRect(430, 10, 41, 41))
         self.label_11.setText("")
-        self.label_11.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_phone.png"))
+        self.label_11.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_phone.png"))
         self.label_11.setScaledContents(True)
         self.label_11.setObjectName("label_11")
         self.label_12 = QtWidgets.QLabel(parent=self.centralwidget)
@@ -60,7 +60,7 @@ class Ui_MainWindow(object):
         self.label_14 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_14.setGeometry(QtCore.QRect(20, 620, 31, 31))
         self.label_14.setText("")
-        self.label_14.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_location_red.png"))
+        self.label_14.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/ic_location_red.png"))
         self.label_14.setScaledContents(True)
         self.label_14.setObjectName("label_14")
         self.pushButtonDatLich = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -70,7 +70,7 @@ class Ui_MainWindow(object):
 "    border-radius: 20px;       \n"
 "    color: black;               \n"
 "    padding: 5px 10px;        \n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 13pt \"MS Shell Dlg 2\";\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
@@ -89,7 +89,7 @@ class Ui_MainWindow(object):
 "    border: 2px solid #fee286;  /* Viền vàng */\n"
 "    border-radius: 20px;  /* Bo tròn góc */\n"
 "    color: black;  /* Màu chữ */\n"
-"    font: 14pt \"Sitka Display\";\n"
+"    font: 12pt \"MS Shell Dlg 2\";\n"
 "}\n"
 "\n"
 "QPushButton:hover {\n"
@@ -105,7 +105,7 @@ class Ui_MainWindow(object):
         self.label_13 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_13.setGeometry(QtCore.QRect(0, 90, 131, 81))
         self.label_13.setText("")
-        self.label_13.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/logo.png"))
+        self.label_13.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_BiaChinh\\../../Images/Images_BiaChinh/logo.png"))
         self.label_13.setScaledContents(True)
         self.label_13.setObjectName("label_13")
         self.label_15 = QtWidgets.QLabel(parent=self.centralwidget)

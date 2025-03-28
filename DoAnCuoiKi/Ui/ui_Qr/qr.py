@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_Qr\qr.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_Qr\qr.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -20,7 +20,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 533, 681))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_Qr\\../../Images/Images_QR/background.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_Qr\\../../Images/Images_QR/background.jpg"))
         self.label.setObjectName("label")
         self.groupBox = QtWidgets.QGroupBox(parent=self.centralwidget)
         self.groupBox.setGeometry(QtCore.QRect(0, 0, 541, 681))
@@ -59,7 +59,7 @@ class Ui_MainWindow(object):
 "QPushButton:pressed{background-color: rgb(193, 193, 193);}")
         self.pushButton_caution.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_Qr\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_Qr\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_caution.setIcon(icon)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")

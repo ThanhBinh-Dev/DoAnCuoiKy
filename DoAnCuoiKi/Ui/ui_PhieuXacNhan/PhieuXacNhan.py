@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_PhieuXacNhan\PhieuXacNhan.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_PhieuXacNhan\PhieuXacNhan.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -14,7 +14,7 @@ class Ui_MainWindow(object):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1100, 700)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../../../../.designer/backup/logo.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../../../../.designer/backup/logo.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
@@ -22,7 +22,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 1100, 700))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_PhieuXacNhan/nenpxn.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_PhieuXacNhan/nenpxn.jpg"))
         self.label.setObjectName("label")
         self.label_26 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_26.setGeometry(QtCore.QRect(470, 640, 401, 51))
@@ -49,7 +49,7 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_PhieuXacNhan/thanhtoan.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_PhieuXacNhan/thanhtoan.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonThanhToan.setIcon(icon1)
         self.pushButtonThanhToan.setIconSize(QtCore.QSize(50, 50))
         self.pushButtonThanhToan.setObjectName("pushButtonThanhToan")
@@ -335,7 +335,7 @@ class Ui_MainWindow(object):
 "QPushButton:pressed{background-color: rgb(193, 193, 193);}")
         self.pushButton_caution.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_PhieuXacNhan\\../../Images/Images_DangNhap/ic_back .png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_caution.setIcon(icon2)
         self.pushButton_caution.setIconSize(QtCore.QSize(32, 32))
         self.pushButton_caution.setObjectName("pushButton_caution")

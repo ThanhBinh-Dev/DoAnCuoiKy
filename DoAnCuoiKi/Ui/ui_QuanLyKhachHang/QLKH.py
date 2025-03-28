@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_QuanLyKhachHang\QLKH.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_QuanLyKhachHang\QLKH.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(0, 0, 1100, 700))
         self.label.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/nen_qlkh.jpg"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/nen_qlkh.jpg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.lineEditTimKiem = QtWidgets.QLineEdit(parent=self.centralwidget)
@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonSearch.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_search.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonSearch.setIcon(icon)
         self.pushButtonSearch.setIconSize(QtCore.QSize(20, 20))
         self.pushButtonSearch.setObjectName("pushButtonSearch")
@@ -70,7 +70,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonAdd.setText("")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_add.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_add.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonAdd.setIcon(icon1)
         self.pushButtonAdd.setIconSize(QtCore.QSize(20, 20))
         self.pushButtonAdd.setObjectName("pushButtonAdd")
@@ -226,11 +226,11 @@ class Ui_MainWindow(object):
         self.label_15 = QtWidgets.QLabel(parent=self.centralwidget)
         self.label_15.setGeometry(QtCore.QRect(460, 20, 101, 91))
         self.label_15.setText("")
-        self.label_15.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_user-square.png"))
+        self.label_15.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_user-square.png"))
         self.label_15.setScaledContents(True)
         self.label_15.setObjectName("label_15")
         self.pushButtonDangXuat = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonDangXuat.setGeometry(QtCore.QRect(940, 80, 121, 41))
+        self.pushButtonDangXuat.setGeometry(QtCore.QRect(940, 50, 121, 41))
         self.pushButtonDangXuat.setStyleSheet("QPushButton {\n"
 "    \n"
 "    background-color: rgb(255, 98, 93);\n"
@@ -248,26 +248,6 @@ class Ui_MainWindow(object):
 "background-color:rgb(255, 61, 61)\n"
 "}")
         self.pushButtonDangXuat.setObjectName("pushButtonDangXuat")
-        self.pushButtonHuongDan = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonHuongDan.setGeometry(QtCore.QRect(940, 30, 121, 41))
-        self.pushButtonHuongDan.setStyleSheet("QPushButton {\n"
-"    \n"
-"    background-color:rgb(199, 224, 235);\n"
-"    border-radius: 15px;       \n"
-"    color: black;               \n"
-"    padding: 5px 10px;        \n"
-"    font: 14pt \"Sitka Display\";\n"
-"}\n"
-"\n"
-"QPushButton:hover {\n"
-"    background-color:rgb(119, 174, 232);\n"
-"}\n"
-"\n"
-"QPushButton:pressed {\n"
-"    background-color:  rgb(119, 174, 232);\n"
-"}\n"
-"")
-        self.pushButtonHuongDan.setObjectName("pushButtonHuongDan")
         self.scrollArea = QtWidgets.QScrollArea(parent=self.centralwidget)
         self.scrollArea.setGeometry(QtCore.QRect(10, 160, 411, 511))
         self.scrollArea.setStyleSheet("color: rgb(0, 0, 0);\n"
@@ -298,7 +278,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonSave.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_save.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_save.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonSave.setIcon(icon2)
         self.pushButtonSave.setIconSize(QtCore.QSize(20, 20))
         self.pushButtonSave.setObjectName("pushButtonSave")
@@ -316,7 +296,7 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonPrint.setText("")
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_payment.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_payment.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonPrint.setIcon(icon3)
         self.pushButtonPrint.setIconSize(QtCore.QSize(24, 24))
         self.pushButtonPrint.setObjectName("pushButtonPrint")
@@ -362,13 +342,13 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonreload.setText("")
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_reload.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyKhachHang\\../../Images/Images_QLKH/ic_reload.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonreload.setIcon(icon4)
         self.pushButtonreload.setIconSize(QtCore.QSize(24, 24))
         self.pushButtonreload.setObjectName("pushButtonreload")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1100, 22))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
 
@@ -400,6 +380,5 @@ class Ui_MainWindow(object):
         self.label_14.setText(_translate("MainWindow", "<html><head/><body><p><span style=\" font-size:10pt; font-weight:600;\">Tình trạng:</span></p></body></html>"))
         self.lineEditTinhTrang.setWhatsThis(_translate("MainWindow", "<html><head/><body><p align=\"center\"><br/></p></body></html>"))
         self.pushButtonDangXuat.setText(_translate("MainWindow", "Đăng xuất"))
-        self.pushButtonHuongDan.setText(_translate("MainWindow", "Hướng dẫn"))
         self.comboBox_NoiKham.setItemText(1, _translate("MainWindow", "Phòng Khám"))
         self.comboBox_NoiKham.setItemText(2, _translate("MainWindow", "Khám Tại Gia"))

@@ -179,7 +179,7 @@ color: rgb(115, 115, 115);
     border-radius: 20px;       
     color: black;               
     padding: 5px 10px;        
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 13pt &quot;MS Shell Dlg 2&quot;;
 }
 
 QPushButton:hover {
@@ -210,7 +210,7 @@ QPushButton:pressed {
     border: 2px solid #fee286;  /* Viền vàng */
     border-radius: 20px;  /* Bo tròn góc */
     color: black;  /* Màu chữ */
-	font: 14pt &quot;Sitka Display&quot;;
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
 }
 
 QPushButton:hover {
