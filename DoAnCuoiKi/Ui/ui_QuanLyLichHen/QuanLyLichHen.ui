@@ -36,7 +36,7 @@
      <string/>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QGroupBox" name="groupBox_2">
@@ -941,7 +941,7 @@ color: rgb(0, 0, 0);
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <property name="documentMode">
        <bool>false</bool>
@@ -1560,6 +1560,42 @@ QPushButton:hover {
         <property name="icon">
          <iconset>
           <normaloff>../../Images/Images_QLLH/search.ico</normaloff>../../Images/Images_QLLH/search.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButtonRestore">
+        <property name="geometry">
+         <rect>
+          <x>990</x>
+          <y>10</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    border-radius: 15px;                     
+    padding: 5px 10px;        
+	text-decoration: underline;
+	background-color:None;
+	background-color: rgb(240, 251, 255);
+}
+QPushButton:hover {
+    background-color:rgb(208, 209, 208);
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../Images/Images_QLLH/ic_reset.png</normaloff>../../Images/Images_QLLH/ic_reset.png</iconset>
         </property>
         <property name="iconSize">
          <size>
@@ -2239,7 +2275,7 @@ color: rgb(0, 0, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>1100</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSystem">

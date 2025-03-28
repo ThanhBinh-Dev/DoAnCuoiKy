@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\DTB\uel\HK1\tu duy lap trinh\DuongThanhBinh_K244060766_Module28\DoAnCuoiKi\Ui\ui_QuanLyLichHen\QuanLyLichHen.ui'
+# Form implementation generated from reading ui file 'C:\Users\Kieu Tien\DoAnCuoiKy\DoAnCuoiKi\Ui\ui_QuanLyLichHen\QuanLyLichHen.ui'
 #
 # Created by: PyQt6 UI code generator 6.8.1
 #
@@ -719,12 +719,12 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonTimKiem.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/search.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/search.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonTimKiem.setIcon(icon)
         self.pushButtonTimKiem.setIconSize(QtCore.QSize(20, 20))
         self.pushButtonTimKiem.setObjectName("pushButtonTimKiem")
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/Images/Images_QLLH/hen.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/Images/Images_QLLH/hen.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.tabWidget.addTab(self.tabLichHen, icon1, "")
         self.tabDK = QtWidgets.QWidget()
         self.tabDK.setObjectName("tabDK")
@@ -838,9 +838,28 @@ class Ui_MainWindow(object):
         self.pushButtonTimKiemDK.setIcon(icon)
         self.pushButtonTimKiemDK.setIconSize(QtCore.QSize(20, 20))
         self.pushButtonTimKiemDK.setObjectName("pushButtonTimKiemDK")
+        self.pushButtonRestore = QtWidgets.QPushButton(parent=self.tabDK)
+        self.pushButtonRestore.setGeometry(QtCore.QRect(990, 10, 31, 31))
+        self.pushButtonRestore.setStyleSheet("QPushButton {\n"
+"    border-radius: 15px;                     \n"
+"    padding: 5px 10px;        \n"
+"    text-decoration: underline;\n"
+"    background-color:None;\n"
+"    background-color: rgb(240, 251, 255);\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color:rgb(208, 209, 208);\n"
+"}\n"
+"")
+        self.pushButtonRestore.setText("")
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/Images/Images_QLLH/dakham (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.tabWidget.addTab(self.tabDK, icon2, "")
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_reset.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonRestore.setIcon(icon2)
+        self.pushButtonRestore.setIconSize(QtCore.QSize(20, 20))
+        self.pushButtonRestore.setObjectName("pushButtonRestore")
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/Images/Images_QLLH/dakham (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.tabWidget.addTab(self.tabDK, icon3, "")
         self.label_21 = QtWidgets.QLabel(parent=self.page)
         self.label_21.setGeometry(QtCore.QRect(350, 20, 391, 61))
         self.label_21.setStyleSheet("background-color: rgb(52, 76, 183);\n"
@@ -866,7 +885,7 @@ class Ui_MainWindow(object):
         self.page_2.setObjectName("page_2")
         self.frame_3 = QtWidgets.QFrame(parent=self.page_2)
         self.frame_3.setGeometry(QtCore.QRect(730, 90, 331, 201))
-        self.frame_3.setStyleSheet("\n"
+        self.frame_3.setStyleSheet("color: rgb(0, 0, 0);\n"
 "border-radius:20px;\n"
 "background-color: rgb(251, 255, 255);\n"
 "")
@@ -876,7 +895,7 @@ class Ui_MainWindow(object):
         self.label_25 = QtWidgets.QLabel(parent=self.frame_3)
         self.label_25.setGeometry(QtCore.QRect(20, 20, 41, 41))
         self.label_25.setText("")
-        self.label_25.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_schedule.png"))
+        self.label_25.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_schedule.png"))
         self.label_25.setScaledContents(True)
         self.label_25.setObjectName("label_25")
         self.label_28 = QtWidgets.QLabel(parent=self.frame_3)
@@ -922,7 +941,7 @@ class Ui_MainWindow(object):
         self.label_36 = QtWidgets.QLabel(parent=self.frame_4)
         self.label_36.setGeometry(QtCore.QRect(20, 10, 41, 41))
         self.label_36.setText("")
-        self.label_36.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_linechart.png"))
+        self.label_36.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_linechart.png"))
         self.label_36.setScaledContents(True)
         self.label_36.setObjectName("label_36")
         self.labelBieuDo = QtWidgets.QLabel(parent=self.frame_4)
@@ -951,7 +970,7 @@ class Ui_MainWindow(object):
         self.label_38 = QtWidgets.QLabel(parent=self.frame_5)
         self.label_38.setGeometry(QtCore.QRect(20, 10, 31, 31))
         self.label_38.setText("")
-        self.label_38.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_piechart.png"))
+        self.label_38.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_piechart.png"))
         self.label_38.setScaledContents(True)
         self.label_38.setObjectName("label_38")
         self.labelBDTron = QtWidgets.QLabel(parent=self.frame_5)
@@ -971,13 +990,15 @@ class Ui_MainWindow(object):
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(parent=self.frame_5)
         self.label_5.setGeometry(QtCore.QRect(80, 280, 81, 16))
+        self.label_5.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_5.setObjectName("label_5")
         self.label_6 = QtWidgets.QLabel(parent=self.frame_5)
         self.label_6.setGeometry(QtCore.QRect(80, 300, 81, 16))
+        self.label_6.setStyleSheet("color: rgb(0, 0, 0);")
         self.label_6.setObjectName("label_6")
         self.frame_1 = QtWidgets.QFrame(parent=self.page_2)
         self.frame_1.setGeometry(QtCore.QRect(40, 90, 321, 201))
-        self.frame_1.setStyleSheet("\n"
+        self.frame_1.setStyleSheet("color: rgb(0, 0, 0);\n"
 "border-radius:20px;\n"
 "background-color: rgb(251, 255, 255);\n"
 "")
@@ -992,7 +1013,7 @@ class Ui_MainWindow(object):
         self.label_24 = QtWidgets.QLabel(parent=self.frame_1)
         self.label_24.setGeometry(QtCore.QRect(20, 20, 41, 41))
         self.label_24.setText("")
-        self.label_24.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_customer.png"))
+        self.label_24.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_customer.png"))
         self.label_24.setScaledContents(True)
         self.label_24.setObjectName("label_24")
         self.label_32 = QtWidgets.QLabel(parent=self.frame_1)
@@ -1011,14 +1032,15 @@ class Ui_MainWindow(object):
         self.frame_2.setGeometry(QtCore.QRect(380, 90, 331, 201))
         self.frame_2.setStyleSheet("background-color: rgb(251, 249, 248);\n"
 "background-color: rgb(237, 247, 255);\n"
-"border-radius:20px;")
+"border-radius:20px;\n"
+"color: rgb(0, 0, 0);")
         self.frame_2.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_2.setObjectName("frame_2")
         self.label_26 = QtWidgets.QLabel(parent=self.frame_2)
         self.label_26.setGeometry(QtCore.QRect(20, 20, 41, 41))
         self.label_26.setText("")
-        self.label_26.setPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_appointment.png"))
+        self.label_26.setPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../Images/Images_QLLH/ic_appointment.png"))
         self.label_26.setScaledContents(True)
         self.label_26.setObjectName("label_26")
         self.label_27 = QtWidgets.QLabel(parent=self.frame_2)
@@ -1079,9 +1101,9 @@ class Ui_MainWindow(object):
         self.menuExport_Data.setObjectName("menuExport_Data")
         MainWindow.setMenuBar(self.menuBar)
         self.actionExit = QtGui.QAction(parent=MainWindow)
-        icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/.designer/images/619539_close_delete_dismiss_exit_cancel_icon (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.actionExit.setIcon(icon3)
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/.designer/images/619539_close_delete_dismiss_exit_cancel_icon (2).ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.actionExit.setIcon(icon4)
         self.actionExit.setObjectName("actionExit")
         self.actionText_File = QtGui.QAction(parent=MainWindow)
         self.actionText_File.setObjectName("actionText_File")
@@ -1092,9 +1114,9 @@ class Ui_MainWindow(object):
         self.actionJSon_File = QtGui.QAction(parent=MainWindow)
         self.actionJSon_File.setObjectName("actionJSon_File")
         self.actionExcel_File_Import = QtGui.QAction(parent=MainWindow)
-        icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap("D:\\DTB\\uel\\HK1\\tu duy lap trinh\\DuongThanhBinh_K244060766_Module28\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/.designer/images/2993694_brand_brands_excel_logo_logos_icon.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.actionExcel_File_Import.setIcon(icon4)
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("C:\\Users\\Kieu Tien\\DoAnCuoiKy\\DoAnCuoiKi\\Ui\\ui_QuanLyLichHen\\../../../../../ADMIN/.designer/images/2993694_brand_brands_excel_logo_logos_icon.ico"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.actionExcel_File_Import.setIcon(icon5)
         self.actionExcel_File_Import.setObjectName("actionExcel_File_Import")
         self.actionPickle_File = QtGui.QAction(parent=MainWindow)
         self.actionPickle_File.setObjectName("actionPickle_File")
@@ -1107,7 +1129,7 @@ class Ui_MainWindow(object):
         self.actionJSON_File = QtGui.QAction(parent=MainWindow)
         self.actionJSON_File.setObjectName("actionJSON_File")
         self.actionExcel_FIle_Export = QtGui.QAction(parent=MainWindow)
-        self.actionExcel_FIle_Export.setIcon(icon4)
+        self.actionExcel_FIle_Export.setIcon(icon5)
         self.actionExcel_FIle_Export.setObjectName("actionExcel_FIle_Export")
         self.actionPickle_File_2 = QtGui.QAction(parent=MainWindow)
         self.actionPickle_File_2.setObjectName("actionPickle_File_2")
@@ -1147,8 +1169,8 @@ class Ui_MainWindow(object):
         self.menuBar.addAction(self.menuSystem.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget.setCurrentIndex(1)
-        self.tabWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(0)
+        self.tabWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

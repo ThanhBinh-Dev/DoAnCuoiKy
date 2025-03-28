@@ -126,6 +126,7 @@ class QLLHExt(Ui_MainWindow):
 
     def setupSignalsandSlots(self):
         self.pushButtonHienThiTatCaLH.clicked.connect(self.show_LH_xacnhan_ui)
+        self.pushButtonRestore.clicked.connect(self.show_LH_dakham_ui)
         self.pushButtonDaXacNhan.clicked.connect(self.sort_daxacnhan)
         self.pushButtonChuaXacNhan.clicked.connect(self.sort_chuaxacnhan)
         self.tableWidgetThongTinLH.itemSelectionChanged.connect(lambda:self.process_show_infor_detail(self.tableWidgetThongTinLH))
