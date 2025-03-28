@@ -344,11 +344,18 @@ class QLLHExt(Ui_MainWindow):
             self.tableWidgetThongTinLH.item(row, 7).text() == "Đã Xác Nhận"
             for row in range(self.tableWidgetThongTinLH.rowCount())
         )
+        check_DK= all(
+            self.tableWidgetThongTinLH.item(row, 7) and
+            self.tableWidgetThongTinLH.item(row, 7).text() == "Đã Khám"
+            for row in range(self.tableWidgetThongTinLH.rowCount())
+        )
         # Xác định current_data dựa vào trạng thái của cột thứ 7
         if check_CXN:
             current_data = "Chưa Xác Nhận"
         elif check_DXN:
             current_data = "Đã Xác Nhận"
+        elif check_DK:
+            current_data = "Đã Khám"
         else:
             current_data = None
         index = self.tableWidgetThongTinLH.currentRow()
@@ -440,11 +447,18 @@ class QLLHExt(Ui_MainWindow):
             self.tableWidgetThongTinLH.item(row, 7).text() == "Đã Xác Nhận"
             for row in range(self.tableWidgetThongTinLH.rowCount())
         )
+        check_DK = all(
+            self.tableWidgetThongTinLH.item(row, 7) and
+            self.tableWidgetThongTinLH.item(row, 7).text() == "Đã Khám"
+            for row in range(self.tableWidgetThongTinLH.rowCount())
+        )
         # Xác định current_data dựa vào trạng thái của cột thứ 7
         if check_CXN:
             current_data = "Chưa Xác Nhận"
         elif check_DXN:
             current_data = "Đã Xác Nhận"
+        elif check_DK:
+            current_data = "Đã Khám"
         else:
             current_data = None
         index = self.tableWidgetThongTinLH.currentRow()
