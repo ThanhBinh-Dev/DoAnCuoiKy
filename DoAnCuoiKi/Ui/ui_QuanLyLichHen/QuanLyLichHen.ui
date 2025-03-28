@@ -1668,22 +1668,6 @@ background-color: rgb(251, 255, 255);
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Tổng lịch hẹn trong tuần&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QLabel" name="labelSoLieu3">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>70</y>
-         <width>211</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
-       </property>
-       <property name="text">
-        <string>4909</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_34">
        <property name="geometry">
         <rect>
@@ -1700,6 +1684,59 @@ background-color: rgb(251, 255, 255);
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Tổng số lịch hẹn đã được đặt trong &lt;br/&gt;tuần.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
+      </widget>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="labelTag3">
+        <property name="geometry">
+         <rect>
+          <x>196</x>
+          <y>31</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>15%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelSoLieu3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>567</string>
+        </property>
+       </widget>
       </widget>
      </widget>
      <widget class="QFrame" name="frame_4">
@@ -1915,27 +1952,11 @@ background-color: rgb(251, 255, 255);
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="labelSoLieu1">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>70</y>
-         <width>211</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
-       </property>
-       <property name="text">
-        <string>4909</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_32">
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>130</y>
+         <y>140</y>
          <width>261</width>
          <height>41</height>
         </rect>
@@ -1948,6 +1969,65 @@ background-color: rgb(251, 255, 255);
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Tổng số khách hàng đã đăng ký khám &lt;br/&gt;tại phòng khám.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>64</y>
+         <width>251</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="labelTag1">
+        <property name="geometry">
+         <rect>
+          <x>196</x>
+          <y>32</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(208, 237, 255);
+border-radius: 10px</string>
+        </property>
+        <property name="text">
+         <string>15%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelSoLieu1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>181</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>567</string>
+        </property>
+       </widget>
+      </widget>
+      <zorder>widget</zorder>
+      <zorder>label_23</zorder>
+      <zorder>label_24</zorder>
+      <zorder>label_32</zorder>
      </widget>
      <widget class="QFrame" name="frame_2">
       <property name="geometry">
@@ -2004,22 +2084,6 @@ border-radius:20px;</string>
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:400;&quot;&gt;Khách đặt lịch hôm nay&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QLabel" name="labelSoLieu2">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>70</y>
-         <width>211</width>
-         <height>51</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
-       </property>
-       <property name="text">
-        <string>4909</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_33">
        <property name="geometry">
         <rect>
@@ -2036,6 +2100,61 @@ border-radius:20px;</string>
        <property name="text">
         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-style:italic;&quot;&gt;Số khách hàng có lịch hẹn trong ngày &lt;br/&gt;hôm nay.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
+      </widget>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>60</y>
+         <width>281</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="labelTag2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>31</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(26, 29, 255);
+background-color: rgb(255, 255, 255);
+border-radius: 10px</string>
+        </property>
+        <property name="text">
+         <string>15%</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="labelSoLieu2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 87 26pt &quot;Segoe UI Black&quot;;</string>
+        </property>
+        <property name="text">
+         <string>567</string>
+        </property>
+       </widget>
       </widget>
      </widget>
      <widget class="QLabel" name="label_22">

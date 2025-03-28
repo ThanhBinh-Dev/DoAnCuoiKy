@@ -25,12 +25,12 @@ class DataConnector:
         list_times = jff.read_data(filename, Date_Time)
         return list_times
 
-    def get_all_servieces(self):
-        list_servieces = []
+    def get_all_services(self):
+        list_services = []
         jff = JsonFileFactory()
         filename = "../Dataset/DichVuKham.json"
-        list_servieces = jff.read_data(filename, DichVuKham)
-        return list_servieces
+        list_services = jff.read_data(filename, DichVuKham)
+        return list_services
 
     def get_all_customer(self):
         filename = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../Dataset/Info_Customer.json")

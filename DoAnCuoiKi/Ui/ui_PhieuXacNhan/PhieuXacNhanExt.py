@@ -13,8 +13,8 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.current_customer = None  # Khởi tạo thuộc tính tránh lỗi
         self.load_customer_info()
-        self.pushButtonThanhToan.clicked.connect(self.ThanhToan)
-        self.pushButton_caution.clicked.connect(self.QuayLaiDatHen)
+        self.pushButtonThanhToan.clicked.connect(self.payment)
+        self.pushButton_caution.clicked.connect(self.return_DatHen_window)
 
         # Kiểm tra xem các thành phần giao diện có tồn tại không
         if hasattr(self, 'radioButtonKhamTaiGia') and hasattr(self, 'radioButtonPhongKham'):
@@ -155,7 +155,7 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
         else:
             other_box.setCheckable(True)
 
-    def ThanhToan(self):
+    def payment(self):
         self.qr_window = QrExt()  # Khởi tạo cửa sổ QR đúng cách
         self.qr_window.show()
         self.close()  # Đóng giao diện hiện tại
@@ -189,7 +189,7 @@ class PhieuXacNhanExt(QtWidgets.QMainWindow, Ui_MainWindow):
 
         print("Thông tin khách hàng đã được lưu vào JSON.")
 
-    def QuayLaiDatHen(self):
+    def return_DatHen_window(self):
         # Quay lại giao diện Đặt Hẹn
         self.dat_hen_window = DatHenExt()
         self.dat_hen_window.show()
