@@ -1,0 +1,22 @@
+[
+    {
+        "tendangnhap": "admin1",
+        "matkhau": "adm1",
+        "sodienthoai": "0901122334"
+    },
+    {
+        "tendangnhap": "admin2",
+        "matkhau": "adm2",
+        "sodienthoai": "0912233445"
+    },
+    {
+        "tendangnhap": "admin3",
+        "matkhau": "adm3",
+        "sodienthoai": "0923344556"
+    },
+    {
+        "tendangnhap": "admin4",
+        "matkhau": "adm4",
+        "sodienthoai": "0934455667"
+    }
+]
