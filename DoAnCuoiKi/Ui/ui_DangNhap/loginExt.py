@@ -81,15 +81,13 @@ class loginExt(Ui_LoginMainWindow):
 
     # Chuyển sang giao diện tracuu_matkhau
     def hienthi_tracuu_matkhau(self):
-        try:
-            print("Bắt đầu mở giao diện lấy lại mật khẩu...")  # Debug log
+        try:  # Debug log
             from DoAnCuoiKi.Ui.ui_DangNhap.tracuumatkhauExt import tracuumatkhauExt  # Import động
             self.MainWindow.hide()  # Thay vì close, dùng hide()
             mainwindow = QMainWindow()
             self.myui = tracuumatkhauExt()
             self.myui.setupUi(mainwindow)
             self.myui.showWindow()
-            print("Mở giao diện thành công.")  # Debug log
         except Exception as e:
             print("Lỗi khi mở giao diện lấy lại mật khẩu:", e)
             print(traceback.format_exc())  # In ra stack trace của lỗi

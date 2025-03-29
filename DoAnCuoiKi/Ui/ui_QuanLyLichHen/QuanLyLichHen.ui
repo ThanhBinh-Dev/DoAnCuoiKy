@@ -2286,33 +2286,13 @@ color: rgb(0, 0, 0);</string>
      <property name="title">
       <string>Nhập Dữ Liệu</string>
      </property>
-     <addaction name="actionText_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionCSV_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionXML_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionJSon_File"/>
-     <addaction name="separator"/>
      <addaction name="actionExcel_File_Import"/>
-     <addaction name="separator"/>
-     <addaction name="actionPickle_File"/>
     </widget>
     <widget class="QMenu" name="menuExport_Data">
      <property name="title">
       <string>Xuất Dữ Liệu</string>
      </property>
-     <addaction name="actionTxt_File"/>
-     <addaction name="separator"/>
-     <addaction name="actionCSV_File_2"/>
-     <addaction name="separator"/>
-     <addaction name="actionJSon_FIle"/>
-     <addaction name="separator"/>
-     <addaction name="actionJSON_File"/>
-     <addaction name="separator"/>
      <addaction name="actionExcel_FIle_Export"/>
-     <addaction name="separator"/>
-     <addaction name="actionPickle_File_2"/>
     </widget>
     <addaction name="actionThongKe"/>
     <addaction name="actionQuayLai"/>

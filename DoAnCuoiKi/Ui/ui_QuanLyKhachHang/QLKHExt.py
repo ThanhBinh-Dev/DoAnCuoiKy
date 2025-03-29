@@ -194,6 +194,16 @@ class QLKHExt(Ui_MainWindow):
                         "Bạn đã chọn 'Khám tại gia', vui lòng nhập địa chỉ hợp lệ!"
                     )
                     return
+            if noi_kham == "Phòng Khám":
+                dia_chi = "Số 86, khu phố 6, phường Linh Xuân, TP Thủ Đức"
+                self.lineEditDiaChi.setText(dia_chi)
+            if not noi_kham:
+                QMessageBox.warning(
+                    self.MainWindow,
+                    "Cảnh báo",
+                    "Vui lòng chọn nơi khám"
+                )
+                return
             dich_vu=self.comboBox_DichVu.currentText()
             thong_tin=self.lineEditThongTinThem.text().strip()
             if dich_vu=="Đăng ký nhiều dịch vụ" and (not thong_tin):
@@ -250,6 +260,20 @@ class QLKHExt(Ui_MainWindow):
                                                              "hoặc tên dịch vụ để tìm kiếm!")
             return
         self.clearLayout(self.verticalLayout)
+        
+        valid_search = any(
+            (ho_ten == info.hovaten.lower() and sdt == info.sdt.lower() and
+             (search == info.ngaykham.lower() or search in info.dichvu.lower()))
+            for info in self.info_customer
+        )
+
+        if not valid_search:
+            QMessageBox.information(self.MainWindow, "Thông báo",
+                                    "Khách hàng chưa đăng ký dịch vụ hoặc "
+                                    "không có lịch khám vào ngày này nên không thể tìm kiếm!")
+            self.show_info_gui()
+            return
+
         self.list_info = [info for info in self.info_customer
             if (str(ho_ten)==str(info.hovaten.lower())) and (str(sdt)==str(info.sdt.lower())) and (str(search)==str(info.ngaykham.lower())  or str(search.lower()) in str(info.dichvu.lower()))
         ]
@@ -257,9 +281,10 @@ class QLKHExt(Ui_MainWindow):
         if not self.list_info:
             QMessageBox.information(self.MainWindow, "Thông báo",
                                     "Không tìm thấy kết quả phù hợp.",
-                                    "Vui lòng nhập ngày khám theo định dạng dd/mm/yyyy"
-                                    "hoặc tên dịch vụ để tìm kiếm!"
+                                    "Vui lòng nhập ngày khám đã đăng ký theo định dạng dd/mm/yyyy"
+                                    "hoặc tên dịch vụ đã đăng kí để tìm kiếm!"
                                     )
+            return
         else:
             for info in self.list_info:
                 text_button = f"{info.ngaykham}\n{info.giokham}\n{info.dichvu}"
