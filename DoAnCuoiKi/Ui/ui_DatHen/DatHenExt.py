@@ -62,7 +62,7 @@ class DatHenExt(QMainWindow,Ui_MainWindow):
         if not hovaten:
             QMessageBox.warning(self.MainWindow, "Cảnh báo", "Vui lòng nhập Họ và Tên")
             return
-        if not re.fullmatch(r'\d{10}', sdt):
+        if not re.fullmatch(r'0\d{9}', sdt):
             QMessageBox.warning(self.MainWindow, "Cảnh báo","Số điện thoại không hợp lệ! Vui lòng nhập đúng định dạng.")
             return
         if not ngaykham :

@@ -1,10 +1,7 @@
 import traceback
-
 from PyQt6.QtWidgets import QMainWindow, QLineEdit, QMessageBox
-
 from DoAnCuoiKi.Library.DataConnector import DataConnector
 from DoAnCuoiKi.Ui.ui_DangNhap.login import Ui_LoginMainWindow
-
 from DoAnCuoiKi.Ui.ui_QuanLyKhachHang.QLKHExt import QLKHExt
 from DoAnCuoiKi.Ui.ui_QuanLyLichHen.QLLHExt import QLLHExt
 
@@ -51,7 +48,13 @@ class loginExt(Ui_LoginMainWindow):
             dc = DataConnector()
             username = self.lineEditTenDangNhap.text().strip()
             password = self.lineEditMatKhau.text().strip()
-            user_type,sdt = dc.login(username, password)
+
+            result = dc.login(username, password)
+            if result is None:
+                QMessageBox.warning(self.MainWindow, "Thông báo", "Đăng nhập thất bại. Vui lòng kiểm tra lại!")
+                return
+
+            user_type, sdt = result
 
             if user_type == "customer":
                 self.MainWindow.close()
@@ -69,7 +72,7 @@ class loginExt(Ui_LoginMainWindow):
                 self.myui.showWindow()
 
             else:
-                msg = QMessageBox(self.MainWindow)
+                msg = QMessageBox.warning(self.MainWindow)
                 msg.setText("Đăng nhập thất bại. Vui lòng kiểm tra lại!")
                 msg.exec()
 
