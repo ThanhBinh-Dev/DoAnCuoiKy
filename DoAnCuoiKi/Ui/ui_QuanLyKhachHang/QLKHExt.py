@@ -243,8 +243,8 @@ class QLKHExt(Ui_MainWindow):
 
     def search_info(self):
         search = self.lineEditTimKiem.text().strip()
-        ho_ten=self.labelHoTen.text().lower()
-        sdt=self.labelSDT.text()
+        ho_ten=self.labelHoTen.text().lower().strip()
+        sdt=self.labelSDT.text().lower().strip()
         if not search:
             QMessageBox.warning(self.MainWindow, "Cảnh báo", "Vui lòng nhập ngày khám theo định dạng đ/mm/yyyy"
                                                              "hoặc tên dịch vụ để tìm kiếm!")
@@ -257,7 +257,7 @@ class QLKHExt(Ui_MainWindow):
         if not self.list_info:
             QMessageBox.information(self.MainWindow, "Thông báo",
                                     "Không tìm thấy kết quả phù hợp.",
-                                    "Vui lòng nhập ngày khám theo định dạng đ/mm/yyyy"
+                                    "Vui lòng nhập ngày khám theo định dạng dd/mm/yyyy"
                                     "hoặc tên dịch vụ để tìm kiếm!"
                                     )
         else:
