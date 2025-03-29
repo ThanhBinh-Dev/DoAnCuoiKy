@@ -243,13 +243,15 @@ class QLKHExt(Ui_MainWindow):
 
     def search_info(self):
         search = self.lineEditTimKiem.text().strip()
+        ho_ten=self.labelHoTen.text().lower()
+        sdt=self.labelSDT.text()
         if not search:
             QMessageBox.warning(self.MainWindow, "Cảnh báo", "Vui lòng nhập ngày khám theo định dạng đ/mm/yyyy"
                                                              "hoặc tên dịch vụ để tìm kiếm!")
             return
         self.clearLayout(self.verticalLayout)
         self.list_info = [info for info in self.info_customer
-            if str(search)==str(info.ngaykham.lower())  or str(search.lower()) in str(info.dichvu.lower())
+            if (str(ho_ten)==str(info.hovaten.lower())) and (str(sdt)==str(info.sdt.lower())) and (str(search)==str(info.ngaykham.lower())  or str(search.lower()) in str(info.dichvu.lower()))
         ]
         self.list_info.sort(key=lambda info: (info.tinhtrang != "Đã Xác Nhận", info.tinhtrang == "Đã Khám"))
         if not self.list_info:
