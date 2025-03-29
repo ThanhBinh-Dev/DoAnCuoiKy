@@ -8,607 +8,607 @@
     {
         "ngaykham": "23/03/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 2,
+        "slot_moi": 4,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "23/03/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "23/03/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "23/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "24/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "25/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "26/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "27/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "28/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "8:00 - 9:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "15:00 - 16:00",
         "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "29/03/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "29/03/2025",
-        "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "30/03/2025",
-        "giokham": "8:00 - 9:00",
+        "ngaykham": "23/03/2025",
+        "giokham": "13:00 - 14:00",
         "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "30/03/2025",
-        "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "30/03/2025",
-        "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "30/03/2025",
-        "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "30/03/2025",
+        "ngaykham": "23/03/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "30/03/2025",
+        "ngaykham": "23/03/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "30/03/2025",
+        "ngaykham": "23/03/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "30/03/2025",
+        "ngaykham": "23/03/2025",
         "giokham": "17:00 - 18:00",
         "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
+        "ngaykham": "23/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "23/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "23/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "23/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "24/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "25/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 4,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "26/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "27/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "28/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 4,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "19:00 - 20:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "20:00 - 21:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "29/03/2025",
+        "giokham": "21:00 - 22:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "10:00 - 11:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "13:00 - 14:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 2,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "30/03/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 3,
+        "slot_gioihan": 5
+    },
+    {
         "ngaykham": "30/03/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "30/03/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "30/03/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "30/03/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 5,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "31/03/2025",
-        "giokham": "8:00 - 9:00",
         "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
+        "giokham": "8:00 - 9:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "31/03/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -620,35 +620,35 @@
     {
         "ngaykham": "31/03/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "31/03/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
-    {
+        {
         "ngaykham": "31/03/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
-        "ngaykham": "31/03/2025",
+        "ngaykham": "01/04/2025",
         "giokham": "21:00 - 22:00",
         "slot_moi": 1,
         "slot_gioihan": 5
@@ -662,19 +662,19 @@
     {
         "ngaykham": "01/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -686,13 +686,13 @@
     {
         "ngaykham": "01/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -704,49 +704,49 @@
     {
         "ngaykham": "01/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "01/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 1,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 1,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
@@ -758,31 +758,31 @@
     {
         "ngaykham": "02/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 4,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 4,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "02/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -794,31 +794,31 @@
     {
         "ngaykham": "02/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -836,25 +836,25 @@
     {
         "ngaykham": "03/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "03/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -866,13 +866,13 @@
     {
         "ngaykham": "03/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "04/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -890,7 +890,7 @@
     {
         "ngaykham": "04/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -902,13 +902,13 @@
     {
         "ngaykham": "04/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "04/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -920,31 +920,31 @@
     {
         "ngaykham": "04/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "04/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "04/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "04/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -956,13 +956,13 @@
     {
         "ngaykham": "05/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
@@ -974,13 +974,13 @@
     {
         "ngaykham": "05/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -992,49 +992,49 @@
     {
         "ngaykham": "05/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "05/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "06/04/2025",
-        "giokham": "9:00 - 10:00",
         "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
+        "giokham": "9:00 - 10:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "06/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
@@ -1046,67 +1046,67 @@
     {
         "ngaykham": "06/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "06/04/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "06/04/2025",
-        "giokham": "17:00 - 18:00",
         "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "06/04/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "06/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "06/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 4,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1118,67 +1118,67 @@
     {
         "ngaykham": "07/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "07/04/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "07/04/2025",
-        "giokham": "17:00 - 18:00",
         "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "07/04/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "07/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "07/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
@@ -1190,13 +1190,13 @@
     {
         "ngaykham": "08/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -1208,31 +1208,31 @@
     {
         "ngaykham": "08/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "08/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "09/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1244,13 +1244,13 @@
     {
         "ngaykham": "09/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "09/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -1268,7 +1268,7 @@
     {
         "ngaykham": "09/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1280,25 +1280,25 @@
     {
         "ngaykham": "09/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "09/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "09/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "09/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1316,7 +1316,7 @@
     {
         "ngaykham": "10/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1328,49 +1328,49 @@
     {
         "ngaykham": "10/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 4,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "10/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1382,67 +1382,67 @@
     {
         "ngaykham": "11/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "11/04/2025",
-        "giokham": "18:00 - 19:00",
         "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
+        "giokham": "18:00 - 19:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "11/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "11/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1454,79 +1454,79 @@
     {
         "ngaykham": "12/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 3,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "17:00 - 18:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 1,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "12/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
@@ -1538,97 +1538,97 @@
     {
         "ngaykham": "13/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "13/04/2025",
-        "giokham": "17:00 - 18:00",
         "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "13/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 4,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "13/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "14:00 - 15:00",
-        "slot_moi": 4,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "15:00 - 16:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
@@ -1640,97 +1640,97 @@
     {
         "ngaykham": "14/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 2,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "14/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "8:00 - 9:00",
-        "slot_moi": 1,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "9:00 - 10:00",
-        "slot_moi": 2,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "10:00 - 11:00",
-        "slot_moi": 3,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "13:00 - 14:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "15/04/2025",
-        "giokham": "14:00 - 15:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "15/04/2025",
-        "giokham": "15:00 - 16:00",
-        "slot_moi": 3,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "15/04/2025",
-        "giokham": "16:00 - 17:00",
-        "slot_moi": 2,
-        "slot_gioihan": 5
-    },
-    {
-        "ngaykham": "15/04/2025",
-        "giokham": "17:00 - 18:00",
         "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
+        "giokham": "14:00 - 15:00",
+        "slot_moi": 1,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "15/04/2025",
+        "giokham": "15:00 - 16:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "15/04/2025",
+        "giokham": "16:00 - 17:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "15/04/2025",
+        "giokham": "17:00 - 18:00",
+        "slot_moi": 0,
+        "slot_gioihan": 5
+    },
+    {
+        "ngaykham": "15/04/2025",
         "giokham": "18:00 - 19:00",
-        "slot_moi": 2,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "19:00 - 20:00",
-        "slot_moi": 3,
+        "slot_moi": 1,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "20:00 - 21:00",
-        "slot_moi": 5,
+        "slot_moi": 0,
         "slot_gioihan": 5
     },
     {
         "ngaykham": "15/04/2025",
         "giokham": "21:00 - 22:00",
-        "slot_moi": 5,
+        "slot_moi": 1,
         "slot_gioihan": 5
     }
 ]
